@@ -1,0 +1,254 @@
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.page {
+  padding: 0.063rem 0 1.22rem;
+  filter: drop-shadow(0rem 0.13rem 0.38rem #0000001f);
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=c79338b0813abea4957e8bf74680e380.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 21.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.group_1 {
+  height: 4.25rem;
+}
+.pos_15 {
+  position: absolute;
+  left: 0;
+  right: 0.77rem;
+  top: 0.063rem;
+}
+.image {
+  width: 3.75rem;
+  height: 3.44rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.image_2 {
+  width: 0.94rem;
+  height: 1rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 4.25rem;
+  top: 0.94rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Roboto;
+  line-height: 0.81rem;
+  color: #ff6a00;
+}
+.text {
+  color: #333333;
+  line-height: 0.84rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 5.6rem;
+  top: 1.16rem;
+}
+.text_2 {
+  color: #ff6a00;
+  font-size: 1rem;
+  font-family: Roboto;
+  line-height: 0.73rem;
+}
+.pos_5 {
+  position: absolute;
+  right: 1.58rem;
+  top: 1.15rem;
+}
+.pos_6 {
+  position: absolute;
+  left: 4.33rem;
+  bottom: 1.07rem;
+}
+.text_3 {
+  color: #999999;
+}
+.text_4 {
+  color: #333333;
+  font-size: 0.88rem;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 0.66rem;
+}
+.font_2 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.63rem;
+  color: #999999;
+}
+.text_5 {
+  font-size: 0.69rem;
+  line-height: 0.66rem;
+}
+.pos_7 {
+  position: absolute;
+  right: 0;
+  bottom: 1.17rem;
+}
+.image_3 {
+  width: 21.31rem;
+  height: 0.063rem;
+}
+.pos_1 {
+  position: absolute;
+  left: 1.25rem;
+  right: 0.42rem;
+  bottom: 0;
+}
+.group_7 {
+  width: 9.4rem;
+  height: 15.19rem;
+}
+.pos_17 {
+  position: absolute;
+  left: 1.25rem;
+  top: 5.44rem;
+}
+.equal-division-item {
+  margin-top: 11rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.71rem;
+  color: #4a4a4a;
+}
+.text_1 {
+  margin-left: 0.22rem;
+}
+.group_4 {
+  margin-left: 0.19rem;
+}
+.font_6 {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.39rem;
+  color: #999999;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.55rem;
+  color: #4a4a4a;
+}
+.text-wrapper_2 {
+  padding: 0.46rem 0 0.33rem;
+  background-color: #fff0e6;
+  border-radius: 0.19rem;
+  box-shadow: 0.063rem 0.063rem 0rem #00000014;
+  border: solid 0.063rem #ff6a00;
+}
+.text_8 {
+  margin-left: 0.48rem;
+  margin-right: 0.46rem;
+  line-height: 0.83rem;
+}
+.image_7 {
+  width: 1.31rem;
+  height: 1.19rem;
+}
+.image_8 {
+  margin-right: 0.029rem;
+  margin-top: 1.54rem;
+}
+.group_8 {
+  margin-right: 0.029rem;
+  margin-top: -15.19rem;
+  padding: 0.31rem 0 0.81rem;
+}
+.image_5 {
+  margin-left: 0.44rem;
+  margin-right: 0.31rem;
+  width: 8.63rem;
+  height: 9.13rem;
+}
+.section_2 {
+  opacity: 0.2;
+  background-color: #fc0404;
+  height: 9.38rem;
+  border: solid 0.063rem #979797;
+}
+.pos_10 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.text-wrapper {
+  padding: 0.34rem 0 0.41rem;
+  background-color: #ff0000e6;
+  border-radius: 0.91rem;
+  width: 6.19rem;
+}
+.pos_16 {
+  position: absolute;
+  right: 1.5rem;
+  top: 8.69rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Roboto;
+  line-height: 0.81rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.image_4 {
+  opacity: 0.7;
+  width: 0.063rem;
+  height: 15.31rem;
+}
+.pos_9 {
+  position: absolute;
+  left: 50%;
+  bottom: 1.22rem;
+  transform: translateX(-50%);
+}
+.group_9 {
+  width: 11.88rem;
+}
+.pos_12 {
+  position: absolute;
+  right: 0;
+  top: 6.5rem;
+}
+.group_5 {
+  padding-bottom: 0.69rem;
+  width: 7.81rem;
+}
+.image_6 {
+  width: 7.81rem;
+  height: 8.5rem;
+}
+.pos_14 {
+  position: absolute;
+  left: 0.75rem;
+  top: 7.63rem;
+}
+.equal-division-item_2 {
+  align-self: stretch;
+}
+.group_3 {
+  padding: 0.12rem 1.25rem 0.12rem;
+}
+.text_7 {
+  margin-left: 0.03rem;
+}
+.group_2 {
+  margin-left: 0.24rem;
+}
+.image_9 {
+  margin-top: 1.54rem;
+}

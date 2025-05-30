@@ -1,0 +1,126 @@
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.page {
+  padding: 3.5rem 1rem 4.08rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 10.81rem;
+  height: 7.81rem;
+}
+.group {
+  margin-top: 3.81rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 0.75rem;
+  color: #491b6d;
+}
+.text {
+  margin-left: 0.075rem;
+  line-height: 0.7rem;
+}
+.text-wrapper {
+  padding: 0.95rem 0 0.76rem;
+  background-color: #ffffff;
+  border-radius: 0.31rem;
+  border: solid 0.063rem #491b6d;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.91rem;
+  color: #000000;
+}
+.text_2 {
+  margin-left: 1.25rem;
+}
+.group_2 {
+  margin-top: 1.73rem;
+}
+.text_3 {
+  margin-left: 0.075rem;
+  line-height: 0.78rem;
+}
+.section {
+  padding: 0.49rem 0 0.49rem;
+  background-color: #ffffff;
+  border-radius: 0.31rem;
+  border: solid 0.063rem #491b6d;
+}
+.group_3 {
+  margin-left: 1.19rem;
+  padding: 0.2rem 0 0.2rem;
+  border-radius: 0.31rem;
+}
+.image_2 {
+  width: 1.75rem;
+  height: 1.25rem;
+}
+.text_4 {
+  margin-right: 0.15rem;
+}
+.list-item {
+  margin-top: 1.76rem;
+}
+.text_1 {
+  margin-left: 0.075rem;
+}
+.section_2 {
+  padding: 0.19rem 0;
+  background-color: #ffffff;
+  border-radius: 0.31rem;
+  border: solid 0.063rem #491b6d;
+}
+.group_4 {
+  margin-left: 1.19rem;
+  margin-right: 1.16rem;
+}
+.view {
+  padding: 0.56rem 0 0.56rem 0.066rem;
+  border-radius: 0.31rem;
+}
+.image_3 {
+  width: 1.25rem;
+  height: 1.13rem;
+}
+.list-item_2 {
+  margin-top: 1.73rem;
+}
+.text_5 {
+  line-height: 0.78rem;
+}
+.view_2 {
+  padding: 0.56rem 0 0.56rem 0.066rem;
+  border-radius: 0.31rem;
+}
+.text-wrapper_2 {
+  margin-top: 3.13rem;
+  padding: 1.27rem 0 1.05rem;
+  background-color: #491b6d;
+  border-radius: 0.63rem;
+}
+.text_6 {
+  color: #ffffff;
+  font-size: 1.13rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 0.8rem;
+}
+.group_5 {
+  margin-top: 2.26rem;
+  line-height: 0.87rem;
+}
+.text_7 {
+  line-height: 0.87rem;
+}
+.text_8 {
+  color: #491b6d;
+  line-height: 0.62rem;
+}

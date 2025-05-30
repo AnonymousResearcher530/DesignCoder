@@ -1,0 +1,68 @@
+.page {
+  padding: 10rem 3.75rem 6.75rem 4.25rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 10.25rem;
+  height: 10.25rem;
+}
+.group {
+  margin-top: 3.75rem;
+}
+.text {
+  margin-left: 0.5rem;
+  color: #27214d;
+  font-size: 2rem;
+  font-family: Brandon Grotesque;
+  line-height: 2.04rem;
+  letter-spacing: -0.02rem;
+}
+.text_2 {
+  color: #27214d;
+  font-size: 1.25rem;
+  font-family: Brandon Grotesque;
+  line-height: 1.88rem;
+  letter-spacing: -0.013rem;
+  text-align: center;
+}
+.text-wrapper {
+  margin-top: 3.25rem;
+  padding: 1.38rem 0;
+  background-color: #ffa451;
+  border-radius: 0.63rem;
+  overflow: hidden;
+  width: 8.31rem;
+  border-left: solid 0.063rem #ffa451;
+  border-right: solid 0.063rem #ffa451;
+  border-top: solid 0.063rem #ffa451;
+  border-bottom: solid 0.063rem #ffa451;
+}
+.font {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.01rem;
+}
+.text_3 {
+  color: #ffffff;
+  line-height: 0.71rem;
+}
+.text-wrapper_2 {
+  margin-top: 2.94rem;
+  padding: 1.38rem 0 1rem;
+  border-radius: 0.63rem;
+  overflow: hidden;
+  width: 11.31rem;
+  border-left: solid 0.063rem #ffa451;
+  border-right: solid 0.063rem #ffa451;
+  border-top: solid 0.063rem #ffa451;
+  border-bottom: solid 0.063rem #ffa451;
+}
+.text_4 {
+  color: #ffa451;
+  line-height: 1.02rem;
+}

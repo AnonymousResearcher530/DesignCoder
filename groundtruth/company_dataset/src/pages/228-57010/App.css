@@ -1,0 +1,108 @@
+.page {
+  background-color: #f7f7f7;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=6bb05467efffe8be9cf9e9c12c9b3c85.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=6bb05467efffe8be9cf9e9c12c9b3c85.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 23.44rem;
+  height: 41.75rem;
+}
+.section_2 {
+  padding-bottom: 8.56rem;
+  background-color: #ffffff;
+  width: 11.63rem;
+}
+.pos {
+  position: absolute;
+  right: 0;
+  top: 9.47rem;
+}
+.image {
+  width: 11.63rem;
+  height: 8.88rem;
+}
+.section_5 {
+  padding: 6.13rem 0.97rem 1.75rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=aaaba313d42895339dd2b8191a13e3ae.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 11.63rem;
+}
+.pos_5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6rem;
+}
+.font {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.75rem;
+  color: #ffffff;
+}
+.text {
+  line-height: 0.74rem;
+}
+.text_2 {
+  margin-top: 0.44rem;
+  line-height: 0.75rem;
+}
+.group {
+  margin-top: 0.88rem;
+}
+.section_6 {
+  background-color: #ffffff9e;
+  width: 2.13rem;
+  height: 0.063rem;
+}
+.text_3 {
+  opacity: 0.621;
+}
+.section_4 {
+  background-color: #ffffff1a;
+  border-radius: 0.13rem;
+  width: 8.19rem;
+  height: 8.19rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 50%;
+  top: 3.03rem;
+  transform: translateX(-50%);
+}
+.section_3 {
+  background-color: #ffffff65;
+  border-radius: 0.13rem;
+  width: 8.94rem;
+  height: 8.94rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 50%;
+  top: 2rem;
+  transform: translateX(-50%);
+}
+.image-wrapper {
+  padding: 0.63rem 0 0.72rem;
+  background-color: #ffffff;
+  border-radius: 0.13rem;
+  width: 9.75rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 50%;
+  top: 0.94rem;
+  transform: translateX(-50%);
+}
+.image_2 {
+  width: 8.25rem;
+  height: 8.41rem;
+}

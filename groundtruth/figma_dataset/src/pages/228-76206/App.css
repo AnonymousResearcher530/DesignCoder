@@ -1,0 +1,83 @@
+.mt-47 {
+  margin-top: 2.94rem;
+}
+.page {
+  background-color: #ffffff;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5e9b85efbbbd9b7316dbf447bf0c4054.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5e9b85efbbbd9b7316dbf447bf0c4054.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 24.38rem;
+  height: 52.75rem;
+}
+.pos {
+  position: absolute;
+  right: 1.35rem;
+  top: 1.11rem;
+}
+.text {
+  color: #ffffff;
+  font-size: 0.94rem;
+  font-family: Poppins;
+  line-height: 0.71rem;
+}
+.image {
+  margin-left: 15.24rem;
+  width: 1.06rem;
+  height: 0.69rem;
+}
+.image_2 {
+  margin-left: 0.31rem;
+  width: 0.94rem;
+  height: 0.69rem;
+}
+.image_3 {
+  margin-left: 0.33rem;
+  width: 1.5rem;
+  height: 0.71rem;
+}
+.section_2 {
+  padding: 4.73rem 2.59rem 2.13rem 3.44rem;
+  background-image: linear-gradient(180deg, #00000000 0%, #000000a1 23.7%);
+}
+.pos_5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30.13rem;
+}
+.text_2 {
+  color: #ffffff;
+  font-size: 2.13rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 2.56rem;
+  text-align: center;
+}
+.text_3 {
+  color: #f2f2f2;
+  font-size: 0.88rem;
+  font-family: Montserrat;
+  line-height: 0.82rem;
+}
+.text-wrapper {
+  margin-right: 0.91rem;
+  padding: 1.15rem 0 1.2rem;
+  background-color: #f73658;
+  border-radius: 0.25rem;
+}
+.text_4 {
+  color: #ffffff;
+  font-size: 1.44rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 1.08rem;
+}

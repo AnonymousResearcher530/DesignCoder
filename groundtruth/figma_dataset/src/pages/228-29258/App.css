@@ -1,0 +1,134 @@
+.mt-31 {
+  margin-top: 1.94rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.page {
+  padding-top: 4rem;
+  background-color: #ffa451;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 1.5rem;
+}
+.section {
+  padding: 0.38rem 0.25rem 0.38rem 0.5rem;
+  filter: drop-shadow(0rem 1.88rem 1.88rem #2020201a);
+  background-color: #ffffff;
+  border-radius: 6.25rem;
+  width: 5rem;
+}
+.image {
+  width: 0.63rem;
+  height: 1.25rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  line-height: 0.72rem;
+}
+.text {
+  color: #27214d;
+}
+.image_2 {
+  width: 11rem;
+  height: 11rem;
+}
+.section_2 {
+  background-color: #ffffff;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.group_2 {
+  padding: 2.75rem 1.5rem 1.88rem;
+  border-bottom: solid 0.063rem #f3f3f3;
+}
+.text_2 {
+  margin-left: 0.13rem;
+  color: #27214d;
+  font-size: 2rem;
+  font-family: Brandon Grotesque;
+  line-height: 1.82rem;
+  letter-spacing: -0.02rem;
+}
+.image_3 {
+  width: 2.13rem;
+  height: 2.13rem;
+}
+.font_2 {
+  font-size: 1.5rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.015rem;
+  color: #27214d;
+}
+.text_3 {
+  margin-left: 1.5rem;
+  line-height: 1.02rem;
+}
+.image_4 {
+  margin-left: 0.88rem;
+  width: 2rem;
+  height: 2rem;
+}
+.image_5 {
+  width: 1.25rem;
+  height: 1rem;
+}
+.text_4 {
+  line-height: 1.31rem;
+}
+.group_3 {
+  margin-top: 2.5rem;
+  padding: 0 1.25rem 1.13rem 1.5rem;
+  border-bottom: solid 0.063rem #f3f3f3;
+}
+.text_5 {
+  color: #27214d;
+  font-size: 1.25rem;
+  font-family: Brandon Grotesque;
+  line-height: 0.9rem;
+  letter-spacing: -0.013rem;
+}
+.section_3 {
+  background-color: #ffa451;
+  width: 9.56rem;
+  height: 0.13rem;
+}
+.text_6 {
+  color: #27214d;
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  line-height: 1.5rem;
+  letter-spacing: -0.01rem;
+}
+.group_4 {
+  padding: 1.63rem 1.5rem 1rem;
+}
+.text_7 {
+  color: #000000;
+  font-size: 0.88rem;
+  font-family: Brandon Grotesque;
+  line-height: 1.31rem;
+  letter-spacing: -0.0088rem;
+  width: 17.06rem;
+}
+.image_6 {
+  margin: 0.25rem 0;
+  width: 3rem;
+  height: 3rem;
+}
+.text-wrapper {
+  padding: 1.5rem 0 1.25rem;
+  background-color: #ffa451;
+  border-radius: 0.63rem;
+  width: 13.69rem;
+  height: 3.5rem;
+}
+.text_8 {
+  color: #ffffff;
+  letter-spacing: -0.01rem;
+}

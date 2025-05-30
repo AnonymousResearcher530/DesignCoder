@@ -1,0 +1,337 @@
+.mt-13-5 {
+  margin-top: 0.84rem;
+}
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.ml-1 {
+  margin-left: 0.063rem;
+}
+.ml-15 {
+  margin-left: 0.94rem;
+}
+.mt-10-5 {
+  margin-top: 0.66rem;
+}
+.ml-2-5 {
+  margin-left: 0.16rem;
+}
+.mt-5 {
+  margin-top: 0.31rem;
+}
+.ml-3-5 {
+  margin-left: 0.22rem;
+}
+.page {
+  background-color: #eeeeee;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.section {
+  padding: 0.25rem 0.34rem 2.19rem 0.41rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5bd7ac2a132a1ecc8d1836b9eb51bc02.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.group {
+  padding: 0.12rem 0 0.19rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image_4 {
+  width: 2.13rem;
+  height: 0.34rem;
+}
+.text {
+  color: #ffffff;
+  font-size: 0.69rem;
+  font-family: Arial;
+  line-height: 0.51rem;
+}
+.image_2 {
+  width: 0.72rem;
+  height: 0.56rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.54rem;
+  color: #ffffff;
+}
+.text_2 {
+  line-height: 0.39rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 0.48rem;
+  top: 0;
+}
+.pos {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image {
+  opacity: 0.45;
+  width: 0.5rem;
+  height: 0.84rem;
+}
+.text_3 {
+  margin-left: 0.46rem;
+  font-size: 0.72rem;
+  line-height: 0.54rem;
+}
+.image_3 {
+  margin-left: 0.29rem;
+  width: 1.53rem;
+  height: 0.59rem;
+}
+.image_5 {
+  margin-left: 0.53rem;
+  margin-top: 0.69rem;
+  border-radius: 50%;
+  width: 1.38rem;
+  height: 1.38rem;
+}
+.group_2 {
+  margin-top: 0.91rem;
+}
+.section_2 {
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.group_3 {
+  margin-top: 0.94rem;
+  padding: 0.085rem 0 0.074rem;
+  overflow: hidden;
+  width: 11.19rem;
+}
+.text_4 {
+  margin-left: 0.67rem;
+  color: #ffffff;
+  font-size: 1.31rem;
+  font-family: Arial;
+  line-height: 1.21rem;
+}
+.section_3 {
+  background-color: #ffffff;
+  width: 2.2rem;
+  height: 0.031rem;
+}
+.text_5 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Arial;
+  line-height: 0.92rem;
+}
+.text_6 {
+  color: #ffffff;
+  font-size: 1.13rem;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 0.85rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.section_4 {
+  padding: 0.91rem 0;
+  background-color: #ffffff;
+}
+.image_6 {
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.group_4 {
+  overflow: hidden;
+  width: 12.78rem;
+  height: 1rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Arial;
+  line-height: 0.79rem;
+  color: #fb3434;
+}
+.text_7 {
+  color: #333333;
+  line-height: 0.81rem;
+}
+.text_8 {
+  color: #333333;
+  font-size: 0.88rem;
+  font-family: Arial;
+  line-height: 0.74rem;
+}
+.text-wrapper_1 {
+  padding: 0.18rem 0 0.18rem;
+  background-color: #333333;
+  border-radius: 0.19rem;
+  width: 1.25rem;
+  height: 1rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Arial;
+  line-height: 0.64rem;
+  color: #ffffff;
+}
+.image_7 {
+  width: 0.13rem;
+  height: 0.38rem;
+}
+.text-wrapper {
+  padding: 0.18rem 0 0.18rem;
+  background-color: #333333;
+  border-radius: 0.19rem;
+  width: 1.25rem;
+  height: 1rem;
+}
+.text_9 {
+  line-height: 0.64rem;
+}
+.text-wrapper_3 {
+  padding: 0.18rem 0 0.19rem;
+  background-color: #333333;
+  border-radius: 0.19rem;
+  width: 1.25rem;
+  height: 1rem;
+}
+.text_10 {
+  line-height: 0.63rem;
+}
+.section_5 {
+  padding: 0.94rem 1.38rem 0.63rem;
+  background-color: #fffeee;
+}
+.font_4 {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 1rem;
+  color: #666666;
+}
+.text_11 {
+  color: #ff4400;
+  line-height: 0.78rem;
+}
+.equal-division {
+  align-self: stretch;
+  margin-top: 0.98rem;
+}
+.equal-division-item {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5169f1273366050942bc94ff729e354a.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 5.94rem;
+  height: 2.31rem;
+}
+.image_16 {
+  width: 5.94rem;
+  height: 2.31rem;
+}
+.equal-division-item_2 {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=828bbcadf2bc4850222ad0e4ec7bda81.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.22rem;
+  height: 2.31rem;
+}
+.image_8 {
+  width: 6.22rem;
+  height: 2.31rem;
+}
+.equal-division-item_3 {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=c4eab5132feb89babea9e0c7d9e2c4e9.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.66rem;
+  height: 2.31rem;
+}
+.image_1 {
+  width: 6.66rem;
+  height: 2.31rem;
+}
+.equal-division_2 {
+  align-self: center;
+  margin-top: 0.63rem;
+}
+.group_5 {
+  width: 15.13rem;
+}
+.equal-division-item_4 {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=d604be44780ce9955e8709213e7caf26.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.81rem;
+  height: 2.31rem;
+}
+.image_9 {
+  width: 6.81rem;
+  height: 2.31rem;
+}
+.equal-division-item_5 {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=b67690bc6d63e84d637f14a655b14a98.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 7.38rem;
+  height: 2.31rem;
+}
+.image_17 {
+  width: 7.38rem;
+  height: 2.31rem;
+}
+.image_10 {
+  margin-top: 0.75rem;
+  width: 0.69rem;
+  height: 0.38rem;
+}
+.equal-division_3 {
+  margin: 0.63rem 0.5rem -0.41rem;
+}
+.section_6 {
+  flex: 1 1 11.09rem;
+}
+.equal-division-item_6 {
+  background-color: #ffffff;
+  border-radius: 0.31rem 0.31rem 0 0;
+  overflow: hidden;
+  height: 14.88rem;
+}
+.image_11 {
+  width: 11.09rem;
+  height: 11.09rem;
+}
+.text_1 {
+  margin-left: 0.66rem;
+  margin-right: 0.75rem;
+}
+.group_6 {
+  padding-left: 0.63rem;
+  padding-right: 0.53rem;
+}
+.image_12 {
+  width: 0.5rem;
+  height: 0.63rem;
+}
+.font_5 {
+  font-size: 0.88rem;
+  font-family: Arial;
+  line-height: 0.64rem;
+  color: #000000;
+}
+.text_12 {
+  margin-left: 0.66rem;
+  width: 9.13rem;
+}

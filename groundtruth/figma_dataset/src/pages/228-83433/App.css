@@ -1,0 +1,105 @@
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.mt-67 {
+  margin-top: 4.19rem;
+}
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.page {
+  padding: 22.66rem 0 36.16rem;
+  background-image: linear-gradient(180deg, #353a40 0%, #15161a 100%);
+  border-radius: 3.75rem 0 0 3.75rem;
+  border-image-slice: 1;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.text_5 {
+  margin-top: 0.2rem;
+  color: #fcfcfc;
+  font-size: 11.75rem;
+  font-family: Gilroy;
+  font-weight: 100;
+  line-height: 8.35rem;
+  letter-spacing: 0.23rem;
+}
+.text_2 {
+  text-shadow: 0rem 0rem 0.25rem #ffffff40;
+}
+.text_4 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: Gilroy;
+  line-height: 1.05rem;
+}
+.section {
+  padding: 2.5rem 2.5rem 1.81rem 3.28rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=b22466387b3016cf124301ffe908bbde.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pos {
+  position: absolute;
+  left: -0.17rem;
+  right: 0.17rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image {
+  width: 3.94rem;
+  height: 3.94rem;
+}
+.image_2 {
+  filter: drop-shadow(0rem 0rem 0.47rem #41bbff) blur(1.25rem);
+  width: 3.31rem;
+  height: 1.5rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  top: 22.98rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: Lato;
+  line-height: 1.17rem;
+  color: #7e8389;
+}
+.text {
+  line-height: 1.12rem;
+}
+.text_3 {
+  color: #fcfcfc;
+  font-size: 3.13rem;
+  font-family: Lato;
+  font-weight: 900;
+  line-height: 2.85rem;
+}
+.text_6 {
+  margin-top: 35.19rem;
+}
+.group {
+  margin-top: 3.06rem;
+}
+.image-wrapper {
+  padding: 3.09rem 0 3.03rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=3eada373b0353d385a301b635e7b9786.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 8rem;
+}
+.image_3 {
+  overflow: hidden;
+  width: 1.69rem;
+  height: 1.88rem;
+}
+.text_7 {
+  color: #e6e6e6;
+  font-size: 1.13rem;
+  font-family: Lato;
+  font-weight: 900;
+  line-height: 1.03rem;
+}

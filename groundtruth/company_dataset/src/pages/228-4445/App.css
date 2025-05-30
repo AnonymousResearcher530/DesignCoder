@@ -1,0 +1,128 @@
+.mt-17 {
+  margin-top: 1.06rem;
+}
+.mt-6-5 {
+  margin-top: 0.41rem;
+}
+.mt-16-5 {
+  margin-top: 1.03rem;
+}
+.mt-35 {
+  margin-top: 2.19rem;
+}
+.page {
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.grid {
+  height: 35.03rem;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 0;
+  column-gap: 0;
+}
+.grid-item_1 {
+  padding-bottom: 0.95rem;
+  background-color: #ffffff;
+}
+.image_1 {
+  width: 11.22rem;
+  height: 10rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Roboto;
+  line-height: 0.93rem;
+  color: #000000;
+}
+.text_1 {
+  margin-left: 1.06rem;
+}
+.group {
+  padding: 0 1.01rem;
+}
+.font_2 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.72rem;
+  color: #999999;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.55rem;
+  color: #000000;
+}
+.image_3 {
+  width: 3.28rem;
+  height: 0.63rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.67rem;
+  color: #999999;
+}
+.grid-item {
+  padding-bottom: 0.96rem;
+  background-color: #ffffff;
+}
+.image {
+  width: 11.22rem;
+  height: 11.22rem;
+}
+.text {
+  margin-left: 1.06rem;
+}
+.image_2 {
+  filter: drop-shadow(0rem 0.13rem 0.063rem #0000003d);
+  width: 100vw;
+  height: 22.2222vw;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.text-wrapper {
+  margin: 1.25rem 1rem 0 1rem;
+  padding: 0.81rem 0 0.8rem;
+  filter: drop-shadow(0rem 0.063rem 0.031rem #0000003d);
+  overflow: hidden;
+  background-color: #fff1f1;
+  border-radius: 0.13rem;
+}
+.text_2 {
+  color: #ff4747;
+  font-size: 0.88rem;
+  font-family: Roboto;
+  line-height: 0.64rem;
+  text-transform: uppercase;
+}
+.section {
+  margin-top: 0.91rem;
+  padding: 0.94rem 4.44rem 1.06rem 4.5rem;
+  background-color: #000000;
+}
+.equal-division-item {
+  border-radius: 0.13rem;
+  width: 0.94rem;
+  height: 1.06rem;
+}
+.group_2 {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  border: solid 0.13rem #ffffff;
+}
+.group_3 {
+  border-radius: 0.13rem;
+  width: 1rem;
+  height: 1rem;
+  border: solid 0.13rem #ffffff;
+}

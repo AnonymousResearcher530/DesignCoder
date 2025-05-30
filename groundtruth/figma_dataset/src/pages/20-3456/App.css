@@ -1,0 +1,144 @@
+.mt-3 {
+  margin-top: 0.19rem;
+}
+.mt-19 {
+  margin-top: 1.19rem;
+}
+.mt-27 {
+  margin-top: 1.69rem;
+}
+.mt-29 {
+  margin-top: 1.81rem;
+}
+.mt-7 {
+  margin-top: 0.44rem;
+}
+.page {
+  padding: 4.04rem 0 1.5rem;
+  background-color: #fefefe;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 2.81rem 1rem 0;
+  background-color: #00000033;
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6749ade4d54496f19fc5bd97/67c2b1464ae84d001227b74d/17416168912592195114.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 8.2rem;
+}
+.image {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.image_2 {
+  margin-bottom: -2.51rem;
+  border-radius: 4.75rem;
+  width: 5.25rem;
+  height: 5.44rem;
+}
+.group {
+  padding: 0 1rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Noto Sans JP;
+  line-height: 0.71rem;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.text {
+  margin-left: 0.079rem;
+  line-height: 0.72rem;
+}
+.section_2 {
+  padding: 1.3rem 0.31rem 0.91rem 1.08rem;
+  background-color: #fefefe;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0rem 0.063rem 0.38rem #0000000a);
+  border: solid 0.063rem #f1f1f1;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Noto Sans JP;
+  line-height: 0.71rem;
+  color: #1e1e1e;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Noto Sans JP;
+  line-height: 0.71rem;
+  color: #3d3d3d;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Noto Sans JP;
+  line-height: 0.9rem;
+  color: #3d3d3d;
+}
+.text_2 {
+  opacity: 0.6;
+}
+.text_4 {
+  margin-right: 0.35rem;
+  line-height: 0.67rem;
+}
+.text_3 {
+  margin-right: 0.48rem;
+}
+.text_5 {
+  margin-right: 0.23rem;
+  line-height: 0.91rem;
+}
+.text_6 {
+  line-height: 0.66rem;
+}
+.text_7 {
+  margin-right: 0.39rem;
+}
+.text_8 {
+  line-height: 0.7rem;
+}
+.text_9 {
+  margin-right: 0.13rem;
+  line-height: 0.93rem;
+}
+.text_10 {
+  line-height: 0.71rem;
+}
+.section_3 {
+  padding: 1.06rem 0.71rem 0.94rem 1rem;
+  background-color: #fefefe;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0rem 0.063rem 0.38rem #0000000a);
+  border: solid 0.063rem #f1f1f1;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.image_3 {
+  width: 1rem;
+  height: 1.13rem;
+}
+.font_5 {
+  font-size: 0.88rem;
+  font-family: Noto Sans JP;
+  line-height: 0.71rem;
+  color: #44158f;
+}
+.text-wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1.2rem 0 1.15rem;
+  background-color: #44158f;
+  border-radius: 0.5rem;
+}
+.text_13 {
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-family: Inter;
+  line-height: 0.66rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,113 @@
+.page {
+  padding-bottom: 8.25rem;
+  background-color: #f0f0f0;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 4.25rem 0.94rem 0.63rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=1def83b02dfaa7c3be4b4713f2585c31.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.group {
+  padding: 0 0.63rem;
+}
+.image_2 {
+  margin-top: 0.31rem;
+  width: 5.81rem;
+  height: 5.06rem;
+}
+.image {
+  width: 6.06rem;
+  height: 5.31rem;
+}
+.group_2 {
+  height: 19.44rem;
+}
+.image_6 {
+  width: 4.81rem;
+  height: 5.31rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.31rem;
+}
+.image_4 {
+  width: 5.25rem;
+  height: 5.5rem;
+}
+.pos {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.image_5 {
+  width: 5.63rem;
+  height: 5.56rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.image_7 {
+  width: 5.56rem;
+  height: 5.5rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0;
+  top: 6.56rem;
+}
+.image_8 {
+  width: 5.5rem;
+  height: 4.94rem;
+}
+.pos_8 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.image_9 {
+  width: 4.5rem;
+  height: 4.38rem;
+}
+.pos_5 {
+  position: absolute;
+  right: 0.38rem;
+  top: 7.25rem;
+}
+.image_10 {
+  width: 5.81rem;
+  height: 5.81rem;
+}
+.pos_7 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.image_12 {
+  width: 3.81rem;
+  height: 4.38rem;
+}
+.pos_9 {
+  position: absolute;
+  left: 50%;
+  bottom: 0.69rem;
+  transform: translateX(-50%);
+}
+.image_11 {
+  width: 5.25rem;
+  height: 5.75rem;
+}
+.pos_10 {
+  position: absolute;
+  right: 0.38rem;
+  bottom: 0;
+}

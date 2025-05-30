@@ -1,0 +1,97 @@
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.page {
+  padding: 3.81rem 1rem 5.63rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 0.5rem;
+}
+.image {
+  width: 0.69rem;
+  height: 1.25rem;
+}
+.font {
+  font-size: 1.13rem;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.text {
+  margin-right: 2.5rem;
+  color: #000000;
+  line-height: 1.18rem;
+}
+.group_2 {
+  margin: 3.13rem 0.75rem 0;
+  text-align: center;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 1.19rem;
+  color: #000000;
+}
+.text_2 {
+  font-weight: 600;
+}
+.group_3 {
+  margin-top: 3.13rem;
+  padding: 0 2.19rem;
+}
+.section {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  width: 3.75rem;
+  height: 4.38rem;
+  border-left: solid 0.063rem #d9d9d9;
+  border-right: solid 0.063rem #d9d9d9;
+  border-top: solid 0.063rem #d9d9d9;
+  border-bottom: solid 0.063rem #d9d9d9;
+}
+.group_4 {
+  margin-top: 3.38rem;
+}
+.group_5 {
+  line-height: 0.9rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.9rem;
+}
+.text_3 {
+  color: #000000;
+}
+.text_4 {
+  color: #000000;
+  font-size: 0.88rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 0.66rem;
+}
+.group_6 {
+  line-height: 0.9rem;
+}
+.text_5 {
+  color: #4b4b4b;
+  line-height: 0.9rem;
+}
+.text_6 {
+  color: #491b6d;
+  line-height: 0.66rem;
+}
+.text-wrapper {
+  margin-top: 6.63rem;
+  padding: 1.25rem 0 1rem;
+  background-color: #491b6d;
+  border-radius: 0.63rem;
+}
+.text_7 {
+  color: #ffffff;
+  line-height: 0.89rem;
+}

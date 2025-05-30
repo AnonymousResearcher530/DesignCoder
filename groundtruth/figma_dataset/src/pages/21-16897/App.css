@@ -1,0 +1,278 @@
+.mt-31 {
+  margin-top: 1.94rem;
+}
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.ml-47 {
+  margin-left: 2.94rem;
+}
+.page {
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.24rem 1.68rem 2.58rem 1.81rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image_4 {
+  width: 0.63rem;
+  height: 1rem;
+}
+.section_3 {
+  margin-left: 0.81rem;
+  margin-bottom: 0.063rem;
+  padding: 0.28rem 0.53rem 0.28rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  height: 1.31rem;
+}
+.image_5 {
+  width: 0.69rem;
+  height: 0.75rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  line-height: 0.51rem;
+  font-weight: 300;
+  color: #252525;
+}
+.image {
+  margin-left: 0.13rem;
+  width: 1.38rem;
+  height: 1.38rem;
+}
+.image_1 {
+  margin-left: 0.094rem;
+}
+.image_2 {
+  margin-bottom: 0.065rem;
+  border-radius: 0.81rem;
+  width: 1.31rem;
+  height: 1.31rem;
+}
+.image_3 {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.group_2 {
+  padding-left: 1.44rem;
+  padding-right: 1.4rem;
+}
+.image_6 {
+  width: 5.94rem;
+  height: 5.94rem;
+}
+.text_3 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: League Spartan;
+  font-weight: 600;
+  line-height: 0.9rem;
+}
+.text_4 {
+  margin-top: 0.18rem;
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.79rem;
+}
+.equal-division {
+  margin-top: 0.47rem;
+}
+.equal-division-item_7 {
+  position: relative;
+  flex: 1 1 2.69rem;
+}
+.section_4 {
+  padding: 0.31rem 0.33rem 0.29rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  height: 1.1rem;
+}
+.image_7 {
+  width: 0.63rem;
+  height: 0.56rem;
+}
+.pos {
+  position: absolute;
+  left: 0.33rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text_5 {
+  line-height: 0.5rem;
+}
+.equal-division-item_1 {
+  flex: 1 1 2.69rem;
+}
+.equal-division-item {
+  padding: 0.21rem 0.28rem 0.2rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  height: 1.1rem;
+}
+.image_8 {
+  width: 0.69rem;
+  height: 0.69rem;
+}
+.group_3 {
+  margin-top: -1.25rem;
+  padding-left: 1.94rem;
+  padding-right: 1.88rem;
+}
+.section_5 {
+  padding: 0.35rem 0.54rem 0.53rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  border-image-slice: 1;
+  width: 6.06rem;
+  height: 2.13rem;
+  border: solid 0.063rem #33e4db;
+}
+.image_9 {
+  width: 0.88rem;
+  height: 1.13rem;
+}
+.text_6 {
+  margin-left: 0.29rem;
+  color: #252525;
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  line-height: 0.65rem;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  line-height: 0.94rem;
+  font-weight: 300;
+  color: #252525;
+}
+.text_8 {
+  line-height: 0.65rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 0.85rem;
+  bottom: 0.4rem;
+}
+.section_6 {
+  padding: 0.6rem 0.069rem 0.59rem 0.47rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  border-image-slice: 1;
+  height: 2.13rem;
+  border: solid 0.063rem #33e4db;
+}
+.image_10 {
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.65rem;
+  color: transparent;
+}
+.text {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.text_2 {
+  color: transparent;
+  line-height: 0.53rem;
+  font-weight: unset;
+}
+.text_7 {
+  color: #252525;
+  font-weight: 300;
+  line-height: 0.69rem;
+}
+.section_7 {
+  margin-right: 0.063rem;
+  margin-top: 1.31rem;
+  padding: 1.01rem 0 0.67rem;
+  background-color: #e9f6fe;
+  border-radius: 1.25rem;
+}
+.group_4 {
+  margin-left: 0.96rem;
+  margin-right: 0.21rem;
+  line-height: 0.94rem;
+}
+.text_9 {
+  font-weight: 600;
+}
+.group_5 {
+  margin-top: 1.66rem;
+  padding-top: 0.67rem;
+  border-top: solid 0.063rem #e9f6fe;
+}
+.text_10 {
+  line-height: 0.62rem;
+}
+.divider {
+  background-color: #e9f6fe;
+  height: 0.063rem;
+}
+.view {
+  margin-top: 0.65rem;
+}
+.text_11 {
+  margin-top: 0.42rem;
+}
+.view_2 {
+  margin-top: 0.39rem;
+}
+.text_12 {
+  margin-top: 0.62rem;
+  line-height: 0.61rem;
+}
+.view_3 {
+  margin-top: 0.65rem;
+}
+.text_13 {
+  margin-top: 0.67rem;
+}
+.view_4 {
+  margin-top: 0.14rem;
+}
+.text_14 {
+  margin-top: 0.62rem;
+  line-height: 0.79rem;
+}
+.view_5 {
+  margin-top: 0.46rem;
+}
+.text_15 {
+  margin-top: 0.61rem;
+}
+.section_8 {
+  margin-top: 2.8rem;
+  padding: 1.28rem 0 1.47rem;
+  background-color: #e9f6fe;
+}
+.equal-division-item_2 {
+  width: 1.5rem;
+  height: 1.44rem;
+}
+.equal-division-item_4 {
+  width: 1.63rem;
+  height: 1.44rem;
+}
+.equal-division-item_5 {
+  width: 1.31rem;
+  height: 1.44rem;
+}
+.equal-division-item_6 {
+  width: 1.25rem;
+  height: 1.44rem;
+}

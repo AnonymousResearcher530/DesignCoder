@@ -1,0 +1,158 @@
+.ml-15 {
+  margin-left: 0.94rem;
+}
+.mt-27 {
+  margin-top: 1.69rem;
+}
+.ml-3 {
+  margin-left: 0.19rem;
+}
+.page {
+  padding-top: 4.38rem;
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 1.25rem;
+}
+.image {
+  width: 1.81rem;
+  height: 1.81rem;
+}
+.text {
+  color: #000000;
+  font-size: 1.38rem;
+  font-family: Gilroy;
+  font-weight: 600;
+  line-height: 1rem;
+}
+.group_2 {
+  margin-right: 0.5rem;
+}
+.text_2 {
+  color: #000000;
+  font-size: 1rem;
+  font-family: Gilroy;
+  font-weight: 600;
+  line-height: 0.73rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Gilroy;
+  line-height: 0.9rem;
+}
+.text_3 {
+  color: #000000;
+}
+.section {
+  margin: 2.75rem 1rem 0;
+  padding: 2.5rem 0;
+  background-color: #f9f9f9;
+  border-radius: 0.75rem;
+}
+.image_2 {
+  width: 3rem;
+  height: 3rem;
+}
+.text_4 {
+  color: #4a4646;
+  line-height: 0.91rem;
+}
+.group_3 {
+  margin-top: 20.38rem;
+  padding: 0 1.75rem;
+}
+.text_5 {
+  color: #000000;
+  font-size: 1rem;
+  font-family: Gilroy;
+  line-height: 0.74rem;
+}
+.text_6 {
+  color: #242424;
+  font-size: 1rem;
+  font-family: Gilroy;
+  line-height: 0.73rem;
+}
+.text_7 {
+  color: #000000;
+  font-size: 1.13rem;
+  font-family: Gilroy;
+  font-weight: 600;
+  line-height: 0.82rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Gilroy;
+  font-weight: 600;
+  color: #242424;
+}
+.text_8 {
+  line-height: 0.9rem;
+}
+.text_9 {
+  line-height: 0.73rem;
+}
+.section_2 {
+  margin-top: 2.25rem;
+  padding: 0.63rem 0 1.63rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-top: solid 0.063rem #d9d9d9;
+}
+.equal-division {
+  margin: 0 1.38rem;
+}
+.equal-division-item {
+  position: relative;
+  flex: 1 1 5.16rem;
+}
+.group_4 {
+  padding: 0.5rem 0;
+}
+.image_3 {
+  width: 2rem;
+  height: 2rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Gilroy;
+  line-height: 0.63rem;
+  color: #717171;
+}
+.text_12 {
+  margin-top: -0.25rem;
+  line-height: 0.62rem;
+}
+.group_5 {
+  padding: 0.5rem 0 0.13rem;
+}
+.text_13 {
+  color: #9c4400;
+  line-height: 0.62rem;
+}
+.equal-division-item_2 {
+  padding: 0.5rem 0 0.88rem;
+}
+.text_10 {
+  width: 3.81rem;
+}
+.pos {
+  position: absolute;
+  left: 50%;
+  bottom: 0.58rem;
+  transform: translateX(-50%);
+}
+.text_11 {
+  line-height: 0.65rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0.59rem;
+  transform: translateX(-50%);
+}

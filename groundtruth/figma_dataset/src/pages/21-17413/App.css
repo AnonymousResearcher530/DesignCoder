@@ -1,0 +1,228 @@
+.mt-11 {
+  margin-top: 0.69rem;
+}
+.ml-3 {
+  margin-left: 0.19rem;
+}
+.mt-3 {
+  margin-top: 0.19rem;
+}
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.ml-47 {
+  margin-left: 2.94rem;
+}
+.page {
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.78rem 1.94rem 1rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image {
+  width: 0.63rem;
+  height: 1rem;
+}
+.group {
+  margin-top: 1.72rem;
+}
+.group_2 {
+  padding-left: 1.96rem;
+  padding-right: 1.79rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.76rem;
+  font-weight: 600;
+}
+.image_2 {
+  margin-right: 0.36rem;
+  width: 1.31rem;
+  height: 1.19rem;
+}
+.font_2 {
+  font-size: 0.69rem;
+  font-family: League Spartan;
+  line-height: 0.47rem;
+  font-weight: 300;
+  color: #252525;
+}
+.text_4 {
+  color: #000000;
+  font-size: 0.75rem;
+  line-height: 0.94rem;
+}
+.group_1 {
+  padding-left: 1.82rem;
+  padding-right: 1.82rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.61rem;
+  color: #252525;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 1rem;
+  font-weight: 300;
+  color: #252525;
+}
+.group_4 {
+  margin-top: -0.26rem;
+}
+.divider {
+  margin: 1.12rem 1.56rem 0 1.56rem;
+  background-color: #e9f6fe;
+  height: 0.063rem;
+}
+.group_5 {
+  padding: 0.95rem 1.81rem 0 1.88rem;
+}
+.text_8 {
+  text-transform: capitalize;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.text_9 {
+  color: transparent;
+}
+.view_2 {
+  margin-top: 0.82rem;
+  padding-left: 1.2rem;
+  padding-right: 1.19rem;
+}
+.font_5 {
+  font-size: 0.69rem;
+  font-family: League Spartan;
+  line-height: 0.47rem;
+  color: #252525;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_7 {
+  margin-right: 4.69rem;
+  margin-top: -0.26rem;
+  font-size: 0.81rem;
+}
+.text_6 {
+  font-size: 0.81rem;
+}
+.text_5 {
+  font-size: 0.81rem;
+}
+.text_3 {
+  color: #14cbd7;
+  line-height: 0.78rem;
+}
+.text_2 {
+  margin-right: 2.25rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  font-weight: 600;
+  line-height: 1.34rem;
+}
+.text-wrapper {
+  padding: 0.1rem 0 0.12rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=53b8f12d66fc3722eb3c693f6c652a31.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 0.69rem;
+}
+.text_10 {
+  margin-right: 0.14rem;
+}
+.text-wrapper_2 {
+  padding: 0.1rem 0 0.12rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=9a851233ec50f785be4821bb2474bb4c.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 0.69rem;
+}
+.text_11 {
+  margin-right: 0.15rem;
+}
+.text-wrapper_3 {
+  padding-top: 0.16rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=0656a79a1caa71238068765d384ea3c6.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 0.69rem;
+}
+.text_1 {
+  margin-right: 0.12rem;
+}
+.group_7 {
+  margin-top: 1.05rem;
+  padding: 0 0.12rem;
+}
+.text_12 {
+  color: transparent;
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  font-weight: 600;
+  line-height: 0.61rem;
+}
+.image_3 {
+  width: 4.81rem;
+  height: 0.69rem;
+}
+.image-wrapper {
+  margin-left: 0.063rem;
+  margin-top: 1.11rem;
+  padding: 5.96rem 0 4.48rem;
+  border-radius: 0.69rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=218869ea713e25113b1d0df33bb15b2d.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image_4 {
+  width: 3.56rem;
+  height: 4.63rem;
+}
+.group_8 {
+  padding: 0.97rem 0 0.88rem;
+}
+.image_5 {
+  width: 0.94rem;
+  height: 1.63rem;
+}
+.image_6 {
+  margin-right: 0.063rem;
+}
+.section_3 {
+  padding: 1.28rem 0 1.24rem;
+  background-color: #e9f6fe;
+}
+.equal-division-item_1 {
+  width: 1.5rem;
+  height: 1.44rem;
+}
+.equal-division-item {
+  width: 1.63rem;
+  height: 1.44rem;
+}
+.equal-division-item_3 {
+  width: 1.31rem;
+  height: 1.44rem;
+}
+.equal-division-item_4 {
+  width: 1.25rem;
+  height: 1.44rem;
+}

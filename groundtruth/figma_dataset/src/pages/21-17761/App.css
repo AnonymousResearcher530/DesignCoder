@@ -1,0 +1,239 @@
+.mt-25 {
+  margin-top: 1.56rem;
+}
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.page {
+  padding-bottom: 4.63rem;
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.84rem 1.94rem 2.91rem 1.94rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image {
+  width: 0.63rem;
+  height: 1rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.font {
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  line-height: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.group {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+.group_2 {
+  padding: 0 0.063rem;
+}
+.image_2 {
+  border-radius: 50%;
+  width: 5.31rem;
+  height: 5.31rem;
+}
+.image_3 {
+  width: 1.63rem;
+  height: 1.63rem;
+}
+.font_2 {
+  font-size: 0.81rem;
+  font-family: League Spartan;
+  line-height: 0.57rem;
+  color: #000000;
+}
+.text_4 {
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 0.61rem;
+}
+.equal-division {
+  align-self: flex-start;
+  margin-top: 0.55rem;
+}
+.section_3 {
+  position: relative;
+  flex: 1 1 2.69rem;
+}
+.section_1 {
+  padding: 0.19rem 0.19rem 0.28rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  border-image-slice: 1;
+  height: 1.1rem;
+  border: solid 0.063rem #33e4db;
+}
+.image_4 {
+  width: 0.63rem;
+  height: 0.63rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.font_3 {
+  font-size: 0.81rem;
+  font-family: League Spartan;
+  font-weight: 300;
+  color: #252525;
+}
+.text_5 {
+  font-size: 0.75rem;
+  line-height: 0.5rem;
+}
+.section_4 {
+  padding: 0.18rem 0.22rem 0.28rem;
+  background-color: #ffffff;
+  border-radius: 0.81rem;
+  border-image-slice: 1;
+  height: 1.1rem;
+  border: solid 0.063rem #33e4db;
+}
+.image_5 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 0.29rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text_6 {
+  font-size: 0.75rem;
+  line-height: 0.51rem;
+}
+.group_3 {
+  margin-top: 1.69rem;
+  padding: 1.32rem 0.82rem 1.82rem 0.86rem;
+  border-top: solid 0.063rem #e9f6fe;
+}
+.font_4 {
+  font-size: 0.81rem;
+  font-family: League Spartan;
+  line-height: 0.57rem;
+  color: transparent;
+}
+.font_5 {
+  font-size: 0.81rem;
+  font-family: League Spartan;
+  line-height: 0.71rem;
+  color: #000000;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_3 {
+  color: #13cad6;
+  font-size: 1rem;
+  font-family: League Spartan;
+  line-height: 0.81rem;
+}
+.text_2 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: League Spartan;
+  font-weight: 700;
+  line-height: 2.61rem;
+}
+.text_9 {
+  line-height: 0.67rem;
+}
+.text_11 {
+  margin-right: 0.24rem;
+  line-height: 0.56rem;
+}
+.font_6 {
+  font-size: 0.81rem;
+  font-family: League Spartan;
+  line-height: 0.71rem;
+  color: transparent;
+}
+.text_7 {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.text_10 {
+  line-height: 0.55rem;
+}
+.text_8 {
+  line-height: 0.64rem;
+}
+.text_12 {
+  line-height: 0.75rem;
+}
+.text_13 {
+  margin-right: 0.25rem;
+}
+.group_5 {
+  margin-left: 0.13rem;
+  margin-right: 0.13rem;
+  padding: 1.53rem 0.7rem 1.1rem 0.7rem;
+  border-top: solid 0.063rem #e9f6fe;
+  border-bottom: solid 0.063rem #e9f6fe;
+}
+.text_14 {
+  line-height: 0.55rem;
+}
+.text_15 {
+  margin-right: 0.32rem;
+}
+.text_16 {
+  line-height: 0.55rem;
+}
+.text_17 {
+  margin-right: 0.25rem;
+  line-height: 0.56rem;
+}
+.text_18 {
+  margin-right: 0.37rem;
+}
+.group_6 {
+  margin-left: 0.13rem;
+  margin-right: 0.13rem;
+  padding: 1.63rem 0.74rem 0;
+}
+.text_19 {
+  line-height: 0.73rem;
+}
+.group_7 {
+  margin-right: 0.53rem;
+}
+.text_20 {
+  line-height: 0.74rem;
+  text-decoration: underline;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.text-wrapper {
+  margin-right: 0.31rem;
+  margin-top: 2.51rem;
+  padding: 0.89rem 0 0.69rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  border-radius: 6.25rem;
+  border-image-slice: 1;
+  overflow: hidden;
+  border: solid 0.063rem #33e4db;
+}

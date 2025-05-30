@@ -1,0 +1,177 @@
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.ml-17 {
+  margin-left: 1.06rem;
+}
+.mt-3 {
+  margin-top: 0.19rem;
+}
+.page {
+  padding-top: 4.5rem;
+  background-color: #ffa451;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 1.5rem;
+}
+.section {
+  padding: 0.38rem 0.26rem 0.38rem 0.5rem;
+  filter: drop-shadow(0rem 1.88rem 1.88rem #2020201a);
+  background-color: #ffffff;
+  border-radius: 6.25rem;
+  height: 2rem;
+}
+.image {
+  width: 0.63rem;
+  height: 1.25rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.01rem;
+  line-height: 0.72rem;
+  color: #000000;
+}
+.text_2 {
+  color: #27214d;
+  letter-spacing: unset;
+}
+.text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: Brandon Grotesque;
+  line-height: 1.51rem;
+  letter-spacing: -0.015rem;
+}
+.section_2 {
+  padding: 2.25rem 1.5rem 4.63rem;
+  background-color: #ffffff;
+}
+.group_2 {
+  padding-top: 0.25rem;
+  height: 19.69rem;
+}
+.section_4 {
+  margin-left: 2rem;
+  margin-top: 18.25rem;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #ffa451,
+    #ffa451 15.79%,
+    transparent 15.79%,
+    transparent 42.105999999999995%
+  );
+  background-position: -0.094rem 0rem;
+  width: 0.13rem;
+  height: 1.19rem;
+}
+.list {
+  margin-top: -19.44rem;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.image-wrapper {
+  padding: 0.63rem 0 0.69rem;
+  background-color: #fffaeb;
+  border-radius: 0.63rem;
+  width: 4.06rem;
+  height: 4rem;
+}
+.image_2 {
+  width: 3rem;
+  height: 2.69rem;
+}
+.image_3 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.01rem;
+  line-height: 1.02rem;
+  color: #000000;
+}
+.section_3 {
+  background-image: repeating-linear-gradient(90deg, #ffa451, #ffa451 7.5%, transparent 7.5%, transparent 20%);
+  background-position: -0.094rem 0rem;
+  width: 0.13rem;
+  height: 2.5rem;
+}
+.pos {
+  position: absolute;
+  left: 2rem;
+  top: 4.5rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 2rem;
+  top: 11.5rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 5.11rem;
+  bottom: 3.5rem;
+}
+.text_3 {
+  color: #000000;
+  font-size: 0.88rem;
+  font-family: Brandon Grotesque;
+  line-height: 0.88rem;
+  letter-spacing: -0.0088rem;
+}
+.pos_5 {
+  position: absolute;
+  left: 50%;
+  bottom: 1.98rem;
+  transform: translateX(-50%);
+}
+.image_5 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.pos_3 {
+  position: absolute;
+  right: 0;
+  bottom: 2.19rem;
+}
+.image_6 {
+  border-radius: 0.63rem;
+  width: 20.44rem;
+  height: 8rem;
+}
+.group_3 {
+  height: 6.75rem;
+}
+.pos_6 {
+  position: absolute;
+  left: 2rem;
+  top: 0;
+}
+.pos_7 {
+  position: absolute;
+  left: 0;
+  top: 2.75rem;
+}
+.image-wrapper_4 {
+  padding: 0.75rem 0;
+  background-color: #f0fef8;
+  border-radius: 0.63rem;
+  width: 4.06rem;
+  height: 4rem;
+}
+.image_7 {
+  width: 2.5rem;
+  height: 0.5rem;
+}
+.pos_8 {
+  position: absolute;
+  right: 0;
+  bottom: 1.75rem;
+}

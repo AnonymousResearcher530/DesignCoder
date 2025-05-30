@@ -1,0 +1,259 @@
+{
+    "img_shape": [
+        812,
+        375,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "880",
+            "column_min": 37,
+            "row_min": 63,
+            "column_max": 52,
+            "row_max": 91,
+            "width": 15,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "Friday , 26",
+            "column_min": 145,
+            "row_min": 72,
+            "column_max": 229,
+            "row_max": 92,
+            "width": 84,
+            "height": 20
+        },
+        {
+            "id": 2,
+            "content": "Let's make a",
+            "column_min": 24,
+            "row_min": 140,
+            "column_max": 182,
+            "row_max": 162,
+            "width": 158,
+            "height": 22
+        },
+        {
+            "id": 3,
+            "content": "habits together",
+            "column_min": 23,
+            "row_min": 172,
+            "column_max": 223,
+            "row_max": 202,
+            "width": 200,
+            "height": 30
+        },
+        {
+            "id": 4,
+            "content": "Application Design",
+            "column_min": 46,
+            "row_min": 261,
+            "column_max": 219,
+            "row_max": 278,
+            "width": 173,
+            "height": 17
+        },
+        {
+            "id": 5,
+            "content": "UI Design Kit",
+            "column_min": 47,
+            "row_min": 291,
+            "column_max": 121,
+            "row_max": 303,
+            "width": 74,
+            "height": 12
+        },
+        {
+            "id": 6,
+            "content": "Progress",
+            "column_min": 150,
+            "row_min": 333,
+            "column_max": 201,
+            "row_max": 344,
+            "width": 51,
+            "height": 11
+        },
+        {
+            "id": 7,
+            "content": "50/80",
+            "column_min": 229,
+            "row_min": 331,
+            "column_max": 266,
+            "row_max": 344,
+            "width": 37,
+            "height": 13
+        },
+        {
+            "id": 8,
+            "content": "In Progress",
+            "column_min": 24,
+            "row_min": 419,
+            "column_max": 125,
+            "row_max": 436,
+            "width": 101,
+            "height": 17
+        },
+        {
+            "id": 9,
+            "content": "Productivity Mobile App",
+            "column_min": 38,
+            "row_min": 471,
+            "column_max": 181,
+            "row_max": 484,
+            "width": 143,
+            "height": 13
+        },
+        {
+            "id": 10,
+            "content": "Create Detail Booking",
+            "column_min": 38,
+            "row_min": 491,
+            "column_max": 191,
+            "row_max": 507,
+            "width": 153,
+            "height": 16
+        },
+        {
+            "id": 11,
+            "content": "min ago",
+            "column_min": 49,
+            "row_min": 514,
+            "column_max": 100,
+            "row_max": 525,
+            "width": 51,
+            "height": 11
+        },
+        {
+            "id": 12,
+            "content": "Overl",
+            "column_min": 323,
+            "row_min": 262,
+            "column_max": 371,
+            "row_max": 275,
+            "width": 48,
+            "height": 13
+        },
+        {
+            "id": 13,
+            "content": "UI Design",
+            "column_min": 323,
+            "row_min": 290,
+            "column_max": 374,
+            "row_max": 302,
+            "width": 51,
+            "height": 12
+        },
+        {
+            "id": 14,
+            "content": "60 %",
+            "column_min": 303,
+            "row_min": 494,
+            "column_max": 328,
+            "row_max": 502,
+            "width": 25,
+            "height": 8
+        },
+        {
+            "id": 15,
+            "content": "Banking Mobile App",
+            "column_min": 39,
+            "row_min": 568,
+            "column_max": 157,
+            "row_max": 580,
+            "width": 118,
+            "height": 12
+        },
+        {
+            "id": 16,
+            "content": "Revision Home Page",
+            "column_min": 39,
+            "row_min": 587,
+            "column_max": 182,
+            "row_max": 602,
+            "width": 143,
+            "height": 15
+        },
+        {
+            "id": 17,
+            "content": "70 %",
+            "column_min": 303,
+            "row_min": 589,
+            "column_max": 327,
+            "row_max": 598,
+            "width": 24,
+            "height": 9
+        },
+        {
+            "id": 18,
+            "content": "min ago",
+            "column_min": 50,
+            "row_min": 610,
+            "column_max": 100,
+            "row_max": 622,
+            "width": 50,
+            "height": 12
+        },
+        {
+            "id": 19,
+            "content": "Online Course",
+            "column_min": 39,
+            "row_min": 664,
+            "column_max": 123,
+            "row_max": 674,
+            "width": 84,
+            "height": 10
+        },
+        {
+            "id": 20,
+            "content": "Working On Landing Page",
+            "column_min": 38,
+            "row_min": 684,
+            "column_max": 221,
+            "row_max": 700,
+            "width": 183,
+            "height": 16
+        },
+        {
+            "id": 21,
+            "content": "min ago",
+            "column_min": 48,
+            "row_min": 706,
+            "column_max": 100,
+            "row_max": 718,
+            "width": 52,
+            "height": 12
+        },
+        {
+            "id": 22,
+            "content": "+",
+            "column_min": 178,
+            "row_min": 762,
+            "column_max": 197,
+            "row_max": 781,
+            "width": 19,
+            "height": 19
+        },
+        {
+            "id": 23,
+            "content": "80 %",
+            "column_min": 303,
+            "row_min": 686,
+            "column_max": 326,
+            "row_max": 694,
+            "width": 23,
+            "height": 8
+        },
+        {
+            "id": 24,
+            "content": "00",
+            "column_min": 326,
+            "row_min": 760,
+            "column_max": 340,
+            "row_max": 781,
+            "width": 14,
+            "height": 21
+        }
+    ]
+}

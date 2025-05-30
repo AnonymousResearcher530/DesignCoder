@@ -1,0 +1,214 @@
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.ml-13 {
+  margin-left: 0.81rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.ml-47 {
+  margin-left: 2.94rem;
+}
+.page {
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.63rem 1.88rem 1.25rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image {
+  width: 0.63rem;
+  height: 1rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.font {
+  font-size: 1rem;
+  font-family: League Spartan;
+  line-height: 0.7rem;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  font-weight: 600;
+  line-height: 1.05rem;
+}
+.text_3 {
+  margin-top: 1.88rem;
+  color: #ffffff;
+}
+.section_3 {
+  margin: 1.38rem 0.063rem 0;
+  padding: 0.63rem 0.88rem;
+  background-color: #ffffff;
+  border-radius: 3.13rem;
+}
+.image_2 {
+  width: 1rem;
+  height: 1.19rem;
+}
+.text_4 {
+  color: transparent;
+  text-transform: capitalize;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.group {
+  height: 36.13rem;
+}
+.group_2 {
+  padding: 0 1.69rem;
+}
+.group_3 {
+  padding: 0 0.25rem 0.88rem;
+  border-bottom: solid 0.063rem #e9f6fe;
+}
+.text_5 {
+  color: #252525;
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  font-weight: 300;
+  line-height: 0.66rem;
+}
+.text-wrapper {
+  padding: 0.25rem 0;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  border-radius: 2.38rem;
+  border-image-slice: 1;
+  height: 1.31rem;
+  border-left: solid 0.063rem #33e4db;
+  border-right: solid 0.063rem #33e4db;
+  border-top: solid 0.063rem #33e4db;
+  border-bottom: solid 0.063rem #33e4db;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.57rem;
+  font-weight: 600;
+  color: transparent;
+}
+.text_6 {
+  margin-left: 0.5rem;
+  color: #ffffff;
+  line-height: 0.58rem;
+}
+.text-wrapper_2 {
+  margin-left: 0.38rem;
+  padding: 0.25rem 0;
+  border-radius: 2.38rem;
+  border-image-slice: 1;
+  width: 3.06rem;
+  height: 1.31rem;
+  border-left: solid 0.063rem #33e4db;
+  border-right: solid 0.063rem #33e4db;
+  border-top: solid 0.063rem #33e4db;
+  border-bottom: solid 0.063rem #33e4db;
+}
+.text_9 {
+  color: transparent;
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  line-height: 0.53rem;
+  text-decoration: underline;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.list-item {
+  padding: 0.88rem 0.63rem;
+  border-bottom: solid 0.063rem #e9f6fe;
+}
+.image_3 {
+  border-radius: 50%;
+  width: 6.69rem;
+  height: 6.69rem;
+}
+.group_4 {
+  margin-top: 1.63rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.77rem;
+  color: transparent;
+}
+.text_7 {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  -webkit-background-clip: text;
+}
+.text_8 {
+  line-height: 0.61rem;
+}
+.text_10 {
+  font-size: 0.94rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 0.57rem;
+  font-weight: 300;
+  color: #252525;
+}
+.text_11 {
+  margin-top: 0.38rem;
+  font-size: 0.81rem;
+}
+.group_5 {
+  padding-left: 0.75rem;
+}
+.view {
+  margin-top: 1.38rem;
+}
+.text_12 {
+  line-height: 0.62rem;
+}
+.image_4 {
+  width: 0.75rem;
+  height: 0.88rem;
+}
+.image_5 {
+  width: 0.38rem;
+  height: 0.63rem;
+}
+.image_6 {
+  width: 0.75rem;
+  height: 0.69rem;
+}
+.group_7 {
+  padding: 0.88rem 0.69rem 0;
+}
+.group_8 {
+  margin-top: 1.63rem;
+}
+.text_16 {
+  font-size: 0.94rem;
+}
+.text_17 {
+  font-size: 0.81rem;
+}
+.section_4 {
+  margin-top: -3.5rem;
+  padding: 1.25rem 0 1.5rem;
+  background-color: #e9f6fe;
+}
+.equal-division-item {
+  width: 1.43rem;
+  height: 1.44rem;
+}

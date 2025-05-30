@@ -1,0 +1,124 @@
+.ml-17 {
+  margin-left: 1.06rem;
+}
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.mt-222 {
+  margin-top: 13.88rem;
+}
+.page {
+  padding-top: 4.5rem;
+  background-color: #ffa451;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0.5rem 1.5rem 0;
+}
+.section {
+  padding: 0.38rem 0.25rem 0.38rem 0.5rem;
+  filter: drop-shadow(0rem 1.88rem 1.88rem #2020201a);
+  background-color: #ffffff;
+  border-radius: 6.25rem;
+}
+.pos {
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image {
+  width: 0.63rem;
+  height: 1.25rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.01rem;
+  line-height: 0.88rem;
+  color: #27214d;
+}
+.text_2 {
+  line-height: 0.72rem;
+  letter-spacing: unset;
+}
+.section_2 {
+  padding: 0.5rem 0 2.94rem;
+  background-color: #ffffff;
+}
+.list-item {
+  padding: 2rem 1.5rem 1rem;
+  border-bottom: solid 0.063rem #f4f4f4;
+}
+.image-wrapper {
+  padding: 0.75rem 0;
+  background-color: #fffaeb;
+  border-radius: 0.63rem;
+  width: 4.06rem;
+  height: 4rem;
+}
+.image_2 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.text_3 {
+  color: #000000;
+  line-height: 0.91rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.0088rem;
+  line-height: 0.88rem;
+  color: #000000;
+}
+.image_3 {
+  width: 1rem;
+  height: 0.81rem;
+}
+.text_4 {
+  line-height: 0.87rem;
+}
+.font_4 {
+  font-size: 1rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.01rem;
+  line-height: 0.72rem;
+  color: #000000;
+}
+.group_2 {
+  padding: 0 1.5rem;
+}
+.text_7 {
+  line-height: 0.71rem;
+}
+.image_6 {
+  width: 1.25rem;
+  height: 1rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: Brandon Grotesque;
+  letter-spacing: -0.015rem;
+}
+.text {
+  color: #ffffff;
+  line-height: 1.51rem;
+}
+.text_9 {
+  color: #27214d;
+  line-height: 1.33rem;
+}
+.text-wrapper {
+  padding: 1.5rem 0 1.25rem;
+  background-color: #ffa451;
+  border-radius: 0.63rem;
+  height: 3.5rem;
+}
+.text_8 {
+  color: #ffffff;
+}

@@ -1,0 +1,227 @@
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.ml-13 {
+  margin-left: 0.81rem;
+}
+.mt-5 {
+  margin-top: 0.31rem;
+}
+.mt-139 {
+  margin-top: 8.69rem;
+}
+.ml-69 {
+  margin-left: 4.31rem;
+}
+.page {
+  padding-top: 2.09rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.group {
+  padding: 0.44rem 0.63rem 0.44rem 0.78rem;
+}
+.group_1 {
+  padding-left: 0.094rem;
+}
+.image_3 {
+  width: 1.5rem;
+  height: 1.13rem;
+}
+.text {
+  color: #000000;
+  font-size: 1.13rem;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 0.83rem;
+}
+.image_2 {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+.image {
+  border-radius: 50%;
+  width: 1.88rem;
+  height: 1.88rem;
+}
+.image_4 {
+  border-radius: 50%;
+  width: 2.38rem;
+  height: 2.38rem;
+}
+.image_5 {
+  width: 0.69rem;
+  height: 1.44rem;
+}
+.image-wrapper {
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6749ade4d54496f19fc5bd97/67c2b1464ae84d001227b74d/17416168011469391227.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 10.81rem;
+}
+.image_6 {
+  width: 100vw;
+  height: 46.1333vw;
+}
+.group_8 {
+  margin-right: 0.72rem;
+  margin-bottom: -3.47rem;
+  margin-left: 0.78rem;
+}
+.image_7 {
+  border-radius: 50%;
+  width: 2.63rem;
+  height: 2.63rem;
+}
+.group_3 {
+  margin-left: 1.92rem;
+}
+.text_2 {
+  color: #000000;
+  font-size: 0.88rem;
+  font-family: Inter;
+  line-height: 1.06rem;
+  width: 13.94rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Inter;
+  line-height: 0.56rem;
+  color: #939393;
+}
+.section {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 0.19rem;
+  height: 0.19rem;
+}
+.text_3 {
+  line-height: 0.57rem;
+}
+.text_4 {
+  line-height: 0.71rem;
+}
+.image_8 {
+  margin-left: 1.25rem;
+  width: 0.19rem;
+  height: 0.81rem;
+}
+.group_2 {
+  margin-top: 4.95rem;
+  padding-left: 0.74rem;
+  padding-right: 0.72rem;
+}
+.image_9 {
+  width: 1.63rem;
+  height: 1.19rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Inter;
+  line-height: 0.71rem;
+}
+.text_5 {
+  color: #000000;
+  line-height: 0.75rem;
+}
+.text_6 {
+  margin-right: 0.54rem;
+  color: #0073b4;
+  line-height: 0.76rem;
+}
+.equal-division-item {
+  flex: 1 1 10.56rem;
+}
+.section_2 {
+  padding: 0.69rem 0.5rem 1.24rem 1.21rem;
+  border-radius: 0.75rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=9e6ef1cb25c1ccec1676c2b192a54bb8.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 14.63rem;
+}
+.image_10 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.group_4 {
+  margin-right: 0.17rem;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Inter;
+  line-height: 0.88rem;
+  color: #ffffff;
+}
+.font_4 {
+  font-size: 0.5rem;
+  font-family: Inter;
+  line-height: 0.37rem;
+  font-weight: 200;
+  color: #f2f2f2;
+}
+.section_3 {
+  padding: 0.69rem 0.5rem 1.24rem 1.21rem;
+  border-radius: 0.75rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=dc90fc7a5b63072d70cd17905ecae2dc.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 14.63rem;
+}
+.group_5 {
+  margin-right: 0.17rem;
+}
+.view {
+  margin: 0.38rem 0 -1.13rem;
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6749ade4d54496f19fc5bd97/67c2b1464ae84d001227b74d/17416168011469391227.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.section_4 {
+  padding: 0.7rem 1.51rem 0.77rem 1.92rem;
+  background-color: #ffffff;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 46.75rem;
+}
+.equal-division {
+  margin-left: 0.23rem;
+  margin-right: 1.05rem;
+}
+.equal-division-item_2 {
+  width: 1.31rem;
+  height: 1.5rem;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: Inter;
+  line-height: 0.56rem;
+  font-weight: 200;
+  color: #000000;
+}
+.text_7 {
+  line-height: 0.55rem;
+}
+.font_6 {
+  font-size: 0.75rem;
+  font-family: Inter;
+  line-height: 0.71rem;
+  font-weight: 200;
+  color: #000000;
+}
+.text_8 {
+  line-height: 0.71rem;
+}
+.text_9 {
+  line-height: 0.7rem;
+}

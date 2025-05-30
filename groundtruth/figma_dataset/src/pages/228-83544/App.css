@@ -1,0 +1,234 @@
+.mt-25 {
+  margin-top: 1.56rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.mt-27 {
+  margin-top: 1.69rem;
+}
+.page {
+  padding-bottom: 2.25rem;
+  background-color: #faf9f9;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  height: 44.88rem;
+}
+.section {
+  background-color: #00664f;
+  width: 16.73rem;
+  height: 22.44rem;
+}
+.image {
+  width: 20.05rem;
+  height: 18.63rem;
+}
+.pos {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image_2 {
+  border-radius: 0.75rem;
+  width: 3rem;
+  height: 3rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 1.75rem;
+  top: 2.75rem;
+}
+.section_2 {
+  margin-top: -3.31rem;
+  padding-left: 1.75rem;
+  padding-top: 2.13rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 25.75rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: Poppins;
+  font-weight: 700;
+  color: #212523;
+}
+.text {
+  line-height: 1.61rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  color: #bcc1cd;
+}
+.text_2 {
+  margin-top: 0.63rem;
+  line-height: 0.91rem;
+}
+.group_4 {
+  margin-top: 1.13rem;
+}
+.equal-division-item {
+  padding-left: 1rem;
+  padding-bottom: 1.38rem;
+  background-color: #ff7648;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 9.31rem;
+  height: 7.44rem;
+}
+.group_3 {
+  margin-top: -5.38rem;
+}
+.image_5 {
+  margin-top: 6.5rem;
+  width: 1.5rem;
+  height: 1.19rem;
+}
+.image-wrapper_2 {
+  padding: 6.75rem 0 1.63rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=9afaa2c53ac4779865d4a10ee197e970.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 7.63rem;
+  height: 9.13rem;
+}
+.image_6 {
+  width: 0.25rem;
+  height: 0.75rem;
+}
+.image_7 {
+  margin-left: 3.06rem;
+}
+.font_3 {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 1.06rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.text_3 {
+  line-height: 0.8rem;
+}
+.equal-division-item_2 {
+  padding-left: 1rem;
+  padding-bottom: 1.13rem;
+  background-color: #8f98ff;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 9.25rem;
+  height: 7.44rem;
+}
+.group_2 {
+  margin-top: -6.81rem;
+}
+.image_3 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.image_4 {
+  margin-top: 7.81rem;
+}
+.image-wrapper {
+  padding: 8.19rem 0 1.44rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=6b8cd5a7bc5bf18c92d9cb9333a9c23f.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 10.56rem;
+  height: 10.38rem;
+}
+.image_8 {
+  margin-left: 4.44rem;
+}
+.text_4 {
+  line-height: 1.01rem;
+}
+.section_3 {
+  background-color: #ffc278;
+  border-radius: 1rem 0 0 1rem;
+  width: 3.5rem;
+  height: 7.44rem;
+}
+.pos_3 {
+  position: absolute;
+  right: -2.38rem;
+  top: 0;
+}
+.group_6 {
+  margin-bottom: -3.13rem;
+  width: 19.94rem;
+}
+.text_5 {
+  line-height: 1.12rem;
+}
+.text_6 {
+  margin-top: 1rem;
+  line-height: 0.65rem;
+}
+.section_4 {
+  margin-top: 1.38rem;
+  padding-left: 1.25rem;
+  padding-bottom: 2.44rem;
+  background-color: #4dc591;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 8.56rem;
+}
+.group_5 {
+  margin-top: -5.81rem;
+}
+.group_7 {
+  margin-top: 7.38rem;
+  flex: 1 1 10.38rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  color: #ffffff;
+}
+.text_7 {
+  line-height: 0.79rem;
+}
+.image-wrapper_3 {
+  margin-right: -4.13rem;
+  padding: 7.13rem 0 1.75rem;
+  flex: 1 1 10.38rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=7df5ae382ddbd503c9b6f6bde8255f0e.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 10.38rem;
+}
+.image_9 {
+  margin-left: 3.94rem;
+}
+.image_10 {
+  width: 1rem;
+  height: 1rem;
+}
+.text_8 {
+  line-height: 0.56rem;
+}
+.group_8 {
+  padding-left: 2.44rem;
+  padding-right: 2.25rem;
+}
+.image_11 {
+  width: 1.13rem;
+  height: 1.94rem;
+}
+.equal-division {
+  align-self: flex-start;
+}
+.equal-division-item_3 {
+  opacity: 0.8;
+  width: 1.23rem;
+  height: 1.25rem;
+}

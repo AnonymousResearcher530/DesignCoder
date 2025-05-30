@@ -1,0 +1,91 @@
+.page {
+  padding: 1.32rem 1.88rem 3.31rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 1.25rem 0;
+}
+.image {
+  width: 2rem;
+  height: 2rem;
+}
+.image-wrapper {
+  margin-top: 1.38rem;
+  padding: 0.57rem 0 0.5rem;
+  border-radius: 50%;
+  width: 19rem;
+  border: solid 0.19rem #73ced4;
+}
+.image_2 {
+  width: 17.56rem;
+  height: 17.56rem;
+}
+.text {
+  margin-top: 2.14rem;
+  color: #000000;
+  font-size: 2rem;
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 1.85rem;
+}
+.section_2 {
+  margin-left: 0.81rem;
+  margin-top: 2.76rem;
+  padding-top: 2.59rem;
+  background-image: linear-gradient(140.6deg, #51e8f152 1.8%, #31bac23d 90.7%);
+  border-radius: 1.25rem;
+  border-image-slice: 1;
+  backdrop-filter: blur(1.25rem);
+  height: 21.38rem;
+  border: solid 0.063rem #ffffff4d;
+}
+.text_2 {
+  color: #000000;
+  font-size: 1.44rem;
+  font-family: Lato;
+  line-height: 1.75rem;
+  word-break: break-all;
+  width: 14.75rem;
+}
+.group_2 {
+  margin-left: -0.38rem;
+  margin-top: -1.66rem;
+  padding-bottom: 0.94rem;
+  width: 21.13rem;
+}
+.section_3 {
+  margin-left: 11.44rem;
+  padding: 13.62rem 0.75rem 0.19rem 0.75rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=f4dd78786c6aebff41ceefff57d5fc38.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.text_3 {
+  margin-right: 1.23rem;
+  color: #000000;
+  font-size: 0.69rem;
+  font-family: Lato;
+  line-height: 0.51rem;
+}
+.image_5 {
+  margin-left: 4.19rem;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.image_4 {
+  width: 1.31rem;
+  height: 1.38rem;
+}
+.image_3 {
+  width: 14.06rem;
+  height: 15.25rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

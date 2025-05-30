@@ -1,0 +1,26 @@
+.page {
+  background-color: #ffffff;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=7432b2ec2abae9f1960c5e17dbe15716.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=7432b2ec2abae9f1960c5e17dbe15716.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 23.44rem;
+  height: 41.69rem;
+}
+.image {
+  width: 1.5rem;
+  height: 1.56rem;
+}
+.pos {
+  position: absolute;
+  right: 0.75rem;
+  top: 1.81rem;
+}

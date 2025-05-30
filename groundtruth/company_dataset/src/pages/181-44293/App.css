@@ -1,0 +1,131 @@
+.page {
+  padding-bottom: 8.25rem;
+  background-color: #f0f0f0;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 4.25rem 0.94rem 0.63rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=1def83b02dfaa7c3be4b4713f2585c31.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.group {
+  padding: 0 0.63rem;
+}
+.image_2 {
+  margin-top: 0.31rem;
+  width: 5.81rem;
+  height: 5.06rem;
+}
+.group_2 {
+  margin-right: 1.13rem;
+}
+.image {
+  width: 6.06rem;
+  height: 5.31rem;
+}
+.section_2 {
+  background-color: #ff943e;
+  width: 5.94rem;
+  height: 5.31rem;
+}
+.pos {
+  position: absolute;
+  right: 0.53rem;
+  top: 0;
+}
+.text {
+  color: #ffffff;
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.75rem;
+}
+.pos_3 {
+  position: absolute;
+  right: 0;
+  bottom: 0.37rem;
+}
+.image_3 {
+  border-radius: 1.25rem;
+  width: 2.94rem;
+  height: 2.94rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 0.22rem;
+  top: 0.5rem;
+}
+.image-wrapper {
+  width: 5.63rem;
+}
+.view {
+  margin-top: 0.31rem;
+}
+.image_6 {
+  width: 4.81rem;
+  height: 5.31rem;
+}
+.image_4 {
+  width: 5.25rem;
+  height: 5.5rem;
+}
+.image_5 {
+  width: 5.63rem;
+  height: 5.56rem;
+}
+.group_3 {
+  margin-top: 0.94rem;
+  padding-top: 0.75rem;
+}
+.image_7 {
+  width: 5.56rem;
+  height: 5.5rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image_8 {
+  width: 5.5rem;
+  height: 4.94rem;
+}
+.image_9 {
+  width: 4.5rem;
+  height: 4.38rem;
+}
+.pos_5 {
+  position: absolute;
+  right: 0.38rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.group_4 {
+  margin-top: 1.38rem;
+}
+.image-wrapper_2 {
+  flex: 1 1 5.81rem;
+}
+.image_10 {
+  width: 5.81rem;
+  height: 5.81rem;
+}
+.image-wrapper_4 {
+  flex: 1 1 5.81rem;
+}
+.image_12 {
+  width: 3.81rem;
+  height: 4.38rem;
+}
+.image-wrapper_3 {
+  margin-right: 0.13rem;
+  flex: 1 1 5.81rem;
+}
+.image_11 {
+  width: 5.25rem;
+  height: 5.75rem;
+}

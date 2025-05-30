@@ -1,0 +1,121 @@
+.ml-33 {
+  margin-left: 2.06rem;
+}
+.mt-127 {
+  margin-top: 7.94rem;
+}
+.mt-105 {
+  margin-top: 6.56rem;
+}
+.mt-126 {
+  margin-top: 7.88rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.page {
+  padding: 3.88rem 0.38rem 3.88rem 1rem;
+  background-color: #f2f4f9;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 0.44rem;
+  height: 0.94rem;
+}
+.section {
+  background-color: #dce0e8;
+  border-radius: 0.13rem;
+  height: 0.5rem;
+}
+.section_2 {
+  background-color: #242d49;
+  border-radius: 0.13rem;
+  width: 5.59rem;
+  height: 0.5rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.01rem;
+  line-height: 0.77rem;
+  font-weight: 600;
+  color: #5d6985;
+}
+.text {
+  color: #242d49;
+  line-height: 0.96rem;
+}
+.text_2 {
+  margin-top: 4.5rem;
+  color: #242d49;
+  font-size: 1.88rem;
+  font-family: Plus Jakarta Sans;
+  font-weight: 800;
+  line-height: 2.38rem;
+  letter-spacing: -0.019rem;
+  width: 16.88rem;
+}
+.grid {
+  margin-right: 0.63rem;
+  margin-top: 1.75rem;
+  height: 25.38rem;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 1.06rem;
+  column-gap: 1.06rem;
+}
+.grid-item {
+  padding: 0.88rem 0.81rem 1.13rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+}
+.image_2 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.text_4 {
+  margin-left: 0.25rem;
+}
+.grid-item_2 {
+  padding: 0.88rem;
+  background-color: #fa4d5e;
+  border-radius: 1rem;
+  filter: drop-shadow(0rem 0rem 0rem #fa4d5e40);
+  overflow: hidden;
+  height: 12.19rem;
+}
+.text_3 {
+  color: #ffffff;
+  line-height: 1.19rem;
+}
+.grid-item_3 {
+  padding: 0.88rem 0.88rem 1.13rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+}
+.text_5 {
+  margin-left: 0.13rem;
+}
+.section_3 {
+  margin-right: 0.63rem;
+  margin-top: 2rem;
+  padding: 1.38rem 0;
+  background-color: #0f66fe;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.text_6 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.image_3 {
+  width: 1.13rem;
+  height: 0.75rem;
+}

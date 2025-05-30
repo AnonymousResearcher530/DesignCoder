@@ -1,0 +1,115 @@
+.mt-19 {
+  margin-top: 1.19rem;
+}
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.ml-21 {
+  margin-left: 1.31rem;
+}
+.page {
+  padding-bottom: 9.75rem;
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.63rem 1.94rem 2rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image {
+  width: 0.63rem;
+  height: 1rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  font-weight: 600;
+  color: #ffffff;
+}
+.image-wrapper {
+  padding: 4.75rem 0 0.38rem;
+  border-radius: 5.88rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=7ffbe60b2603eb89616929c23a756d57.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.81rem;
+  height: 6.81rem;
+}
+.image_2 {
+  margin-right: 0.25rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: League Spartan;
+  line-height: 1.12rem;
+  color: #ffffff;
+}
+.text_4 {
+  margin-top: 0.38rem;
+  line-height: 1.06rem;
+}
+.text_5 {
+  margin-top: -0.25rem;
+  line-height: 1.06rem;
+}
+.group {
+  padding: 0 1.88rem;
+}
+.image_3 {
+  width: 2.56rem;
+  height: 2.56rem;
+}
+.font_3 {
+  font-size: 1.25rem;
+  font-family: League Spartan;
+  line-height: 0.85rem;
+  color: #000000;
+}
+.image_4 {
+  width: 0.5rem;
+  height: 0.88rem;
+}
+.font_4 {
+  font-size: 1.25rem;
+  font-family: League Spartan;
+  line-height: 1.12rem;
+  color: #000000;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_6 {
+  line-height: 0.89rem;
+}
+.text_3 {
+  margin-left: 0.13rem;
+  line-height: 1.01rem;
+}
+.text_2 {
+  margin-right: 5.63rem;
+  line-height: 1.36rem;
+}
+.image_5 {
+  margin-top: 0.63rem;
+}
+.text_7 {
+  line-height: 1.11rem;
+}
+.image_6 {
+  margin-top: 0.63rem;
+}
+.image_7 {
+  margin-top: 0.5rem;
+}
+.text_8 {
+  line-height: 1.1rem;
+}

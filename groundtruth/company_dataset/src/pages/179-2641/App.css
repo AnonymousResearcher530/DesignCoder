@@ -1,0 +1,67 @@
+.page {
+  background-color: #ffffff;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=0fc2270a2403d579e3c2fff07d100238.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=0fc2270a2403d579e3c2fff07d100238.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 23.44rem;
+  height: 41.69rem;
+}
+.image_2 {
+  width: 98.5333vw;
+  height: 13.2vw;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  right: 0.34rem;
+  bottom: 0.63rem;
+}
+.section_2 {
+  padding: 0.63rem 1rem;
+  background-color: #000000bf;
+  border-radius: 0.13rem;
+}
+.pos {
+  position: absolute;
+  left: 0.38rem;
+  right: 0.38rem;
+  top: 37.13rem;
+}
+.image_3 {
+  margin-top: 0.25rem;
+  width: 0.63rem;
+  height: 0.63rem;
+}
+.image {
+  margin-left: 1rem;
+  width: 2.19rem;
+  height: 2.19rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Arial;
+  color: #ffffff;
+}
+.text {
+  margin-left: 0.5rem;
+  line-height: 1.13rem;
+}
+.text-wrapper {
+  padding: 0.31rem 0 0.56rem;
+  background-color: #ffffff4d;
+  border-radius: 0.063rem;
+  width: 4.5rem;
+  height: 1.69rem;
+}
+.text_2 {
+  line-height: 0.81rem;
+}

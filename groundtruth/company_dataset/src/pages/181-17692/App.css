@@ -1,0 +1,270 @@
+.ml-3-5 {
+  margin-left: 0.22rem;
+}
+.ml-106-5 {
+  margin-left: 6.66rem;
+}
+.ml-1-5 {
+  margin-left: 0.094rem;
+}
+.ml-23-5 {
+  margin-left: 1.47rem;
+}
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.mt-6-5 {
+  margin-top: 0.41rem;
+}
+.mt-31 {
+  margin-top: 1.94rem;
+}
+.ml-31 {
+  margin-left: 1.94rem;
+}
+.mt-5-5 {
+  margin-top: 0.34rem;
+}
+.page {
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 0.19rem 0.34rem 0.75rem 0.44rem;
+  overflow: hidden;
+  background-color: #ff452b;
+}
+.image_4 {
+  width: 2.09rem;
+  height: 0.34rem;
+}
+.image {
+  width: 3rem;
+  height: 0.94rem;
+}
+.image_2 {
+  width: 0.81rem;
+  height: 0.56rem;
+}
+.group {
+  padding: 0.15rem 0 0.32rem;
+  overflow: hidden;
+  width: 10.21rem;
+  height: 1.06rem;
+}
+.group_2 {
+  line-height: 0.55rem;
+  height: 0.55rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.55rem;
+  color: #ffffff;
+}
+.text {
+  line-height: 0.54rem;
+}
+.text_2 {
+  line-height: 0.57rem;
+}
+.image_3 {
+  width: 1.53rem;
+  height: 0.59rem;
+}
+.group_3 {
+  padding: 0 0.38rem 0.23rem;
+}
+.image_5 {
+  width: 0.66rem;
+  height: 1.19rem;
+}
+.pos {
+  position: absolute;
+  left: 0.38rem;
+  bottom: 0;
+}
+.text_3 {
+  color: #ffffff;
+  font-size: 1.38rem;
+  font-family: Arial;
+  line-height: 1.27rem;
+  letter-spacing: 0.094rem;
+}
+.section_2 {
+  padding: 0.5rem 0.67rem 1.15rem;
+  background-color: #ff452b;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Arial;
+  line-height: 0.72rem;
+  color: #ff5000;
+}
+.text_4 {
+  color: #ffffff;
+  line-height: 0.93rem;
+}
+.font_3 {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.77rem;
+  color: #ff6c27;
+}
+.font_4 {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.72rem;
+  color: #ffffff;
+}
+.text_5 {
+  opacity: 0.8;
+}
+.text_6 {
+  color: #ffffff;
+  line-height: 0.75rem;
+}
+.text_7 {
+  line-height: 0.74rem;
+}
+.text_8 {
+  line-height: 0.74rem;
+}
+.text_9 {
+  margin-right: 0.67rem;
+  line-height: 0.74rem;
+}
+.group_4 {
+  padding: 0.63rem 0.56rem 1.09rem;
+}
+.section_3 {
+  margin-right: 0.13rem;
+  padding: 0.69rem 0.63rem 0.69rem 0.63rem;
+  background-color: #ffffff;
+}
+.text_10 {
+  color: #ff452b;
+  font-size: 0.88rem;
+  font-family: Arial;
+  line-height: 0.82rem;
+}
+.group_5 {
+  overflow: hidden;
+  width: 5.88rem;
+  height: 1.13rem;
+}
+.text_11 {
+  color: #4a494a;
+  line-height: 0.69rem;
+}
+.group_6 {
+  margin-bottom: -0.54rem;
+  padding-bottom: 0.6rem;
+}
+.section_4 {
+  padding: 0.29rem 0.15rem 0.27rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=8c2e7c68b733d32f6dddc4f2c02b1408.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 4.03rem;
+}
+.font_5 {
+  font-size: 0.69rem;
+  font-family: Arial;
+  line-height: 0.5rem;
+  color: #ffffff;
+}
+.text_12 {
+  line-height: 0.69rem;
+  word-break: break-all;
+  width: 0.34rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 1.65rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.list-item {
+  margin-right: 0.13rem;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.section_5 {
+  padding: 0.53rem 0.44rem 0.5rem 2.97rem;
+  background-color: #ffffff;
+}
+.image_6 {
+  width: 4.59rem;
+  height: 8.34rem;
+}
+.group_7 {
+  overflow: hidden;
+  width: 11.5rem;
+  height: 7.28rem;
+}
+.group_8 {
+  margin-left: 0.12rem;
+  margin-right: 0.79rem;
+}
+.font_6 {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 1.13rem;
+  color: #3b3b51;
+}
+.group_9 {
+  margin-right: 0.53rem;
+}
+.group_10 {
+  margin-bottom: 0.12rem;
+}
+.group_11 {
+  line-height: 0.82rem;
+}
+.font_7 {
+  font-size: 1.13rem;
+  font-family: Arial;
+  line-height: 0.82rem;
+  color: #ff5000;
+}
+.text_13 {
+  margin-left: 0.44rem;
+}
+.font_9 {
+  font-size: 0.63rem;
+  font-family: Arial;
+  line-height: 0.46rem;
+  color: #767676;
+}
+.text_14 {
+  margin-left: 0.24rem;
+  margin-top: 0.5rem;
+}
+.section_6 {
+  background-color: #9b9a9b;
+  width: 2rem;
+  height: 0.037rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 0;
+  top: 1.54rem;
+}
+.text-wrapper_1 {
+  padding: 0.21rem 0 0.47rem;
+  background-color: #ff452b;
+  border-radius: 0.31rem;
+  width: 4.56rem;
+  height: 1.72rem;
+}
+.font_8 {
+  font-size: 1.13rem;
+  font-family: Arial;
+  line-height: 1.03rem;
+  color: #ffffff;
+}

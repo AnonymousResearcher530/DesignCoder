@@ -1,0 +1,100 @@
+.ml-43 {
+  margin-left: 2.69rem;
+}
+.page {
+  padding: 3.46rem 0 1.53rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.text {
+  color: #181725;
+  font-size: 1.25rem;
+  font-family: Gilroy-Bold;
+  line-height: 0.92rem;
+}
+.list {
+  margin-top: 2.12rem;
+  border-top: solid 0.063rem #e2e2e2;
+}
+.group {
+  padding: 1.88rem 1.61rem 1.8rem 2.04rem;
+}
+.image {
+  width: 1.94rem;
+  height: 3.44rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Gilroy-Bold;
+  line-height: 0.9rem;
+  color: #181725;
+}
+.text_2 {
+  line-height: 0.92rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Gilroy-Medium;
+  line-height: 0.76rem;
+  color: #7c7c7c;
+}
+.group_2 {
+  margin-top: 1.07rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Gilroy;
+  line-height: 0.9rem;
+  font-weight: 600;
+  color: #181725;
+}
+.image_2 {
+  width: 0.5rem;
+  height: 0.88rem;
+}
+.group_10 {
+  margin-top: 3.25rem;
+}
+.text-wrapper {
+  margin-left: 1.56rem;
+  margin-right: 1.57rem;
+  padding: 1.71rem 0 1.64rem;
+  background-color: #53b175;
+  border-radius: 1.19rem;
+}
+.text_8 {
+  color: #fcfcfc;
+  font-size: 1.13rem;
+  font-family: Gilroy;
+  font-weight: 600;
+  line-height: 0.84rem;
+}
+.section {
+  padding: 1.16rem 1.94rem 2.17rem;
+  background-color: #ffffff;
+  border-radius: 0.94rem 0.94rem 0rem 0rem;
+  box-shadow: 0rem -0.75rem 2.31rem #e6eaf380;
+}
+.image_7 {
+  width: 1.75rem;
+  height: 2.44rem;
+}
+.image_8 {
+  width: 2.5rem;
+  height: 2.31rem;
+}
+.image_9 {
+  width: 1.5rem;
+  height: 2.25rem;
+}
+.image_10 {
+  width: 3.19rem;
+  height: 2.25rem;
+}
+.image_11 {
+  width: 2.81rem;
+  height: 2.25rem;
+}

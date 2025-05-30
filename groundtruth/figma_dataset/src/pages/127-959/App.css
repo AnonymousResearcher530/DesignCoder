@@ -1,0 +1,259 @@
+.ml-19 {
+  margin-left: 1.19rem;
+}
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.ml-15 {
+  margin-left: 0.94rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.mt-7 {
+  margin-top: 0.44rem;
+}
+.mt-11 {
+  margin-top: 0.69rem;
+}
+.page {
+  padding-top: 3.25rem;
+  background-color: #f9fafc;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  margin-left: 1.58rem;
+  margin-right: 1.44rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Eina03-SemiBold;
+}
+.text_3 {
+  margin-left: 0.099rem;
+  color: #222222;
+  line-height: 0.96rem;
+}
+.image_2 {
+  width: 1.06rem;
+  height: 1.38rem;
+}
+.image {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.group_1 {
+  margin-left: 1.56rem;
+  margin-top: 1.88rem;
+}
+.section_2 {
+  background-color: #031a6e;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.31rem 1.88rem #0000000d;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5beb330fa2b7b559078809f17dac5f77.png');
+  background-position: 0% 0%;
+  background-size: 18.69rem 10.75rem;
+  background-repeat: no-repeat;
+  height: 10.75rem;
+}
+.section_3 {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5beb330fa2b7b559078809f17dac5f77.png');
+  background-position: 0% 0%;
+  background-size: 18.69rem 10.75rem;
+  background-repeat: no-repeat;
+  height: 10.75rem;
+}
+.text_5 {
+  color: #ffffff;
+  line-height: 0.76rem;
+}
+.pos {
+  position: absolute;
+  left: 1.08rem;
+  top: 2.19rem;
+}
+.image_3 {
+  width: 1.13rem;
+  height: 0.25rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 1rem;
+  top: 2.25rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Eina03-Regular;
+  line-height: 0.7rem;
+  color: #ffffff;
+}
+.text_7 {
+  font-size: 0.69rem;
+  line-height: 0.66rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 1.01rem;
+  top: 3.67rem;
+}
+.font_5 {
+  font-size: 1.5rem;
+  font-family: Eina03-SemiBold;
+  line-height: 1.45rem;
+}
+.text_9 {
+  color: #ffffff;
+}
+.pos_4 {
+  position: absolute;
+  left: 1.07rem;
+  bottom: 2.68rem;
+}
+.text_11 {
+  font-size: 0.69rem;
+  line-height: 0.66rem;
+}
+.pos_6 {
+  position: absolute;
+  left: 1.09rem;
+  bottom: 1.29rem;
+}
+.image_4 {
+  width: 3.75rem;
+  height: 1rem;
+}
+.pos_5 {
+  position: absolute;
+  right: 1rem;
+  bottom: 1.38rem;
+}
+.section_4 {
+  margin-right: -8.63rem;
+  padding: 1.28rem 0 1.29rem 1.01rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem 0 0 0.5rem;
+  box-shadow: 0rem 0.31rem 1.88rem #0000001a;
+  height: 9.88rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Eina03-SemiBold;
+  line-height: 0.7rem;
+  color: #222222;
+}
+.text_4 {
+  margin-left: 0.081rem;
+  line-height: 0.67rem;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Eina03-Regular;
+  line-height: 0.7rem;
+  color: #222222;
+}
+.text_8 {
+  color: #031a6e;
+}
+.text_10 {
+  font-size: 0.69rem;
+  line-height: 0.66rem;
+  opacity: 0.7;
+}
+.group_2 {
+  margin-left: 8.81rem;
+}
+.section_5 {
+  background-color: #031a6e;
+  border-radius: 0.63rem;
+  height: 0.31rem;
+}
+.image_5 {
+  width: 0.94rem;
+  height: 0.31rem;
+}
+.group_3 {
+  margin-top: 1.5rem;
+  padding: 0 1.47rem 1.5rem 1.5rem;
+}
+.group_4 {
+  padding: 1.65rem 0 1.36rem 0.074rem;
+}
+.text_12 {
+  color: #000000;
+  line-height: 0.67rem;
+}
+.text_13 {
+  color: #031a6e;
+  line-height: 0.67rem;
+}
+.list {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 2.5rem #0000000d;
+}
+.list-item {
+  padding: 1.13rem 0.8rem 1.13rem 1rem;
+}
+.image_6 {
+  border-radius: 0.38rem;
+  width: 2.38rem;
+  height: 2.38rem;
+}
+.font_6 {
+  font-size: 0.88rem;
+  font-family: Eina03-SemiBold;
+  line-height: 0.84rem;
+  color: #222222;
+}
+.text_14 {
+  line-height: 0.84rem;
+}
+.font_7 {
+  font-size: 0.88rem;
+  font-family: Eina03-SemiBold;
+  line-height: 0.84rem;
+  color: #e6492d;
+}
+.text {
+  opacity: 0.4;
+}
+.text_15 {
+  line-height: 0.72rem;
+}
+.text_6 {
+  font-size: 0.69rem;
+  line-height: 0.66rem;
+}
+.text_2 {
+  color: #222222;
+  font-size: 0.81rem;
+  font-family: Eina03-Regular;
+  line-height: 0.7rem;
+}
+.section_6 {
+  padding: 1.56rem 0 1.56rem;
+  background-color: #ffffff;
+  box-shadow: 0rem -0.13rem 1.88rem #00000012;
+}
+.equal-division-item {
+  border-radius: 0.063rem;
+  width: 1rem;
+  height: 1.13rem;
+}
+.equal-division-item_2 {
+  border-radius: 0.13rem;
+  width: 1.06rem;
+  height: 1.13rem;
+}
+.equal-division-item_3 {
+  width: 1.31rem;
+  height: 0.94rem;
+}
+.equal-division-item_4 {
+  border-radius: 0.13rem;
+  width: 1.13rem;
+  height: 1.13rem;
+}

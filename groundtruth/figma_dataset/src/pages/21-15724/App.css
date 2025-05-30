@@ -1,0 +1,56 @@
+.page {
+  padding: 2.69rem 0 5.88rem;
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 100vw;
+  height: 97.5vw;
+}
+.text {
+  margin-top: 2.13rem;
+  color: #13cad6;
+  font-size: 2rem;
+  font-family: League Spartan;
+  line-height: 2.38rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.text_2 {
+  margin-top: 2rem;
+  color: #252525;
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  font-weight: 300;
+  line-height: 0.94rem;
+  text-align: center;
+  width: 15.19rem;
+}
+.image_2 {
+  margin-top: 2.5rem;
+  width: 2.19rem;
+  height: 0.56rem;
+}
+.text-wrapper {
+  margin-top: 2.44rem;
+  padding: 0.75rem 0 0.88rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  border-radius: 6.25rem;
+  border-image-slice: 1;
+  overflow: hidden;
+  width: 12.88rem;
+  border-left: solid 0.063rem #33e4db;
+  border-right: solid 0.063rem #33e4db;
+  border-top: solid 0.063rem #33e4db;
+  border-bottom: solid 0.063rem #33e4db;
+}
+.text_3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  line-height: 1.05rem;
+}

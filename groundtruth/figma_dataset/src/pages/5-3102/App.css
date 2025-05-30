@@ -1,0 +1,63 @@
+.mt-29 {
+  margin-top: 1.81rem;
+}
+.page {
+  padding: 8.56rem 1rem 2.63rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 12.5rem;
+  height: 14.5rem;
+}
+.image_2 {
+  margin-top: 1.88rem;
+  width: 3.13rem;
+  height: 0.63rem;
+}
+.group {
+  margin-top: 2.5rem;
+  width: 17.88rem;
+}
+.text {
+  color: #491b6d;
+  font-size: 1.13rem;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 0.91rem;
+}
+.text_2 {
+  color: #000000;
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 1.25rem;
+  text-align: center;
+  word-break: break-all;
+}
+.group_2 {
+  margin-top: 2.75rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 0.75rem;
+}
+.text_3 {
+  color: #491b6d;
+  font-weight: 700;
+}
+.text-wrapper {
+  padding: 1.25rem 0;
+  background-color: #491b6d;
+  border-radius: 0.31rem;
+  width: 9.38rem;
+  height: 3.13rem;
+}
+.text_4 {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 0.75rem;
+}

@@ -1,0 +1,148 @@
+.mt-13 {
+  margin-top: 0.81rem;
+}
+.mt-11 {
+  margin-top: 0.69rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.page {
+  padding-bottom: 5.74rem;
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.section_2 {
+  padding: 3.63rem 1.88rem 1.23rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+}
+.image {
+  width: 0.63rem;
+  height: 1rem;
+}
+.pos {
+  position: absolute;
+  left: 1.88rem;
+  bottom: 1.44rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  line-height: 1.32rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.group_1 {
+  width: 18.77rem;
+}
+.group {
+  margin-right: 0.12rem;
+}
+.font_2 {
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  line-height: 0.88rem;
+  font-weight: 300;
+  color: #252525;
+}
+.text_3 {
+  line-height: 0.94rem;
+}
+.view {
+  margin-top: 4.5rem;
+}
+.font_3 {
+  font-size: 1.25rem;
+  font-family: League Spartan;
+  line-height: 0.88rem;
+  color: #252525;
+}
+.text_11 {
+  margin-left: 0.064rem;
+}
+.text-wrapper {
+  margin-right: 0.14rem;
+  padding: 0.83rem 0 0.86rem;
+  background-color: #e9f6fe;
+  border-radius: 0.81rem;
+  width: 18.63rem;
+}
+.font_4 {
+  font-size: 1.25rem;
+  font-family: League Spartan;
+  color: #13cad6;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_2 {
+  color: #13cad6;
+  line-height: 1.05rem;
+}
+.text_4 {
+  margin-left: 0.97rem;
+  line-height: 1.12rem;
+  text-transform: lowercase;
+}
+.text_1 {
+  margin-left: 0.069rem;
+}
+.section_3 {
+  margin-right: 0.14rem;
+  padding: 0.84rem 0.59rem 0.91rem 0.96rem;
+  background-color: #e9f6fe;
+  border-radius: 0.81rem;
+}
+.text_5 {
+  line-height: 0.33rem;
+}
+.image_2 {
+  width: 1.31rem;
+  height: 1.06rem;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  color: #13cad6;
+}
+.text_6 {
+  line-height: 0.68rem;
+}
+.text-wrapper_2 {
+  margin-top: 2.46rem;
+  padding: 0.79rem 0 0.58rem;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  border-radius: 6.25rem;
+  border-image-slice: 1;
+  overflow: hidden;
+  width: 11.94rem;
+  border: solid 0.063rem #33e4db;
+}
+.group_3 {
+  margin-top: 3.73rem;
+}
+.text_7 {
+  line-height: 0.68rem;
+}
+.image_3 {
+  flex: 1 1 2.56rem;
+}
+.equal-division-item {
+  height: 2.56rem;
+}
+.group_4 {
+  margin-top: 2.27rem;
+  line-height: 0.88rem;
+  text-align: center;
+  width: 9.58rem;
+}
+.text_8 {
+  line-height: 0.88rem;
+}

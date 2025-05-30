@@ -1,0 +1,111 @@
+.page {
+  background-color: #ffffff;
+  border-radius: 1.56rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=950270cf1e4525287c13bc1301e2e224.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=950270cf1e4525287c13bc1301e2e224.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 26.75rem;
+  height: 57.88rem;
+}
+.group {
+  width: 21.81rem;
+}
+.pos {
+  position: absolute;
+  left: 50%;
+  top: 3.94rem;
+  transform: translateX(-50%);
+}
+.image {
+  width: 10.94rem;
+  height: 1.63rem;
+}
+.image_3 {
+  margin-left: 4.98rem;
+  width: 1.19rem;
+  height: 1.19rem;
+}
+.image_2 {
+  margin-left: 0.9rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.image_4 {
+  margin-left: 0.94rem;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.section_2 {
+  padding: 5.56rem 0 1.13rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=e3c6907b9483e1b3193f55b4eaf4804b.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pos_5 {
+  position: absolute;
+  left: 1.81rem;
+  right: 1.81rem;
+  top: 8.19rem;
+}
+.section_3 {
+  background-color: #000000;
+  width: 0.063rem;
+  height: 1rem;
+}
+.view {
+  margin-left: 9.06rem;
+}
+.image_5 {
+  width: 23.13rem;
+  height: 6.88rem;
+}
+.pos_6 {
+  position: absolute;
+  left: 50%;
+  top: 18.38rem;
+  transform: translateX(-50%);
+}
+.image_6 {
+  width: 23.13rem;
+  height: 22.56rem;
+}
+.pos_7 {
+  position: absolute;
+  left: 50%;
+  bottom: 7.56rem;
+  transform: translateX(-50%);
+}
+.image_7 {
+  width: 23rem;
+  height: 21.69rem;
+}
+.pos_8 {
+  position: absolute;
+  left: 50%;
+  bottom: -14.75rem;
+  transform: translateX(-50%);
+}
+.image-wrapper {
+  padding: 0.75rem 0 0.75rem;
+  filter: drop-shadow(0.19rem 0rem 0.47rem #0000001f);
+  background-color: #ffffff;
+}
+.pos_9 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 53.63rem;
+}
+.image_8 {
+  width: 22.88rem;
+  height: 2.75rem;
+}

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Segmentation Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional styles for tabs */
+        .hidden {
+            display: none;
+        }
+
+        .active-tab {
+            background-color: #E5E7EB;
+            /* Tailwind's gray-200 */
+            border-color: transparent;
+        }
+
+        .inactive-tab {
+            background-color: #F3F4F6;
+            /* Tailwind's gray-100 */
+            border-color: #E5E7EB;
+            /* Tailwind's gray-200 */
+        }
+
+        /* Custom styles for image display */
+        .image-preview {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .sidebar-open {
+            transform: translateX(0%);
+        }
+
+        .loading-wrapper {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .loading {
+            display: none; /* Initially hidden */
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        #eta-display {
+            position: relative;
+            top: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+        .bounding-box {
+            position: absolute;
+            border: 2px solid blue;
+            transition: background-color 0.3s ease;
+            z-index: 10; /* Ensure the bounding box is above the image */
+            cursor: pointer; /* Change cursor to indicate clickable area */
+        }
+
+        .bounding-box:hover {
+            background-color: rgba(0, 0, 255, 0.2);
+        }
+        .bounding-box:active {
+            background-color: rgba(0, 0, 255, 0.4);
+        }
+        .bounding-box-clicked {
+            background-color: rgba(0, 0, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+    <div class="flex flex-col min-h-screen">
+        <div class="flex flex-grow h-full relative min-w-80">
+            <!-- Left Panel -->
+            <div class="w-1/2 bg-gray-100 p-4 border border-gray-300 rounded-md relative flex flex-col">
+                <!-- Left Tabs -->
+                <div class="flex justify-start mb-4">
+                    <button id="image-tab" class="px-4 py-2 font-semibold text-sm text-gray-700 bg-gray-300 active-tab rounded-tl-lg hover:bg-gray-400 focus:outline-none" onclick="showPanel('image')">Image</button>
+                    <button id="segmentation-tab" class="px-4 py-2 font-semibold text-sm text-gray-700 bg-white border-b-2 inactive-tab hover:bg-gray-100 focus:outline-none" onclick="showPanel('segmentation')">Segmentation</button>
+                    <!-- add some space -->
+                     <label for="depth-level" class="hidden">
+                        <div> Depth Level </div>
+                    </label>
+                    <select class="bg-gray-300 px-4 py-2 rounded focus:outline-none ml-2 hidden" id="depth-level">
+                        <option>Depth Level</option>
+                    </select>
+                </div>
+
+                <div class="absolute top-0 right-0 m-4 flex items-center">
+                    <label for="file-upload" class="cursor-pointer">
+                        <div class="bg-gray-500 text-white font-semibold py-2 px-4 rounded">
+                            Upload
+                        </div>
+                    </label>
+                    <input id="file-upload" type="file" class="hidden" accept="image/*" onchange="displayImage(event)" />
+                    
+                    <button class="bg-white text-blue-500 font-semibold py-2 px-4 mx-2 rounded-lg hover:bg-gray-200 focus:outline-none" id="segmentation-button", onclick="getSegment()">Segment Only</button>
+                    
+                </div>
+
+                <!-- Image Tab Content -->
+                <div id="image-panel" class="panel flex-grow">
+                    <div class="flex flex-col items-center justify-center h-full bg-gray-300 border border-gray-400 rounded-md">
+
+                        <div id="image-display" class="flex items-center justify-center h-full w-full">
+                            <p class="text-center">Upload image here (display image here)</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Segmentation Tab Content -->
+                <div id="segmentation-panel" class="panel hidden flex-grow">
+                    <div class="relative" id="segment-container">
+                        <img src="" alt="Segmentation Image" class="image-preview rounded-md hidden">
+                        <p class="text-center mt-2">Please click "Segment Only" or "Generate Code". The image segments will be displayed here. The segments has bounding boxes. When the mouse moves over each bounding box area of the image, the area will become darker, and it is clickable. When clicking the area, the right-hand side will display the code of this area.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="w-1/2 bg-gray-100 p-4 border border-gray-300 rounded-md flex flex-col">
+                <!-- Right Tabs -->
+                <div class="flex justify-start mb-4">
+                    <button id="code-tab" class="px-4 py-2 font-semibold text-sm text-gray-700 bg-gray-300 active-tab hover:bg-gray-400 focus:outline-none" onclick="showCode()">Code</button>
+                    <button id="result-tab" class="px-4 py-2 font-semibold text-sm text-gray-700 bg-white border-b-2 inactive-tab hover:bg-gray-100 focus:outline-none" onclick="showResult()">Result Web</button>
+                </div>
+
+                <div class="absolute top-0 right-0 m-4">
+                    <button class="bg-blue-500 text-white font-semibold py-2 px-4 mx-2 rounded-lg hover:bg-gray-200 focus:outline-none" onclick="generateCode()">Generate Code</button>
+                    <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded-lg hover:bg-gray-200 focus:outline-none" onclick="toggleSidebar()">Settings</button>
+                </div>
+
+                <!-- Code Panel with Editable Textarea -->
+                <div id="code-panel" class="h-full bg-white border border-gray-400 rounded-md p-4 overflow-auto flex-grow">
+                    <textarea id="html-code" class="w-full h-full p-4 bg-gray-100 border border-gray-300 rounded focus:outline-none" spellcheck="false">
+                        
+                    </textarea>
+                </div>
+
+                <!-- Result Panel -->
+                <div id="result-panel" class="h-full bg-white border border-gray-400 rounded-md p-4 hidden overflow-auto flex-grow">
+                    <iframe id="rendered-result" class="w-full h-full border-none"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar" class="fixed top-0 right-0 w-1/3 h-full bg-white border-l border-gray-300 p-4 shadow-lg sidebar overflow-auto">
+            <h2 class="text-xl font-semibold mb-4">Settings</h2>
+
+            <div>
+                <label class="m-4" for="predefine">Pre-defined Settings</label>
+                <select class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="predefine">
+                    <option>Depth-2 DCGen</option>
+                    <option>Depth-2 DCGen cutout</option>
+                    <option>Direct</option>
+                    <option>Direct cutout</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="m-4" for="algorithm-list">Segmentation algorithm:</label>
+                <select class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="algorithm-list">
+                    <option>Line Detection</option>
+                    <option>Manual</option>
+                    <option>Customize</option>
+                    <!-- Add more options here -->
+                </select>
+            <!-- add a numerical area for line detection depth, default value is 1 -->
+                <div id="seg-depth">
+                    <label class="m-4" for="seg-depth-input">Segmentation depth:</label>
+                    <input type="number" class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="seg-depth-input" value="2">
+                </div>
+            </div>
+            
+            <div>
+                <label class="m-4" for="cutout">Cut out segment:</label>
+                <select class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="cutout">
+                    <option>False</option>
+                    <option>True</option>  
+                </select>
+            </div>
+
+
+            <label class="m-4" for="model-list">Select model:</label>
+            <select class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="model-list">
+                <option>GPT-4o</option>
+                <!-- Add more options here -->
+            </select>
+
+            <div>
+                <label class="m-4 font-bold" for="model-key">API key:</label>
+                <input type="text" class="m-2 bg-gray-300 px-4 py-2 rounded focus:outline-none" id="model-key" placeholder="Enter your API key...">
+            </div>
+            
+            <p class="mb-2 mt-4">Node prompt:</p>
+            <textarea class="w-full h-40 p-2 bg-gray-100 border border-gray-300 rounded focus:outline-none" placeholder="Enter node prompt">Here are 1) a screenshot of a webpage with a red rectangular bounding box , and 2) code of different elements in the bounding box. Utilize the provided code to write a new HTML and tail-wind CSS file to exactly replicate the website in the bounding box, use 'placeholder.png' to replace the images, and put resulting HTML and tail-wind CSS in only one file. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not include the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS file. \n Here is the code of different parts of the webpage in the bounding box:\n=============\n</textarea>
+            <p class="mb-2">Leaf prompt:</p>
+            <textarea class="w-full h-40 p-2 bg-gray-100 border border-gray-300 rounded focus:outline-none" placeholder="Enter leaf prompt">Here is a screenshot of a webpage with a red rectangular bounding box. Focus on the bounding box area and return a single piece of HTML and tail-wind CSS code to reproduce exactly the given area of the website. Use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not inlude the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS code.</textarea>
+            <p class="mb-2">Final prompt:</p>
+            <textarea class="w-full h-40 p-2 bg-gray-100 border border-gray-300 rounded focus:outline-none" placeholder="Enter final prompt">Here are 1) a screenshot of a webpage with a red rectangular bounding box , and 2) code of different elements in the bounding box. Utilize the provided code to write a new HTML and tail-wind CSS file to exactly replicate the website in the bounding box, use 'placeholder.png' to replace the images, and put resulting HTML and tail-wind CSS in only one file. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not include the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS file. \n Here is the code of different parts of the webpage in the bounding box:\n=============\n</textarea>
+
+            <!-- reset button to reset the prompts to default value -->
+            <button class="bg-gray-100 text-blue-500 font-semibold py-2 px-4 rounded-lg hover:bg-gray-200 focus:outline-none mt-4" onclick="resetPrompt()">Reset prompts</button>
+
+        </div>
+    </div>
+
+    <div class="loading-wrapper">
+        <div class="loading" id="loading"></div>
+        <p id="eta-display" class="text-center text-black font-bold mt-4"></p>
+    </div>
+    
+    
+
+    <script>
+
+        // define a global variable to store the bounding boxes
+        var bbox = [];
+        var selectedBoxId = null;
+        const example_url = displayExampleImage();
+        // [{
+        //     "bbox": [0, 0, img.width, img.height],
+        //     "code": result,
+        //     "level": 0
+        // }, ...
+        // ]
+
+        function startLoadingWithEta(minutes) {
+            const etaMinutes = parseInt(minutes);
+            let etaSeconds = Math.max(etaMinutes * 60, 10);
+
+            // Show the loading animation
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('eta-display').style.display = 'block';
+
+            // Function to update the countdown display
+            const updateEtaDisplay = () => {
+                const minutes = Math.floor(etaSeconds / 60);
+                const seconds = etaSeconds % 60;
+                document.getElementById('eta-display').textContent = `ETA: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+                if (etaSeconds > 0) {
+                    etaSeconds--;
+                } else {
+                    clearInterval(etaInterval);
+                }
+            };
+
+            // Start the countdown timer
+            updateEtaDisplay(); // Initial display
+            const etaInterval = setInterval(updateEtaDisplay, 1000); // Update every second
+
+            // Return a function to stop the loading and countdown
+            return () => {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('eta-display').style.display = 'none';
+                clearInterval(etaInterval); // Stop the countdown
+            };
+        }
+
+
+        function showPanel(panel) {
+            const imageTab = document.getElementById('image-tab');
+            const segmentationTab = document.getElementById('segmentation-tab');
+            const imagePanel = document.getElementById('image-panel');
+            const segmentationPanel = document.getElementById('segmentation-panel');
+            // const segmentationButton = document.getElementById('segmentation-button');
+            // const algorithmList = document.getElementById('algorithm-list');
+            const depthLevel = document.getElementById('depth-level');
+
+            if (panel === 'image') {
+                imageTab.classList.add('active-tab');
+                imageTab.classList.remove('inactive-tab');
+                segmentationTab.classList.add('inactive-tab');
+                segmentationTab.classList.remove('active-tab');
+
+                imagePanel.classList.remove('hidden');
+                // segmentationButton.classList.remove('hidden');
+                depthLevel.classList.add('hidden');
+                // algorithmList.classList.remove('hidden');
+                segmentationPanel.classList.add('hidden');
+            } else {
+                segmentationTab.classList.add('active-tab');
+                segmentationTab.classList.remove('inactive-tab');
+                imageTab.classList.add('inactive-tab');
+                imageTab.classList.remove('active-tab');
+
+                segmentationPanel.classList.remove('hidden');
+                depthLevel.classList.remove('hidden');
+                imagePanel.classList.add('hidden');
+
+            }
+        }
+
+        function showCode() {
+            const codeTab = document.getElementById('code-tab');
+            const resultTab = document.getElementById('result-tab');
+            const codePanel = document.getElementById('code-panel');
+            const resultPanel = document.getElementById('result-panel');
+
+            codeTab.classList.add('active-tab');
+            codeTab.classList.remove('inactive-tab');
+            resultTab.classList.add('inactive-tab');
+            resultTab.classList.remove('active-tab');
+
+            codePanel.classList.remove('hidden');
+            resultPanel.classList.add('hidden');
+        }
+
+        function showResult() {
+            const codeTab = document.getElementById('code-tab');
+            const resultTab = document.getElementById('result-tab');
+            const codePanel = document.getElementById('code-panel');
+            const resultPanel = document.getElementById('result-panel');
+            const htmlCode = document.getElementById('html-code').value;
+            const iframe = document.getElementById('rendered-result');
+
+            resultTab.classList.add('active-tab');
+            resultTab.classList.remove('inactive-tab');
+            codeTab.classList.add('inactive-tab');
+            codeTab.classList.remove('active-tab');
+
+            resultPanel.classList.remove('hidden');
+            codePanel.classList.add('hidden');
+
+            // Render the HTML code in the iframe
+            iframe.srcdoc = htmlCode;
+        }
+
+        function resetPrompt(){
+            const node_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[0];
+            const leaf_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[1];
+            const final_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[2];
+
+            node_prompt.value = "Here are 1) a screenshot of a webpage with a red rectangular bounding box , and 2) code of different elements in the bounding box. Utilize the provided code to write a new HTML and tail-wind CSS file to exactly replicate the website in the bounding box, use 'placeholder.png' to replace the images, and put resulting HTML and tail-wind CSS in only one file. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not include the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS file. \n Here is the code of different parts of the webpage in the bounding box:\n=============\n";
+
+            leaf_prompt.value = "Here is a screenshot of a webpage with a red rectangular bounding box. Focus on the bounding box area and return a single piece of HTML and tail-wind CSS code to reproduce exactly the given area of the website. Use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not inlude the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS code.";
+
+            final_prompt.value = "Here are 1) a screenshot of a webpage with a red rectangular bounding box , and 2) code of different elements in the bounding box. Utilize the provided code to write a new HTML and tail-wind CSS file to exactly replicate the website in the bounding box, use 'placeholder.png' to replace the images, and put resulting HTML and tail-wind CSS in only one file. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not include the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS file. \n Here is the code of different parts of the webpage in the bounding box:\n=============\n";
+
+        }
+
+
+
+        async function generateCode(){
+            const depth = document.getElementById('seg-depth-input').value;
+            const img_src = document.getElementById('image-display').getElementsByTagName('img')[0].src;
+            const prompt_node = document.getElementById('sidebar').getElementsByTagName('textarea')[0].value;
+            const prompt_leaf = document.getElementById('sidebar').getElementsByTagName('textarea')[1].value;
+            const prompt_final = document.getElementById('sidebar').getElementsByTagName('textarea')[2].value;
+            const model = document.getElementById('model-list').value;
+            const model_key = document.getElementById('model-key').value;
+            const algo = document.getElementById('algorithm-list').value;
+            const cutout = document.getElementById('cutout').value;
+            if (selectedBoxId) {
+                var selectedBox = bbox[selectedBoxId].bbox;
+               
+            }
+            else {
+                selectedBox = null;
+            }
+
+            const data = {
+                image: img_src,
+                depth: depth,
+                prompt_node: prompt_node,
+                prompt_leaf: prompt_leaf,
+                prompt_final: prompt_final,
+                model: model,
+                model_key: model_key,
+                algo: algo,
+                cutout: cutout,
+                selectedBox: selectedBox
+            };
+
+
+            // send the image to the backend /generate
+            // show some loading animation while waiting for the response
+            // document.getElementById('loading').style.display = 'block';
+            const stopLoading = startLoadingWithEta(parseInt(depth)+1);
+
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+            
+            const result = await response.json();
+            // document.getElementById('loading').style.display = 'none';
+            stopLoading();
+
+            if (result.error) {
+                alert("There is an error in generating the code. Please check your API key or internet connection and try again.");
+            }
+
+            bbox = result.data;
+            var depth_level = result.depth;
+
+            showPanel('segmentation');
+            const depth_box = document.getElementById('depth-level');
+            depth_box.innerHTML = "<option>Depth Level</option>";
+            for (var i = 0; i <= depth_level; i++) {
+                depth_box.innerHTML += "<option>" + i + "</option>";
+            }
+            depth_box.value = "0";
+            displaySegment();
+            refreshBoundingBoxes(bbox);
+            //click the first bounding box
+            if (bbox.length > 0) {
+                document.getElementsByClassName('bounding-box')[0].click();
+                //click the result web tab
+                showResult();
+            }
+            
+        }
+
+        function displaySegment(){
+            const img_src = document.getElementById('image-display').getElementsByTagName('img')[0].src;
+
+            // get the image element
+            var img = document.getElementById('segmentation-panel').getElementsByTagName('img')[0];
+            var discription = document.getElementById('segmentation-panel').getElementsByTagName('p')[0];
+            // clear the previous bounding boxes
+            img.classList.remove('hidden');
+            discription.classList.add('hidden');
+            img.outerHTML = "<img src='" + img_src + "' alt='Segmentation Image' class='image-preview rounded-md'>";
+            img.style.position = "relative";
+            // keep aspect ratio
+            img.style.width = "100%";
+            img.style.display = "block";
+        }
+
+        function refreshBoundingBoxes(bbox_list){
+            // display the bounding boxes on the image
+            // bbox_list is a list of bounding boxes, each bounding box {bbox: Array(4), level: int} contains the bounding box coordinates and the depth level
+            // console.log(bbox_list);
+            selectedBoxId = null;
+            var img = document.getElementById('segmentation-panel').getElementsByTagName('img')[0];
+            const img_scale = img.getBoundingClientRect().width / img.naturalWidth;
+            
+            const existingBox = document.getElementsByClassName('bounding-box');
+            for (var i = existingBox.length - 1; i >= 0 ; i--) {
+                existingBox[i].remove();
+            }
+
+            for (var i = 0; i < bbox_list.length; i++) {
+                if (bbox_list[i].level !== Number(document.getElementById('depth-level').value)) {
+                    continue;
+                }
+
+                const x1 = bbox_list[i].bbox[0] * img_scale;
+                const y1 = bbox_list[i].bbox[1] * img_scale;
+                const x2 = bbox_list[i].bbox[2] * img_scale;
+                const y2 = bbox_list[i].bbox[3] * img_scale;
+                // console.log(x1, y1, x2, y2, img_scale);
+
+                // Create a bounding box div
+                const boundingBox = document.createElement('div');
+                boundingBox.className = 'bounding-box';
+                boundingBox.style.left = `${x1}px`;
+                boundingBox.style.top = `${y1}px`;
+                boundingBox.style.width = `${x2 - x1}px`;
+                boundingBox.style.height = `${y2 - y1}px`;
+                // define a custom attribute to store the bounding box id
+                boundingBox.setAttribute('data-id', i);
+                
+                // Add click event listener to the bounding box
+                boundingBox.addEventListener('click', function () {
+                    // set the code panel to display the code of the selected bounding box
+                    const codePanel = document.getElementById('code-panel');
+                    const resultFrame = document.getElementById('rendered-result');
+                    this.classList.add('bounding-box-clicked');
+                    
+                    // remove the clicked class from other bounding boxes
+                    for (var j = 0; j < existingBox.length; j++) {
+                        if (existingBox[j] !== this) {
+                            existingBox[j].classList.remove('bounding-box-clicked');
+                        }
+                    }
+
+                    // get the bounding box id
+                    const bbox_id = this.getAttribute('data-id');
+                    selectedBoxId = bbox_id;
+                    // if the exist code cotent, set the code content to the bounding box code
+                    if (bbox_list[bbox_id].code) {
+                        codePanel.getElementsByTagName('textarea')[0].value = bbox_list[bbox_id].code;
+                        resultFrame.srcdoc = bbox_list[bbox_id].code;
+                        console.log(bbox_list[bbox_id].prompt);
+                    }
+                    else {
+                        codePanel.getElementsByTagName('textarea')[0].value = "No code generated.";
+                    }
+                });
+
+                // Append bounding box to the image container
+                const imageContainer = document.getElementById('segment-container');
+                imageContainer.appendChild(boundingBox);
+            }
+
+        }
+
+        async function getSegment(){
+            bbox = [];
+            
+            const depth = document.getElementById('seg-depth-input').value;
+            const img_src = document.getElementById('image-display').getElementsByTagName('img')[0].src;
+            const data = {
+                image: img_src,
+                depth: depth
+            };
+
+            // send the image to the backend /segment
+            // show some loading animation while waiting for the response
+            // document.getElementById('loading').style.display = 'block';
+            const stopLoading = startLoadingWithEta(0);
+
+            const response = await fetch('/segment', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+            
+            const result = await response.json();
+            // document.getElementById('loading').style.display = 'none';
+            stopLoading();
+
+            bbox = result.data;
+            var depth_level = result.depth;
+
+            showPanel('segmentation');
+            const depth_box = document.getElementById('depth-level');
+            depth_box.innerHTML = "<option>Depth Level</option>";
+            for (var i = 0; i <= depth_level; i++) {
+                depth_box.innerHTML += "<option>" + i + "</option>";
+            }
+            depth_box.value = "0";
+            displaySegment();
+            refreshBoundingBoxes(bbox);
+
+        }
+
+        // Function to deirectly use the example image
+        async function getExampleImage() {
+            try {
+                const response = await fetch('/example_image', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                });
+
+                // Ensure the response is ok
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                // Wait for the JSON response
+                const result = await response.json();
+
+                // Access the image URL from the result
+                const exampleImage = result.image;
+
+                // Return the image URL
+                return exampleImage;
+            } catch (error) {
+                console.error('Error fetching image:', error);
+                return null;  // Return null if an error occurs
+            }
+        }
+
+        async function displayExampleImage() {
+            const example_url = await getExampleImage();
+            const imageDisplay = document.getElementById('image-display');
+            imageDisplay.innerHTML = `<img src="${example_url}" alt="Example Image" class="image-preview rounded-md">`;
+        }
+
+
+        // Function to handle image upload and display
+        function displayImage(event) {
+            showPanel('image');
+            const file = event.target.files[0];
+            const imageDisplay = document.getElementById('image-display');
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    // Clear previous content
+                    imageDisplay.innerHTML = '';
+
+                    // Create an img element and set its source to the uploaded image
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.alt = "Uploaded Image";
+                    img.classList.add('image-preview', 'rounded-md');
+
+                    // Append the img element to the image display container
+                    imageDisplay.appendChild(img);
+                };
+
+                // Read the image file as a data URL
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Function to toggle sidebar
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('sidebar-open');
+        }
+
+        // Function to close the sidebar when clicking outside of it
+        document.addEventListener('click', function(event) {
+            const sidebar = document.getElementById('sidebar');
+            const settingsButton = document.querySelector('button[onclick="toggleSidebar()"]');
+
+            // Check if the click target is neither the sidebar nor the settings button
+            if (!sidebar.contains(event.target) && !settingsButton.contains(event.target)) {
+                sidebar.classList.remove('sidebar-open');
+            }
+        });
+
+        // upon resizing the window, refresh the bounding boxes
+        window.addEventListener('resize', function() {
+            refreshBoundingBoxes(bbox);
+        });
+
+        document.getElementById("depth-level").addEventListener("change", function() {
+            var selectedDepth = this.value;
+            // get the bounding boxes of the selected depth level
+            // console.log("Selected depth level: ");
+            displaySegment();
+            refreshBoundingBoxes(bbox);
+            
+        });
+
+        document.getElementById("predefine").addEventListener("change", function() {
+            var selectedPredefine = this.value;
+            const node_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[0];
+            const leaf_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[1];
+            const final_prompt = document.getElementById('sidebar').getElementsByTagName('textarea')[2];
+            // get the bounding boxes of the selected depth level
+            // console.log("Selected depth level: ");
+            if (selectedPredefine === "Direct") {
+                document.getElementById("model-list").value = "GPT-4o";
+                document.getElementById("algorithm-list").value = "Line Detection";
+                document.getElementById("seg-depth-input").value = "0";
+                document.getElementById("cutout").value = "False";
+                final_prompt.value = "Here is a screenshot of a webpage and a red bounding box. Return a single piece of HTML and tail-wind CSS code to reproduce exactly the area in the bounding box. Use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Do not include the red bounding box itself in your code. Respond with the content of the HTML + tail-wind CSS code.";
+                node_prompt.value = "";
+                leaf_prompt.value = "";
+
+            }
+            else if (selectedPredefine === "Direct cutout") {
+                document.getElementById("model-list").value = "GPT-4o";
+                document.getElementById("algorithm-list").value = "Line Detection";
+                document.getElementById("seg-depth-input").value = "0";
+                document.getElementById("cutout").value = "True";
+                final_prompt.value = "Here is a screenshot of a webpage. Return a single piece of HTML and tail-wind CSS code to reproduce exactly the given webpage. Use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Respond with the content of the HTML + tail-wind CSS code.";
+                node_prompt.value = "";
+                leaf_prompt.value = "";
+
+            }
+            else if (selectedPredefine === "Depth-2 DCGen") {
+                document.getElementById("model-list").value = "GPT-4o";
+                document.getElementById("algorithm-list").value = "Line Detection";
+                document.getElementById("seg-depth-input").value = "2";
+                document.getElementById("cutout").value = "False";
+                resetPrompt();
+            }
+            else if (selectedPredefine === "Depth-2 DCGen cutout") {
+                document.getElementById("model-list").value = "GPT-4o";
+                document.getElementById("algorithm-list").value = "Line Detection";
+                document.getElementById("seg-depth-input").value = "2";
+                document.getElementById("cutout").value = "True";
+                node_prompt.value = "Here are 1) a screenshot of a container of a webpage, 2) code of different elements in the container. Arrange the provided code according to their position in the screenshot and write a HTML and tail-wind CSS container to exactly replicate the screenshot, use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Respond with the content of the HTML + tail-wind CSS file. \n Here is the code of different parts of the container:\n=============\n";
+                leaf_prompt.value = "Here is a screenshot of a container of a webpage. Focus on the container area and return a single piece of HTML and tail-wind CSS code to reproduce exactly the screenshot. Use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Respond with the content of the HTML + tail-wind CSS code.";
+                final_prompt.value = "Here are 1) a screenshot of a webpage, 2) code of different containers in the webpage. Arrange the provided code according to their position in the screenshot to write a HTML and tail-wind CSS code to exactly replicate the screenshot, use 'placeholder.png' to replace the images. Pay attention to things like size, text, position, and color of all the elements, as well as the overall layout. Respond with the content of the HTML+ tail-wind CSS file. \n Here is the code of different parts of the container:\n=============\n";
+
+            }
+        });
+
+        document.getElementById("algorithm-list").addEventListener("change", function() {
+            var selectedAlgorithm = this.value;
+            if (selectedAlgorithm === "Customize") {
+                // show alert
+                alert("Please follow the instructions in xxxxxxxxxx to manually segment the image.");
+                this.value = "Line Detection";
+
+                
+            } else if (selectedAlgorithm === "Manual") {
+                lineDetectionDepth = document.getElementById("seg-depth");
+                lineDetectionDepth.classList.add("hidden");
+            }
+            else if (selectedAlgorithm === "Line Detection") {
+                const lineDetectionDepth = document.getElementById("seg-depth");
+                lineDetectionDepth.classList.remove("hidden");
+            }
+            else {
+                // remove the text area if the selected algorithm is not "Line Detection"
+                var lineDetectionDepth = document.getElementById("seg-depth");
+                lineDetectionDepth.classList.add("hidden");
+            }
+        });
+
+    </script>
+</body>
+
+</html>

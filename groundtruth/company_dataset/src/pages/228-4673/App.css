@@ -1,0 +1,129 @@
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.mt-5 {
+  margin-top: 0.31rem;
+}
+.page {
+  background-color: #ffffff;
+  height: 100%;
+  border-left: solid 1rem #ffffff;
+  border-right: solid 1rem #ffffff;
+  border-top: solid 1rem #ffffff;
+  border-bottom: solid 1rem #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.group {
+  margin-left: -1rem;
+  margin-top: -1rem;
+  height: 12.26rem;
+}
+.image {
+  width: 100vw;
+  height: 57.2917vw;
+}
+.image-wrapper {
+  margin-top: -2.38rem;
+  padding: 0.88rem 0 1rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 0.13rem 0.5rem #0000001a;
+  width: 4.38rem;
+}
+.image_2 {
+  width: 3.31rem;
+  height: 2.5rem;
+}
+.group_2 {
+  margin-left: -0.31rem;
+  margin-bottom: -0.88rem;
+  overflow-x: hidden;
+  width: 17.3rem;
+}
+.group_3 {
+  overflow-x: hidden;
+}
+.group_4 {
+  padding-bottom: 0.5rem;
+  overflow-x: hidden;
+}
+.group_5 {
+  padding-left: 4.13rem;
+  overflow-x: hidden;
+  width: 17.3rem;
+}
+.font {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.72rem;
+  color: #999999;
+}
+.text {
+  color: #666666;
+  line-height: 0.8rem;
+}
+.image_5 {
+  background-color: #ffffff;
+  width: 5.38rem;
+  height: 5.38rem;
+}
+.image_3 {
+  width: 5.38rem;
+  height: 5.38rem;
+}
+.pos {
+  position: absolute;
+  left: 1.01rem;
+  bottom: 0.51rem;
+}
+.font_2 {
+  font-size: 0.81rem;
+  font-family: Arial;
+  line-height: 0.72rem;
+  font-weight: 700;
+  color: #333333;
+}
+.text_2 {
+  line-height: 0.71rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0.81rem;
+  bottom: 0;
+}
+.pos_2 {
+  position: absolute;
+  right: 5.42rem;
+  top: 2.46rem;
+}
+.image_4 {
+  margin-left: 0.25rem;
+}
+.text_3 {
+  margin-top: -0.25rem;
+  line-height: 0.71rem;
+}
+.section {
+  background-color: #ffffff;
+  height: 5.38rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 12.01rem;
+  right: -0.079rem;
+  top: 2.46rem;
+}
+.group_6 {
+  padding: 0 0.5rem;
+  overflow-x: hidden;
+}
+.text_5 {
+  text-decoration: line-through;
+}
+.text_4 {
+  line-height: 0.71rem;
+}
+.text_6 {
+  margin-right: 0.38rem;
+}

@@ -1,0 +1,81 @@
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.mt-23 {
+  margin-top: 1.44rem;
+}
+.ml-13 {
+  margin-left: 0.81rem;
+}
+.page {
+  padding: 3.88rem 0 8.44rem;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 1.5rem;
+}
+.image_2 {
+  width: 1rem;
+  height: 1rem;
+}
+.image {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.group_2 {
+  padding: 0.63rem 1.25rem;
+  border-top: solid 0.063rem #e9e9f1;
+  border-bottom: solid 0.063rem #e9e9f1;
+}
+.image_3 {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.image_4 {
+  width: 11.31rem;
+  height: 2.31rem;
+}
+.image_5 {
+  overflow: hidden;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.68rem;
+  color: #6f6f79;
+}
+.text {
+  margin-left: 1.25rem;
+  color: #4e74f9;
+  line-height: 0.68rem;
+}
+.list-item {
+  padding: 1rem 1.25rem;
+  border-top: solid 0.063rem #e9e9f1;
+  border-bottom: solid 0.063rem #e9e9f1;
+}
+.image_6 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.87rem;
+  color: #161c2b;
+}
+.text_2 {
+  line-height: 0.66rem;
+}
+.image_7 {
+  width: 1.38rem;
+  height: 1.38rem;
+}

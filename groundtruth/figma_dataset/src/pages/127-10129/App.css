@@ -1,0 +1,139 @@
+.ml-17 {
+  margin-left: 1.06rem;
+}
+.page {
+  padding: 3.38rem 0 1.88rem 0.5rem;
+  background-image: linear-gradient(172.2deg, #00b7ff 1.4%, #ec4c40 61%, #ffffff 77.9%);
+  border-radius: 3.13rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  margin-right: 0.63rem;
+}
+.group_2 {
+  padding: 0 1.88rem;
+}
+.text {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  line-height: 1.72rem;
+}
+.image-wrapper {
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=56566d924559359a32be6ac668ea8a67.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 4.75rem;
+  height: 4.75rem;
+}
+.image {
+  width: 4.75rem;
+  height: 4.75rem;
+}
+.group_3 {
+  margin-top: 0.63rem;
+  padding-bottom: 0.38rem;
+}
+.image_4 {
+  width: 2.63rem;
+  height: 2.63rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.group_4 {
+  width: 12.15rem;
+}
+.image_2 {
+  margin-right: 0.38rem;
+  border-radius: 50%;
+  width: 11.81rem;
+  height: 11.81rem;
+}
+.image_3 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.pos {
+  position: absolute;
+  right: 0;
+  bottom: 1.23rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Inter;
+  line-height: 1.06rem;
+  color: #000000b8;
+}
+.text_2 {
+  margin-top: 0.75rem;
+  color: #ffffff;
+  text-align: center;
+  width: 16.81rem;
+}
+.group_5 {
+  margin-top: 1.13rem;
+  padding-left: 1.06rem;
+  height: 14.25rem;
+}
+.section {
+  margin-right: 0.88rem;
+  padding: 1.88rem 1.63rem 1.19rem 1.75rem;
+  background-color: #ffffff30;
+  border-radius: 0.69rem;
+}
+.text_3 {
+  color: #a6fb89;
+  font-size: 2.25rem;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.69rem;
+}
+.text_4 {
+  font-weight: 700;
+  line-height: 0.85rem;
+}
+.group_6 {
+  margin-top: -3rem;
+  padding-left: 1.75rem;
+}
+.image_6 {
+  filter: blur(0.13rem);
+  width: 2.63rem;
+  height: 2.63rem;
+}
+.image_5 {
+  filter: blur(0.13rem);
+  width: 7.44rem;
+  height: 7.44rem;
+}
+.section_2 {
+  padding: 0.88rem 2.75rem 0.69rem;
+  background-color: #ffffff;
+  border-left: solid 0.063rem #00000003;
+  border-right: solid 0.063rem #00000003;
+  border-top: solid 0.063rem #00000003;
+  border-bottom: solid 0.063rem #00000003;
+}
+.image_7 {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.image_8 {
+  width: 2rem;
+  height: 1.94rem;
+}
+.image_10 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.image_9 {
+  width: 2.13rem;
+  height: 1.88rem;
+}

@@ -1,0 +1,268 @@
+.ml-25 {
+  margin-left: 1.56rem;
+}
+.page {
+  padding: 1.5rem 0 3.19rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 1.25rem;
+}
+.image_2 {
+  width: 1.13rem;
+  height: 0.88rem;
+}
+.image {
+  width: 0.38rem;
+  height: 1.56rem;
+}
+.text {
+  margin-left: 1rem;
+  margin-top: 1.88rem;
+  color: #2a2a2a;
+  font-size: 1.5rem;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 1.18rem;
+}
+.font {
+  font-size: 1.24rem;
+  font-family: Inter;
+  line-height: 0.93rem;
+  font-weight: 800;
+  color: #2a2a2a;
+}
+.text_2 {
+  margin-left: 1.13rem;
+  margin-top: 2.38rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 0.97rem;
+}
+.group_2 {
+  margin-top: 2.63rem;
+}
+.equal-division {
+  margin-left: 1.25rem;
+}
+.section {
+  flex: 1 1 4.31rem;
+}
+.equal-division-item {
+  padding: 1rem 0;
+  background-color: #f1f3fa;
+  border-radius: 0.94rem;
+  height: 4.44rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Nunito;
+  line-height: 0.63rem;
+  color: #9fa2ae;
+}
+.text_3 {
+  font-size: 0.84rem;
+  line-height: 0.61rem;
+}
+.text_4 {
+  font-size: 0.84rem;
+  line-height: 0.61rem;
+}
+.text_8 {
+  line-height: 0.91rem;
+}
+.section_2 {
+  padding: 1rem 0;
+  background-color: #24c8fe;
+  border-radius: 0.94rem;
+  height: 4.44rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Nunito;
+  line-height: 0.63rem;
+  color: #c4c4c4;
+}
+.text_5 {
+  color: #ffffff;
+  font-size: 0.84rem;
+  line-height: 0.6rem;
+}
+.text_9 {
+  color: #ffffff;
+}
+.text_6 {
+  font-size: 0.84rem;
+  line-height: 0.6rem;
+}
+.text_7 {
+  font-size: 0.84rem;
+  line-height: 0.6rem;
+}
+.text_10 {
+  line-height: 0.94rem;
+}
+.section_3 {
+  background-color: #f1f3fa;
+  border-radius: 0.94rem 0 0 0.94rem;
+  height: 4.44rem;
+}
+.pos {
+  position: absolute;
+  left: 25.31rem;
+  right: 0;
+  top: 0;
+}
+.group_3 {
+  margin-left: 1.38rem;
+  margin-top: 2.38rem;
+  line-height: 0.9rem;
+}
+.text_11 {
+  color: #2a2a2a;
+  font-size: 1.24rem;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: 0.9rem;
+}
+.text_12 {
+  color: #c4c4c4;
+  font-size: 1rem;
+  font-family: Nunito;
+  line-height: 0.72rem;
+}
+.group_4 {
+  margin-top: 2.75rem;
+}
+.image_3 {
+  filter: drop-shadow(0rem -0.44rem 0.13rem #24c8fe);
+  width: 100vw;
+  height: 43.7198vw;
+}
+.group_5 {
+  padding: 0 1.13rem;
+}
+.text_13 {
+  margin: 0 0.25rem;
+  line-height: 0.63rem;
+}
+.text-wrapper {
+  margin-left: 2.63rem;
+}
+.text_14 {
+  line-height: 0.63rem;
+}
+.text-wrapper_2 {
+  margin-left: 2.38rem;
+}
+.text-wrapper_3 {
+  width: 2.38rem;
+}
+.view {
+  margin-left: 2.13rem;
+}
+.view_2 {
+  margin-left: 2.38rem;
+}
+.text_15 {
+  line-height: 0.63rem;
+}
+.group_6 {
+  margin: 1.88rem 1.25rem 0;
+  overflow: hidden;
+  height: 15.56rem;
+}
+.section_4 {
+  padding: 1.5rem 1rem 2.13rem;
+  background-color: #fee2cf;
+  border-radius: 0.94rem;
+}
+.image_4 {
+  width: 0.81rem;
+  height: 0.94rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Inter;
+  line-height: 0.86rem;
+  font-weight: 700;
+  color: #fa7b34;
+}
+.text_16 {
+  margin-left: 0.38rem;
+}
+.image_5 {
+  width: 0.31rem;
+  height: 0.38rem;
+}
+.image_6 {
+  margin-left: 0.25rem;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: Inter;
+  line-height: 0.56rem;
+  color: #fa7b34;
+}
+.text_17 {
+  margin-left: 0.63rem;
+}
+.equal-division_2 {
+  align-self: flex-start;
+  margin-left: 0.25rem;
+}
+.group_7 {
+  position: relative;
+}
+.equal-division-item_2 {
+  padding-top: 0.88rem;
+  width: 6.87rem;
+}
+.font_7 {
+  font-size: 0.88rem;
+  font-family: Nunito;
+  line-height: 0.63rem;
+  color: #2a2a2a;
+}
+.font_6 {
+  font-size: 2.19rem;
+  font-family: Nunito;
+  line-height: 1.59rem;
+  font-weight: 800;
+  color: #2a2a2a;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.group_8 {
+  position: relative;
+  flex: 1 1 0;
+}
+.equal-division-item_3 {
+  padding-top: 0.88rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.image_7 {
+  width: 0.94rem;
+  height: 0.63rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.pos_5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

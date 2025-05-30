@@ -1,0 +1,164 @@
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.mt-5 {
+  margin-top: 0.31rem;
+}
+.ml-13 {
+  margin-left: 0.81rem;
+}
+.page {
+  padding: 3.7rem 1.42rem 1rem 1.45rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.font {
+  font-size: 1.13rem;
+  font-family: Poppins;
+}
+.text {
+  color: #002055;
+  line-height: 0.84rem;
+}
+.group {
+  margin-top: 2.42rem;
+  padding: 4.91rem 0 3.96rem;
+}
+.text_2 {
+  color: #002055;
+  font-size: 1.88rem;
+  font-family: Poppins;
+  line-height: 1.43rem;
+}
+.text_3 {
+  margin-top: 1.08rem;
+  color: #848a94;
+  line-height: 1.13rem;
+}
+.image_2 {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.pos {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.group_2 {
+  margin-top: 2.6rem;
+  padding-left: 0.8rem;
+  padding-right: 0.79rem;
+}
+.section {
+  background-color: #b1d199;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.85rem;
+  color: #002055;
+}
+.text_4 {
+  line-height: 0.62rem;
+}
+.section_2 {
+  background-color: #ffb35a;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.section_3 {
+  background-color: #756ef3;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  line-height: 0.88rem;
+}
+.group_5 {
+  margin-top: 1.87rem;
+}
+.text_6 {
+  margin-left: 0.12rem;
+  color: #002055;
+  font-size: 1.13rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.13rem;
+}
+.group_6 {
+  padding: 1.17rem 1.09rem 0.96rem 1.25rem;
+  border-radius: 1rem;
+  border: solid 0.063rem #756ef3;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.font_3 {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 0.97rem;
+  color: #002055;
+}
+.text_7 {
+  line-height: 1rem;
+}
+.image_3 {
+  width: 1rem;
+  height: 0.25rem;
+}
+.image_4 {
+  margin-right: 0.13rem;
+  margin-top: 0.86rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  line-height: 0.56rem;
+  color: #848a94;
+}
+.text_8 {
+  line-height: 0.57rem;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  line-height: 0.75rem;
+  color: #848a94;
+}
+.group_7 {
+  margin-top: 2.47rem;
+  padding: 0 0.52rem;
+}
+.image_6 {
+  width: 1.19rem;
+  height: 1.25rem;
+}
+.image_7 {
+  width: 1.31rem;
+  height: 1.31rem;
+}
+.image_5 {
+  width: 3.13rem;
+  height: 3.13rem;
+}
+.image_8 {
+  width: 1.38rem;
+  height: 1.38rem;
+}
+.image_9 {
+  width: 1rem;
+  height: 1.25rem;
+}

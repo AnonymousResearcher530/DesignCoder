@@ -1,0 +1,242 @@
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.mt-35 {
+  margin-top: 2.19rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.page {
+  padding-top: 0.75rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 0.75rem;
+}
+.image {
+  border-radius: 2rem;
+  width: 3.25rem;
+  height: 1.31rem;
+}
+.group_2 {
+  margin-right: 0.81rem;
+}
+.image_2 {
+  width: 1.06rem;
+  height: 0.69rem;
+}
+.image_3 {
+  width: 0.94rem;
+  height: 0.69rem;
+}
+.image_4 {
+  width: 1.5rem;
+  height: 0.69rem;
+}
+.section {
+  margin: 0 1.5rem;
+  padding: 1rem 1rem 21rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5a56b83dae563b2e7bd0ab514560159e.png');
+  background-position: 0% 0%;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+.image_5 {
+  filter: drop-shadow(0rem 0.25rem 0.38rem #2925261a);
+  border-radius: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.section_2 {
+  padding: 0 1.5rem 2rem;
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+.group_3 {
+  padding: 1.88rem 0 1.5rem;
+}
+.text {
+  color: #121111;
+  font-size: 1.5rem;
+  font-family: Encode Sans;
+  font-weight: 600;
+  line-height: 1.56rem;
+}
+.image_7 {
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.group_4 {
+  line-height: 0.77rem;
+  height: 0.77rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Encode Sans;
+  line-height: 1.38rem;
+  color: #787676;
+}
+.text_3 {
+  line-height: 0.57rem;
+}
+.text_4 {
+  margin-left: 0.25rem;
+  color: #347efb;
+  line-height: 0.77rem;
+}
+.image_6 {
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.text_2 {
+  color: #292526;
+  font-size: 1rem;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 0.74rem;
+}
+.group_5 {
+  margin-top: 1rem;
+}
+.text_5 {
+  margin-left: 0.25rem;
+  color: #121111;
+  font-size: 0.88rem;
+  font-family: Encode Sans;
+  font-weight: 600;
+  line-height: 1.56rem;
+}
+.divider {
+  margin-top: 0.75rem;
+  background-color: #f6f6f6;
+  height: 0.063rem;
+}
+.group_6 {
+  margin-top: 1.25rem;
+}
+.font_2 {
+  font-size: 0.75rem;
+  font-family: Encode Sans;
+  line-height: 0.56rem;
+  font-weight: 700;
+  color: #121111;
+}
+.text_6 {
+  line-height: 0.61rem;
+}
+.text_7 {
+  margin-right: 3.88rem;
+  line-height: 0.61rem;
+}
+.group_7 {
+  margin-top: 0.75rem;
+}
+.text-wrapper {
+  padding: 0.63rem 0 0.38rem;
+  border-radius: 2rem;
+  width: 1.63rem;
+  height: 1.63rem;
+  border-left: solid 0.063rem #dfdede;
+  border-right: solid 0.063rem #dfdede;
+  border-top: solid 0.063rem #dfdede;
+  border-bottom: solid 0.063rem #dfdede;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Encode Sans;
+  line-height: 0.56rem;
+  color: #292526;
+}
+.text_8 {
+  line-height: 0.57rem;
+}
+.group_8 {
+  width: 3.75rem;
+}
+.group_9 {
+  border-radius: 2rem;
+  width: 1.63rem;
+  height: 1.63rem;
+  border-left: solid 0.063rem #dfdede;
+  border-right: solid 0.063rem #dfdede;
+  border-top: solid 0.063rem #dfdede;
+  border-bottom: solid 0.063rem #dfdede;
+}
+.equal-division {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.text-wrapper_2 {
+  padding: 0.5rem 0;
+  background-color: #292526;
+  border-radius: 2rem;
+  width: 1.63rem;
+  height: 1.63rem;
+}
+.text_9 {
+  color: #fcfcfc;
+}
+.section_3 {
+  background-color: #787676;
+  border-radius: 6.25rem;
+  overflow: hidden;
+  width: 1.63rem;
+  height: 1.63rem;
+}
+.section_4 {
+  background-color: #433f40;
+  border-radius: 6.25rem;
+  overflow: hidden;
+  width: 1.63rem;
+  height: 1.63rem;
+  border-left: solid 0.063rem #fcfcfc;
+  border-right: solid 0.063rem #fcfcfc;
+  border-top: solid 0.063rem #fcfcfc;
+  border-bottom: solid 0.063rem #fcfcfc;
+}
+.section_5 {
+  background-color: #121111;
+  border-radius: 6.25rem;
+  overflow: hidden;
+  width: 1.63rem;
+  height: 1.63rem;
+}
+.section_6 {
+  padding: 1.13rem 0;
+  background-color: #292526;
+  border-radius: 2.81rem;
+}
+.image_8 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.group_10 {
+  line-height: 0.94rem;
+  height: 0.94rem;
+}
+.text_10 {
+  color: #fcfcfc;
+  font-size: 0.88rem;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 0.94rem;
+}
+.text_11 {
+  color: #fcfcfc;
+  font-size: 0.63rem;
+  font-family: Encode Sans;
+  line-height: 0.61rem;
+  text-decoration: line-through;
+}

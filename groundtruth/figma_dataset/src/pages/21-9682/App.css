@@ -1,0 +1,227 @@
+.ml-33 {
+  margin-left: 2.06rem;
+}
+.ml-3 {
+  margin-left: 0.19rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.page {
+  padding: 3.89rem 0.42rem 3.5rem 1rem;
+  background-color: #f2f4f9;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 0.44rem;
+  height: 0.94rem;
+}
+.section {
+  background-color: #dce0e8;
+  border-radius: 0.13rem;
+  height: 0.5rem;
+}
+.section_2 {
+  background-color: #242d49;
+  border-radius: 0.13rem;
+  width: 5.59rem;
+  height: 0.5rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.01rem;
+  line-height: 0.96rem;
+  font-weight: 600;
+  color: #5d6985;
+}
+.text {
+  color: #242d49;
+}
+.text_2 {
+  margin-top: 4.51rem;
+  color: #242d49;
+  font-size: 1.88rem;
+  font-family: Plus Jakarta Sans;
+  font-weight: 800;
+  line-height: 2.38rem;
+  letter-spacing: -0.019rem;
+  width: 20.06rem;
+}
+.group_2 {
+  margin-top: 1.23rem;
+  height: 24rem;
+}
+.section_3 {
+  padding: 0.25rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  right: 0.58rem;
+  top: 0;
+}
+.text-wrapper {
+  padding: 0.97rem 0 0.88rem;
+  background-color: #242d49;
+  border-radius: 0.63rem;
+  filter: drop-shadow(0rem 0rem 0rem #090e1d40);
+  overflow: hidden;
+  width: 2.62rem;
+  height: 2.5rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.0088rem;
+  line-height: 0.65rem;
+  font-weight: 700;
+  color: #5d6985;
+}
+.text_3 {
+  color: #ffffff;
+}
+.text-wrapper_1 {
+  padding: 0.97rem 0 0.88rem;
+  border-radius: 0.63rem;
+  width: 2.62rem;
+  height: 2.5rem;
+}
+.text-wrapper_2 {
+  padding: 0.96rem 0 0.86rem;
+  border-radius: 0.63rem;
+  width: 2.62rem;
+  height: 2.5rem;
+}
+.text_4 {
+  line-height: 0.67rem;
+}
+.text-wrapper_3 {
+  padding: 1.5rem 0 0.88rem;
+  border-radius: 0.63rem;
+  width: 2.62rem;
+  height: 2.5rem;
+}
+.text_5 {
+  line-height: 0.12rem;
+}
+.image_2 {
+  border-radius: 0.63rem;
+  width: 2.56rem;
+  height: 2.5rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0;
+  right: 1.45rem;
+  top: 3.5rem;
+}
+.list-item {
+  padding: 0.75rem 0.75rem 0.75rem 0.76rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.section_1 {
+  padding: 0.75rem 0.75rem 0.72rem 0.76rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+}
+.text_6 {
+  line-height: 0.98rem;
+}
+.image_3 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.font_3 {
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.01rem;
+  line-height: 0.96rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.section_4 {
+  padding-bottom: 14.75rem;
+  background-color: #dce0e8;
+  border-radius: 0.094rem;
+  width: 0.38rem;
+}
+.pos_3 {
+  position: absolute;
+  right: 0.58rem;
+  top: 3.5rem;
+}
+.section_5 {
+  background-color: #5d6985;
+  border-radius: 0.094rem;
+  height: 5.75rem;
+}
+.group_3 {
+  margin-top: 1.5rem;
+  padding: 0 3.77rem;
+}
+.text_10 {
+  font-weight: 600;
+  line-height: 0.67rem;
+}
+.section_6 {
+  padding: 0.47rem 0.37rem 0.32rem 0.41rem;
+  background-color: #dce0e8;
+  border-radius: 0.38rem;
+  overflow: hidden;
+  width: 4.06rem;
+  height: 1.5rem;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.0075rem;
+  font-weight: 600;
+  color: #5d6985;
+}
+.text_11 {
+  line-height: 0.71rem;
+}
+.image_4 {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.section_7 {
+  padding: 0.46rem 0.37rem 0.32rem 0.45rem;
+  background-color: #dce0e8;
+  border-radius: 0.38rem;
+  overflow: hidden;
+  width: 5.12rem;
+  height: 1.5rem;
+}
+.text_12 {
+  line-height: 0.72rem;
+}
+.section_8 {
+  margin-right: 0.58rem;
+  margin-top: 1.5rem;
+  padding: 1.25rem 0 1.18rem;
+  background-color: #0f66fe;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.text_13 {
+  font-weight: 700;
+  line-height: 0.77rem;
+}
+.image_5 {
+  width: 1.13rem;
+  height: 0.75rem;
+}

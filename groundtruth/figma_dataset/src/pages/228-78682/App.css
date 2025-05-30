@@ -1,0 +1,345 @@
+.ml-5 {
+  margin-left: 0.31rem;
+}
+.mt-11 {
+  margin-top: 0.69rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.ml-3 {
+  margin-left: 0.19rem;
+}
+.ml-15 {
+  margin-left: 0.94rem;
+}
+.page {
+  padding: 0.75rem 0 3.69rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 0.75rem;
+}
+.image {
+  border-radius: 2rem;
+  width: 3.25rem;
+  height: 1.31rem;
+}
+.group_2 {
+  margin-right: 0.81rem;
+}
+.image_2 {
+  width: 1.06rem;
+  height: 0.69rem;
+}
+.image_3 {
+  width: 0.94rem;
+  height: 0.69rem;
+}
+.image_4 {
+  width: 1.5rem;
+  height: 0.69rem;
+}
+.group_3 {
+  margin: 2.37rem 1.5rem 0;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Encode Sans;
+  line-height: 0.57rem;
+  color: #292526;
+}
+.text {
+  color: #787676;
+  line-height: 0.82rem;
+}
+.text_2 {
+  color: #121111;
+  font-size: 1rem;
+  font-family: Encode Sans;
+  font-weight: 700;
+  line-height: 0.82rem;
+}
+.image_5 {
+  border-radius: 6.25rem;
+  width: 2rem;
+  height: 2rem;
+}
+.group_5 {
+  margin: 1.36rem 1.5rem 0;
+}
+.group_6 {
+  padding: 0.88rem 1rem 0.75rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  border: solid 0.063rem #dfdede;
+}
+.image_7 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.text_3 {
+  color: #cac9c9;
+  font-size: 0.88rem;
+  font-family: Encode Sans;
+  line-height: 0.72rem;
+}
+.image_6 {
+  border-radius: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.group_7 {
+  margin: 2rem 1.5rem 0;
+  padding-bottom: 1.5rem;
+}
+.group_8 {
+  overflow: hidden;
+}
+.section {
+  padding: 0.56rem 0.68rem 0.56rem 0.75rem;
+  background-color: #292526;
+  border-radius: 0.5rem;
+  height: 2.13rem;
+}
+.image_9 {
+  width: 1rem;
+  height: 1rem;
+}
+.text_4 {
+  color: #fcfcfc;
+  line-height: 0.61rem;
+}
+.group_9 {
+  padding: 0.44rem 0.57rem 0.31rem 0.63rem;
+  border-radius: 0.5rem;
+  height: 2.13rem;
+  border: solid 0.063rem #dfdede;
+}
+.text_5 {
+  line-height: 0.57rem;
+}
+.group_10 {
+  padding: 0.44rem 0.49rem 0.31rem 0.63rem;
+  border-radius: 0.5rem;
+  height: 2.13rem;
+  border: solid 0.063rem #dfdede;
+}
+.text_6 {
+  line-height: 0.61rem;
+}
+.image_8 {
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 3.38rem;
+  height: 2.13rem;
+}
+.section_2 {
+  margin: 26.19rem 1.5rem 0;
+  background-color: #ffffff;
+  filter: blur(2.19rem);
+  height: 4.13rem;
+}
+.pos {
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+  top: 16.75rem;
+}
+.group_13 {
+  width: 10.19rem;
+  height: 18.53rem;
+}
+.image-wrapper {
+  padding: 0.88rem 0 11.19rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=bb5978fdb2b391235d90726577b092e2.png');
+  background-position: 0% 0%;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  width: 9.69rem;
+}
+.pos_13 {
+  position: absolute;
+  left: 0;
+  right: 0.5rem;
+  top: 0;
+}
+.image_10 {
+  border-radius: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.image_17 {
+  margin-right: 0.88rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Encode Sans;
+  line-height: 0.86rem;
+  font-weight: 600;
+  color: #121111;
+}
+.text_7 {
+  line-height: 0.91rem;
+}
+.pos_1 {
+  position: absolute;
+  left: 0.066rem;
+  bottom: 3.27rem;
+}
+.font_3 {
+  font-size: 0.63rem;
+  font-family: Encode Sans;
+  line-height: 0.57rem;
+  color: #787676;
+}
+.text_8 {
+  line-height: 0.51rem;
+}
+.pos_14 {
+  position: absolute;
+  left: 0;
+  bottom: 2.15rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Encode Sans;
+  line-height: 0.86rem;
+  font-weight: 600;
+  color: #292526;
+}
+.pos_11 {
+  position: absolute;
+  left: 0;
+  bottom: 0.11rem;
+}
+.image_11 {
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.pos_4 {
+  position: absolute;
+  right: 3.22rem;
+  bottom: 0.24rem;
+}
+.group_15 {
+  width: 13.47rem;
+}
+.pos_3 {
+  position: absolute;
+  right: 0;
+  top: 0.82rem;
+}
+.equal-division-item {
+  align-self: flex-end;
+}
+.image-wrapper_2 {
+  padding-bottom: 13.31rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=ae5f460e73e2ee67df885403be256074.png');
+  background-position: 0% 0%;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  width: 9.13rem;
+}
+.image_18 {
+  margin-left: 6.75rem;
+  margin-right: 0.88rem;
+}
+.text_9 {
+  margin-top: 0.79rem;
+  line-height: 0.91rem;
+}
+.text_10 {
+  margin-left: 3.84rem;
+  margin-top: 0.61rem;
+  line-height: 0.51rem;
+}
+.group_12 {
+  margin-top: 1.03rem;
+}
+.image_1 {
+  margin-left: 1.41rem;
+}
+.text_11 {
+  margin-left: 0.28rem;
+}
+.image-wrapper_4 {
+  padding: 0.88rem 0 11.19rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=e222f3b4a9280718f84adf97c6ef21a3.png');
+  background-position: 0% 0%;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  width: 9.69rem;
+}
+.pos_9 {
+  position: absolute;
+  left: 0;
+  top: 20.13rem;
+}
+.image_15 {
+  margin-left: 7.31rem;
+  margin-right: 0.88rem;
+}
+.group_14 {
+  margin-top: 3.72rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 9.69rem;
+  height: 15.69rem;
+}
+.image-wrapper_3 {
+  margin-left: -2.06rem;
+  margin-top: -3.19rem;
+  padding: 4.06rem 0 13.31rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=8a752465ac8f21245b683b871983d154.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13.75rem;
+}
+.image_12 {
+  margin-right: 2.88rem;
+}
+.section_4 {
+  background-color: #ffffff;
+  height: 3.69rem;
+}
+.pos_15 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 47.06rem;
+}
+.section_3 {
+  padding: 0.63rem 0;
+  background-color: #292526;
+  border-radius: 2.75rem;
+}
+.pos_5 {
+  position: absolute;
+  left: 1.5rem;
+  right: 1.5rem;
+  top: 45rem;
+}
+.equal-division {
+  margin: 0 1rem;
+}
+.equal-division-item_3 {
+  border-radius: 6.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}

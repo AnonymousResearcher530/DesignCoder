@@ -1,0 +1,260 @@
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.page {
+  padding-top: 4.39rem;
+  background-color: #f6f6f6;
+  border-radius: 2.5rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding-left: 1.07rem;
+  padding-right: 1.07rem;
+}
+.font {
+  font-size: 0.75rem;
+  font-family: Droid Sans;
+  line-height: 0.55rem;
+  color: #252727;
+}
+.text {
+  color: #7b7b7b;
+}
+.group_2 {
+  padding: 0 0.073rem;
+}
+.text_2 {
+  margin-top: 0.14rem;
+  color: #252727;
+  font-size: 1.63rem;
+  font-family: Droid Sans;
+  font-weight: 700;
+  line-height: 1.44rem;
+}
+.image {
+  margin-bottom: 0.084rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.group_1 {
+  margin-top: 2.59rem;
+  padding: 0 0.94rem;
+}
+.font_2 {
+  font-size: 1.25rem;
+  font-family: Droid Sans;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #252727;
+}
+.text_3 {
+  margin-left: 0.11rem;
+}
+.group_13 {
+  height: 12.75rem;
+}
+.equal-division-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.section_2 {
+  padding: 0.75rem 0.75rem 0.93rem;
+  background-color: #b9aff5;
+  border-radius: 0.75rem;
+  width: 13.06rem;
+}
+.image_2 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.font_3 {
+  font-size: 1.13rem;
+  font-family: Droid Sans;
+  line-height: 0.87rem;
+  font-weight: 700;
+  color: #252727;
+}
+.text_4 {
+  margin-top: 1.02rem;
+}
+.font_4 {
+  font-size: 0.88rem;
+  font-family: Droid Sans;
+  line-height: 0.67rem;
+  color: #252726;
+}
+.text_6 {
+  margin-top: 0.51rem;
+}
+.equal-division-item_2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.group_4 {
+  padding: 0.69rem 0.69rem 0.87rem;
+  border-radius: 0.75rem;
+  width: 7.38rem;
+  border: solid 0.063rem #252727;
+}
+.text_5 {
+  margin-left: 0.1rem;
+  margin-top: 1.02rem;
+}
+.text_7 {
+  margin-left: 0.076rem;
+  margin-top: 0.51rem;
+}
+.group_5 {
+  padding: 0.94rem 0.69rem 0.94rem 0.76rem;
+  border-radius: 0.75rem;
+  width: 10.81rem;
+  border: solid 0.063rem #252727;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  top: 8.25rem;
+}
+.section_3 {
+  padding: 1.62rem 0 1.31rem;
+  background-color: #252727;
+  border-radius: 0.75rem;
+  width: 9.69rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 0;
+  top: 8.25rem;
+}
+.text_8 {
+  color: #f6f6f6;
+  line-height: 0.83rem;
+}
+.image_3 {
+  width: 3.81rem;
+  height: 0.25rem;
+}
+.group_6 {
+  margin-top: 2.8rem;
+  padding: 0 0.97rem;
+}
+.group_7 {
+  border-radius: 1.25rem;
+  border: solid 0.031rem #25272733;
+}
+.group_8 {
+  padding: 1.08rem 0 1.54rem;
+}
+.text_9 {
+  color: #25272780;
+  font-weight: 700;
+  line-height: 0.68rem;
+}
+.text_10 {
+  font-weight: 700;
+  line-height: 0.88rem;
+}
+.group_9 {
+  padding-bottom: 1.19rem;
+}
+.group_10 {
+  padding: 0 1.13rem;
+  border-bottom: solid 0.031rem #000000;
+}
+.section_1 {
+  flex: 1 1 1.56rem;
+  background-color: #b9aff5;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 3.5rem;
+  border: solid 0.019rem #252726;
+}
+.section_7 {
+  flex: 1 1 1.56rem;
+  background-color: #b9aff5;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 4.19rem;
+  border: solid 0.019rem #252726;
+}
+.section_10 {
+  flex: 1 1 1.56rem;
+  background-color: #b9aff5;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 2.69rem;
+  border: solid 0.019rem #252726;
+}
+.section_5 {
+  flex: 1 1 1.56rem;
+  background-color: #b9aff5;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 5.13rem;
+  border: solid 0.019rem #252726;
+}
+.section_4 {
+  flex: 1 1 1.56rem;
+  background-color: #ceff69;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 7.25rem;
+  border: solid 0.019rem #000000;
+}
+.section_6 {
+  flex: 1 1 1.56rem;
+  background-color: #b9aff5;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  height: 4.69rem;
+  border: solid 0.019rem #252726;
+}
+.group_12 {
+  padding: 0 1.15rem;
+}
+.text_11 {
+  line-height: 0.54rem;
+}
+.text_12 {
+  line-height: 0.54rem;
+}
+.text_13 {
+  line-height: 0.58rem;
+}
+.text_14 {
+  line-height: 0.58rem;
+}
+.text_15 {
+  line-height: 0.55rem;
+}
+.text_16 {
+  margin-right: 0.16rem;
+}
+.group_11 {
+  margin-top: 2.25rem;
+  padding: 1.13rem 1.81rem 1.97rem 1.93rem;
+}
+.image_4 {
+  width: 1.31rem;
+  height: 1.31rem;
+}
+.text_17 {
+  color: #7260e1;
+  font-size: 0.69rem;
+  font-weight: 700;
+  line-height: 0.53rem;
+}
+.image-wrapper {
+  width: 3.69rem;
+}
+.image_5 {
+  width: 3.19rem;
+  height: 1rem;
+}
+.image_6 {
+  width: 3.19rem;
+  height: 1.13rem;
+}
+.image_7 {
+  width: 3.19rem;
+  height: 1.25rem;
+}

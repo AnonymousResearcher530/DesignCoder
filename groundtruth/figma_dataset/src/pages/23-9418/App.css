@@ -1,0 +1,138 @@
+.page {
+  padding-top: 4.23rem;
+  background-color: #6a5ae0;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group_2 {
+  margin: 0 1.5rem;
+  padding: 0 0.13rem;
+}
+.image {
+  width: 1.25rem;
+  height: 0.81rem;
+}
+.pos {
+  position: absolute;
+  left: 0.13rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: Graphik;
+  line-height: 1.16rem;
+}
+.section {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0 1rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=f10bca8b7745f30f2c829f171644375f.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 39.75rem;
+}
+.group_3 {
+  margin-right: 0.88rem;
+  margin-top: -4rem;
+  padding: 0.25rem;
+  border-radius: 1.25rem;
+}
+.text-wrapper {
+  padding: 0.85rem 0 0.75rem;
+  flex: 1 1 9.41rem;
+  background-color: #9087e5;
+  border-radius: 1rem;
+  height: 2.5rem;
+}
+.font {
+  font-size: 1rem;
+  font-family: Rubik;
+  line-height: 0.92rem;
+  color: #0b082a;
+}
+.text_2 {
+  color: #ffffff;
+  line-height: 0.9rem;
+}
+.text-wrapper_2 {
+  padding: 0.85rem 0 0.93rem;
+  flex: 1 1 9.41rem;
+  border-radius: 1rem;
+  height: 2.5rem;
+}
+.text_3 {
+  color: #b9b4e4;
+  line-height: 0.73rem;
+}
+.section_2 {
+  margin-top: 1.29rem;
+  background-color: #6a5ae0;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.29rem;
+}
+.list {
+  padding: 0.57rem 0 0.79rem;
+}
+.list-item {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.image_4 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.group_4 {
+  padding-bottom: 0.25rem;
+  width: 3.75rem;
+}
+.image-wrapper {
+  margin-right: 0.25rem;
+  background-color: #c9f2e9;
+  border-radius: 50%;
+  width: 3.5rem;
+}
+.image_2 {
+  background-color: #c9f2e9;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.image_5 {
+  border-radius: 0.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Rubik;
+  line-height: 0.79rem;
+  color: #0b082a;
+}
+.text_4 {
+  line-height: 0.74rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Rubik;
+  line-height: 0.79rem;
+  color: #858494;
+}
+.image_3 {
+  margin-right: 0.13rem;
+  width: 2.25rem;
+  height: 2.5rem;
+}

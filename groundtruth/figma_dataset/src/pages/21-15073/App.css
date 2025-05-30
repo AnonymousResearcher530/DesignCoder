@@ -1,0 +1,160 @@
+.mt-21 {
+  margin-top: 1.31rem;
+}
+.mt-29 {
+  margin-top: 1.81rem;
+}
+.mt-11 {
+  margin-top: 0.69rem;
+}
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.ml-9 {
+  margin-left: 0.56rem;
+}
+.page {
+  padding-bottom: 5.43rem;
+  background-color: #f2f4f9;
+  border-radius: 2rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 5.25rem 0 4.78rem;
+  background-color: #242d49;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.image {
+  width: 2rem;
+  height: 2rem;
+}
+.text {
+  color: #ffffff;
+  font-size: 1.88rem;
+  font-family: Plus Jakarta Sans;
+  font-weight: 800;
+  line-height: 1.83rem;
+  letter-spacing: -0.019rem;
+}
+.group {
+  margin: 2.27rem 0.91rem 0 1rem;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.0088rem;
+  line-height: 0.67rem;
+  font-weight: 800;
+  color: #242d49;
+}
+.section_2 {
+  margin-right: 0.087rem;
+  padding: 1.06rem 0.94rem 0.84rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 0rem 0rem #0f67fe40);
+  overflow: hidden;
+  border: solid 0.063rem #0f66fe;
+}
+.image_2 {
+  width: 1.25rem;
+  height: 1.13rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.01rem;
+  line-height: 0.98rem;
+}
+.text_2 {
+  color: #5d6985;
+  font-weight: 600;
+}
+.section_3 {
+  margin-right: 0.087rem;
+  padding: 1rem 0.94rem;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.image_3 {
+  width: 1.13rem;
+  height: 1.25rem;
+}
+.text_3 {
+  color: #242d49;
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  line-height: 0.37rem;
+  letter-spacing: -0.01rem;
+}
+.image_4 {
+  margin-right: 0.075rem;
+  width: 1.25rem;
+  height: 0.94rem;
+}
+.section_4 {
+  margin: 2rem 1rem 0;
+  padding: 1.38rem 0 1.09rem;
+  background-color: #0f66fe;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.text_4 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.image_5 {
+  width: 1.13rem;
+  height: 0.75rem;
+}
+.group_3 {
+  margin: 2.21rem 0.91rem 0 1rem;
+}
+.section_5 {
+  background-color: #9ea7b8;
+  width: 9.79rem;
+  height: 0.063rem;
+}
+.text_5 {
+  color: #5d6985;
+  font-size: 0.63rem;
+  font-family: Plus Jakarta Sans;
+  font-weight: 800;
+  line-height: 0.48rem;
+  text-transform: uppercase;
+}
+.section_6 {
+  background-color: #9ea7b8;
+  width: 9.73rem;
+  height: 0.063rem;
+}
+.equal-division {
+  align-self: center;
+  margin-top: 2.12rem;
+}
+.image_6 {
+  flex: 1 1 3.5rem;
+}
+.equal-division-item {
+  border-radius: 0.75rem;
+  height: 3.5rem;
+}
+.group_4 {
+  margin-top: 2.27rem;
+  line-height: 0.85rem;
+}
+.text_6 {
+  color: #818ba0;
+  font-weight: 600;
+}
+.text_7 {
+  color: #fa4d5e;
+  line-height: 0.85rem;
+  text-decoration: underline;
+}

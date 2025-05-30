@@ -1,0 +1,98 @@
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.ml-25 {
+  margin-left: 1.56rem;
+}
+.page {
+  padding: 4rem 1.25rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0 0.63rem;
+}
+.image {
+  width: 0.63rem;
+  height: 1.19rem;
+}
+.text {
+  color: #e67e22;
+  font-size: 0.88rem;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 0.67rem;
+}
+.group_2 {
+  margin-top: 2.88rem;
+  padding: 0 0.13rem;
+}
+.image_2 {
+  width: 12.5rem;
+  height: 2.31rem;
+}
+.text_2 {
+  color: #0e0c7f;
+  font-size: 1.88rem;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.85rem;
+}
+.list {
+  margin-top: 2.88rem;
+}
+.list-item {
+  padding: 0.75rem 0.5rem;
+  border-radius: 0.94rem;
+  border-left: solid 0.13rem #0e0c7f;
+  border-right: solid 0.13rem #0e0c7f;
+  border-top: solid 0.13rem #0e0c7f;
+  border-bottom: solid 0.13rem #0e0c7f;
+}
+.list-item:first-child {
+  margin-top: 0;
+}
+.image_3 {
+  width: 1.5rem;
+  height: 1.44rem;
+}
+.font {
+  font-size: 0.94rem;
+  font-family: Inter;
+  line-height: 0.69rem;
+  color: #777777;
+}
+.text-wrapper {
+  margin-top: 5rem;
+  padding: 1.13rem 0;
+  background-color: #2ecc71;
+  border-radius: 0.94rem;
+}
+.font_2 {
+  font-size: 0.94rem;
+  font-family: Inter;
+  line-height: 0.92rem;
+  font-weight: 700;
+}
+.text_5 {
+  color: #ffffff;
+}
+.group_3 {
+  margin-top: 8.88rem;
+  padding-left: 4.75rem;
+  padding-right: 4.5rem;
+}
+.text_7 {
+  margin-right: -15.13rem;
+  color: #0e0c7f;
+}
+.text_6 {
+  margin-right: 3.13rem;
+  color: #0e0c7f;
+  font-size: 0.94rem;
+  font-family: Inter;
+  line-height: 0.88rem;
+}

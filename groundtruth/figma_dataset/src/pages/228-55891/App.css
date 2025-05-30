@@ -1,0 +1,179 @@
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.ml-4-5 {
+  margin-left: 0.28rem;
+}
+.mt-1-5 {
+  margin-top: 0.094rem;
+}
+.mt-7 {
+  margin-top: 0.44rem;
+}
+.page {
+  padding: 1rem 0 1rem 1rem;
+  background-color: #007aff;
+  overflow: hidden;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.text {
+  color: #ffffff;
+  font-size: 1.13rem;
+  font-family: Arial;
+  line-height: 0.83rem;
+}
+.horiz-list {
+  align-self: stretch;
+}
+.group {
+  overflow-x: auto;
+}
+.section {
+  flex-shrink: 0;
+}
+.group_2 {
+  padding: 0.66rem 0.94rem 0.88rem 1rem;
+}
+.group_5 {
+  margin-top: 0.5rem;
+}
+.font {
+  font-size: 1.25rem;
+  font-family: Arial;
+  line-height: 1.11rem;
+  color: #fefffe;
+}
+.text_2 {
+  margin-left: 0.063rem;
+}
+.font_2 {
+  font-size: 0.63rem;
+  font-family: Arial;
+  line-height: 0.56rem;
+  color: #fefffe;
+}
+.text_3 {
+  line-height: 0.55rem;
+}
+.group_3 {
+  opacity: 0.15;
+  width: 3.48rem;
+  height: 3.04rem;
+}
+.image {
+  margin-left: -0.13rem;
+  margin-top: -0.13rem;
+  border-radius: 0.36rem;
+  width: 3.72rem;
+  height: 1.5rem;
+}
+.section_3 {
+  margin: -0.13rem 0.19rem 0;
+  padding: 0.75rem 0 0.063rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=a3179b898a8afb52ad123330d95bfc5c.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.section_5 {
+  background-color: #ffffff;
+  border-radius: 0.18rem;
+  width: 0.25rem;
+  height: 0.98rem;
+}
+.view {
+  margin-left: 0.81rem;
+}
+.section_6 {
+  padding: 0.25rem 0.69rem 0.25rem 0.75rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=3a3308bbac251b297873c721783e31a2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image-wrapper {
+  padding: 0.19rem 0;
+  background-color: #d8d8d800;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.image_3 {
+  width: 1.16rem;
+  height: 1.16rem;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.56rem;
+  color: #ffffff;
+}
+.text_4 {
+  margin-top: 0.38rem;
+  opacity: 0.797;
+}
+.section_2 {
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+.group_4 {
+  opacity: 0.15;
+  height: 3.04rem;
+}
+.image_2 {
+  border-radius: 0.36rem;
+  width: 3.47rem;
+  height: 1.25rem;
+}
+.section_4 {
+  padding-top: 0.69rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=2dfe59b7db2bc484db39d827faed0233.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 2.84rem;
+  height: 1.69rem;
+}
+.view_2 {
+  margin-left: 0.69rem;
+}
+.section_7 {
+  flex-shrink: 0;
+  margin-left: -25.5rem;
+  margin-top: 7.06rem;
+}
+.group_6 {
+  padding: 0.66rem 0 0.88rem;
+}
+.view_3 {
+  margin-right: 0.94rem;
+}
+.group_7 {
+  padding: 0.38rem 0 0.063rem;
+  overflow: hidden;
+  width: 10.5rem;
+  height: 3.63rem;
+}
+.pos {
+  position: absolute;
+  left: 50%;
+  top: 0.34rem;
+  transform: translateX(-50%);
+}
+.text_5 {
+  margin-left: 0.13rem;
+}
+.text_6 {
+  line-height: 0.75rem;
+  width: 10.59rem;
+}
+.section_8 {
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+  margin-top: 7.06rem;
+}
+.horiz-list-item {
+  background-image: linear-gradient(27deg, #ffad00 -15.1%, #ff9900 100%);
+  border-radius: 0.38rem;
+  width: 12.5rem;
+  height: 6.56rem;
+}

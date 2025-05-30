@@ -1,0 +1,83 @@
+.page {
+  padding: 2.69rem 0 5.88rem;
+  background-color: #ffffff;
+  border-radius: 1.88rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  padding: 0.13rem 0 21rem;
+}
+.text {
+  text-transform: capitalize;
+}
+.text_2 {
+  margin-right: 2.63rem;
+  color: #000000;
+  font-size: 0.94rem;
+  font-family: League Spartan;
+  font-weight: 300;
+  line-height: 0.84rem;
+}
+.image-wrapper {
+  padding: 0.063rem 0 20.88rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=fef65738d472423af06e2db2b91c30ac.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pos {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.image {
+  margin-right: 1.88rem;
+  width: 0.63rem;
+  height: 1rem;
+}
+.text_3 {
+  margin-right: 1.38rem;
+  margin-top: 3.13rem;
+  color: #13cad6;
+  font-size: 2rem;
+  font-family: League Spartan;
+  line-height: 1.4rem;
+}
+.text_4 {
+  margin-top: 3.63rem;
+  color: #252525;
+  font-size: 0.75rem;
+  font-family: League Spartan;
+  font-weight: 300;
+  line-height: 0.94rem;
+  text-align: center;
+  width: 15.19rem;
+}
+.image_2 {
+  margin-top: 2.5rem;
+  width: 2.19rem;
+  height: 0.56rem;
+}
+.text-wrapper {
+  margin-top: 2.44rem;
+  padding: 0.88rem 0;
+  background-image: linear-gradient(180deg, #33e4db 0%, #00bad3 100%);
+  border-radius: 6.25rem;
+  border-image-slice: 1;
+  overflow: hidden;
+  width: 12.88rem;
+  border-left: solid 0.063rem #33e4db;
+  border-right: solid 0.063rem #33e4db;
+  border-top: solid 0.063rem #33e4db;
+  border-bottom: solid 0.063rem #33e4db;
+}
+.text_5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: League Spartan;
+  line-height: 1.01rem;
+}

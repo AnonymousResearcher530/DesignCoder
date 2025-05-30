@@ -1,0 +1,133 @@
+.mt-3 {
+  margin-top: 0.19rem;
+}
+.mt-35 {
+  margin-top: 2.19rem;
+}
+.mt-6-5 {
+  margin-top: 0.41rem;
+}
+.page {
+  background-color: #f2f2f2;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  filter: drop-shadow(0rem 0.13rem 0.063rem #0000003d);
+  width: 100vw;
+  height: 22.2222vw;
+}
+.section {
+  padding: 0.75rem 1.07rem;
+  background-color: #ffffff;
+}
+.font {
+  font-size: 0.88rem;
+  font-family: Roboto;
+  line-height: 1.31rem;
+  color: #666666;
+}
+.text {
+  color: #000000;
+  line-height: 0.66rem;
+}
+.image_2 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.group {
+  margin-right: 0.34rem;
+}
+.image_3 {
+  width: 1rem;
+  height: 1rem;
+}
+.section_2 {
+  margin-left: 0.98rem;
+  background-color: #cccccc;
+  width: 0.031rem;
+  height: 0.97rem;
+}
+.image_4 {
+  margin-left: 1.16rem;
+  margin-bottom: 0.061rem;
+  width: 0.66rem;
+  height: 0.94rem;
+}
+.list {
+  padding-bottom: 0.13rem;
+}
+.list-item {
+  padding-top: 1rem;
+  background-color: #ffffff;
+  height: 10rem;
+}
+.group_2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 1.13rem;
+  overflow: hidden;
+}
+.image_5 {
+  width: 8rem;
+  height: 8rem;
+}
+.group_3 {
+  margin-top: 0.094rem;
+  margin-bottom: 0.21rem;
+  flex: 1 0 0;
+}
+.group_4 {
+  margin-right: 0.51rem;
+}
+.font_2 {
+  font-size: 1rem;
+  font-family: Roboto;
+  line-height: 0.93rem;
+  color: #000000;
+}
+.font_3 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.72rem;
+  color: #999999;
+}
+.font_4 {
+  font-size: 0.75rem;
+  font-family: Arial;
+  line-height: 0.55rem;
+  color: #000000;
+}
+.image_6 {
+  width: 3.28rem;
+  height: 0.63rem;
+}
+.font_5 {
+  font-size: 0.75rem;
+  font-family: Roboto;
+  line-height: 0.67rem;
+  color: #999999;
+}
+.section_3 {
+  padding: 0.94rem 4.44rem 0.82rem 4.5rem;
+  background-color: #000000;
+}
+.equal-division-item {
+  border-radius: 0.13rem;
+  width: 0.94rem;
+  height: 1.06rem;
+}
+.group_5 {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  border: solid 0.13rem #ffffff;
+}
+.group_6 {
+  border-radius: 0.13rem;
+  width: 1rem;
+  height: 1rem;
+  border: solid 0.13rem #ffffff;
+}

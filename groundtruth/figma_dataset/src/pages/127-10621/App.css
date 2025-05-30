@@ -1,0 +1,364 @@
+.mt-23 {
+  margin-top: 1.44rem;
+}
+.ml-11 {
+  margin-left: 0.69rem;
+}
+.mt-19 {
+  margin-top: 1.19rem;
+}
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.page {
+  background-image: linear-gradient(159.4deg, #ebf6ff -22.8%, #ffffff 97.1%);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.text-wrapper {
+  padding: 3.9rem 0 6.91rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=1a910bd9ff2ed8f030ebea2d71e471b4.png');
+  background-size: 100% 100%;
+  width: 12.88rem;
+}
+.text {
+  margin-left: 0.89rem;
+  color: #3d3131;
+  font-size: 2.5rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 2.62rem;
+}
+.section {
+  margin: -4.3rem 1.19rem 0 0.81rem;
+  padding: 1.92rem 1.38rem 0 1.5rem;
+  background-color: #7d7ceb;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 29.75rem;
+}
+.section_2 {
+  background-color: #70f280;
+  width: 3.63rem;
+  height: 0.063rem;
+}
+.view_1 {
+  margin-top: 3.58rem;
+}
+.equal-division {
+  margin-top: 8.91rem;
+}
+.group_1 {
+  padding-left: 0.36rem;
+}
+.font_3 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.67rem;
+  color: #ffffff;
+}
+.text_7 {
+  line-height: 0.84rem;
+}
+.section_3 {
+  background-color: #bae9fc;
+  border-radius: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.font_7 {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  color: #ffffff;
+}
+.text_8 {
+  line-height: 0.57rem;
+}
+.section_4 {
+  background-color: #2945ff;
+  border-radius: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.text_9 {
+  line-height: 0.53rem;
+}
+.group_6 {
+  padding-left: 0.25rem;
+}
+.group_7 {
+  flex: 1 1 5.13rem;
+}
+.group_14 {
+  padding: 2.53rem 0.63rem 0.34rem;
+}
+.section_5 {
+  background-color: #bae9fc;
+  border-radius: 0.5rem;
+  width: 1.13rem;
+  height: 4.19rem;
+}
+.section_6 {
+  background-color: #2945ff;
+  border-radius: 0.5rem;
+  width: 1.13rem;
+  height: 4.94rem;
+}
+.font_8 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.67rem;
+  color: #dbdcec;
+}
+.text_10 {
+  margin-left: 0.29rem;
+}
+.equal-division-item_1 {
+  padding: 0.34rem 0.63rem 0.34rem;
+}
+.section_14 {
+  background-color: #bae9fc;
+  border-radius: 0.5rem;
+  width: 1.13rem;
+  height: 7.13rem;
+}
+.text_1 {
+  margin-left: 0.29rem;
+}
+.section_15 {
+  background-color: #2945ff;
+  border-radius: 0.5rem;
+  width: 1.13rem;
+  height: 7.13rem;
+}
+.group_15 {
+  padding: 0.97rem 0.63rem 0.34rem;
+}
+.section_1 {
+  background-color: #bae9fc;
+  border-radius: 0.5rem;
+  width: 1.13rem;
+  height: 6.5rem;
+}
+.text_20 {
+  margin-left: 0.29rem;
+}
+.group_8 {
+  margin-left: 0.079rem;
+  margin-top: 6.75rem;
+}
+.font {
+  font-size: 1.5rem;
+  font-family: Poppins;
+  line-height: 1.61rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.67rem;
+  color: #70f280;
+}
+.text_11 {
+  line-height: 0.68rem;
+}
+.equal-division_4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -29.29rem;
+}
+.equal-division-item {
+  position: relative;
+  flex: 1 1 9.46rem;
+}
+.group_3 {
+  padding: 0.34rem 0 1.6rem;
+}
+.text-wrapper_2 {
+  margin-left: 0.69rem;
+  padding: 0.29rem 0 2.37rem;
+  background-color: #7d7ceb;
+}
+.text_3 {
+  line-height: 0.66rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 0.76rem;
+  top: 2.6rem;
+}
+.font_4 {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 0.76rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.font_5 {
+  font-size: 0.63rem;
+  font-family: Poppins;
+  line-height: 0.47rem;
+  color: #41ffd2;
+}
+.equal-division-item_2 {
+  flex: 1 1 9.46rem;
+}
+.group_4 {
+  padding: 0.63rem 0.66rem 0.34rem;
+}
+.text_4 {
+  line-height: 0.66rem;
+}
+.font_6 {
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 0.97rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.text_5 {
+  margin-top: 1.35rem;
+}
+.text_6 {
+  margin-top: 0.74rem;
+  color: #f2efef;
+  line-height: 0.57rem;
+}
+.text_21 {
+  margin-left: 0.14rem;
+  margin-top: -10.68rem;
+}
+.text_2 {
+  margin-left: 0.079rem;
+  margin-top: 1.16rem;
+  line-height: 0.68rem;
+}
+.group_16 {
+  margin-top: 1.5rem;
+}
+.section_7 {
+  margin-left: 0.81rem;
+  margin-right: 1.19rem;
+  background-color: #7d7ceb;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 16.06rem;
+}
+.pos_1 {
+  position: absolute;
+  left: 2.31rem;
+  top: 5.5rem;
+}
+.group_9 {
+  width: 15.49rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 3rem;
+  top: 7.69rem;
+}
+.section_8 {
+  background-color: #7d7ceb;
+  width: 6.25rem;
+  height: 3.31rem;
+}
+.text_13 {
+  margin-top: 0.29rem;
+  line-height: 0.66rem;
+}
+.group_17 {
+  width: 15.42rem;
+}
+.pos_6 {
+  position: absolute;
+  left: 0.069rem;
+  right: 0;
+  top: 2.25rem;
+}
+.text_12 {
+  line-height: 0.66rem;
+}
+.pos_5 {
+  position: absolute;
+  left: 0;
+  top: 0.29rem;
+}
+.divider {
+  background-color: #d7d5ff;
+  height: 0.063rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8.88rem;
+}
+.group_10 {
+  margin-top: -4.69rem;
+}
+.equal-division_2 {
+  position: relative;
+}
+.section_9 {
+  padding: 0.24rem 0 0.61rem;
+  background-color: #fafafa;
+}
+.equal-division-item_4 {
+  padding: 0.28rem 0 0.44rem;
+  width: 6.16rem;
+}
+.image {
+  width: 2.19rem;
+  height: 2.19rem;
+}
+.font_9 {
+  font-size: 0.75rem;
+  font-family: Poppins;
+  color: #a9aff4;
+}
+.text_14 {
+  line-height: 0.75rem;
+}
+.equal-division-item_9 {
+  margin-left: 13.36rem;
+}
+.group_11 {
+  padding: 0.28rem 0.34rem 0.44rem;
+  width: 6.16rem;
+}
+.text_16 {
+  line-height: 0.54rem;
+}
+.equal-division-item_6 {
+  position: absolute;
+  right: 6.51rem;
+  top: 0.24rem;
+}
+.group_12 {
+  padding: 0.28rem 1.38rem 0.61rem;
+  width: 6.16rem;
+}
+.image_2 {
+  margin-left: 0.2rem;
+}
+.text_15 {
+  line-height: 0.58rem;
+}
+.equal-division-item_7 {
+  position: absolute;
+  right: 0;
+  top: 0.24rem;
+}
+.group_13 {
+  padding: 0.28rem 0 0.22rem;
+  width: 6.16rem;
+}
+.text_17 {
+  color: #756fe8;
+  font-size: 0.75rem;
+  font-family: Poppins;
+  line-height: 0.77rem;
+}

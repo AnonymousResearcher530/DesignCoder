@@ -1,0 +1,130 @@
+.page {
+  background-color: #dce0e8;
+  border-radius: 2rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.section {
+  padding: 3.63rem 1rem 14.63rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=cc07ed5521f08cee2811f73fe3ec2b52.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.equal-division-item {
+  padding: 0.38rem 0;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+  width: 3.75rem;
+  height: 6.94rem;
+}
+.image {
+  border-radius: 0.63rem;
+  width: 3rem;
+  height: 3rem;
+}
+.font {
+  font-size: 1.25rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.013rem;
+  line-height: 0.96rem;
+  font-weight: 800;
+  color: #242d49;
+}
+.text {
+  margin-top: 0.88rem;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Plus Jakarta Sans;
+  letter-spacing: -0.0088rem;
+  line-height: 0.84rem;
+  font-weight: 600;
+  color: #5d6985;
+}
+.text_2 {
+  margin-top: 0.5rem;
+}
+.group {
+  margin-top: 3.13rem;
+  padding: 0 2.63rem;
+}
+.image_2 {
+  border-radius: 1.5rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+  width: 4.25rem;
+  height: 4.25rem;
+}
+.image_3 {
+  border-radius: 1.5rem;
+  filter: drop-shadow(0rem 1rem 1rem #090e1d0d);
+  width: 4rem;
+  height: 4rem;
+}
+.image_4 {
+  margin: 0.13rem 0;
+}
+.group_2 {
+  margin-top: 3.63rem;
+  padding: 0 2.25rem;
+}
+.section_2 {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  box-shadow: 0rem 0.38rem 0.75rem #1018281a;
+  height: 0.5rem;
+}
+.group_3 {
+  margin-top: -0.25rem;
+  padding: 9.13rem 0.38rem 0;
+}
+.section_3 {
+  opacity: 0.64;
+  background-image: linear-gradient(180deg, #ffffff 0%, #ffffff00 100%);
+  width: 16.06rem;
+  height: 11rem;
+}
+.pos {
+  position: absolute;
+  left: 0.44rem;
+  right: 0.5rem;
+  top: 0;
+}
+.group_4 {
+  margin-top: -13.06rem;
+}
+.section_4 {
+  opacity: 0.48;
+  background-image: linear-gradient(180deg, #242d4900 0%, #242d49 100%);
+  mix-blend-mode: MULTIPLY;
+  height: 14rem;
+}
+.equal-division {
+  position: absolute;
+  left: 50%;
+  top: 4.75rem;
+  transform: translateX(-50%);
+}
+.group_5 {
+  width: 18rem;
+}
+.equal-division-item_2 {
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 0.38rem 0.38rem #1018281a);
+  width: 4rem;
+  height: 4rem;
+}
+.image_5 {
+  border-radius: 1.13rem;
+  filter: drop-shadow(0rem 0rem 0rem #0f67fe40);
+  width: 6rem;
+  height: 6rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 50%;
+  top: 1rem;
+  transform: translateX(-50%);
+}

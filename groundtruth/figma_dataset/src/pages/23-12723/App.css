@@ -1,0 +1,69 @@
+.page {
+  padding-top: 4.02rem;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.group {
+  width: 19.51rem;
+}
+.text {
+  color: #848487;
+  font-size: 0.88rem;
+  font-family: Poppins;
+  line-height: 0.89rem;
+}
+.text_2 {
+  margin-left: 0.11rem;
+  margin-top: 0.31rem;
+  color: #161c2b;
+  font-size: 2.19rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.55rem;
+  text-transform: capitalize;
+}
+.text_3 {
+  margin-top: 1.44rem;
+  color: #6f6f79;
+  font-size: 1rem;
+  font-family: Poppins;
+  line-height: 1.19rem;
+  width: 17.5rem;
+}
+.section {
+  margin-top: 1.54rem;
+  padding-bottom: 7.19rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=23cf267a9a6d517e95621b882ce9a6d9.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 35.31rem;
+}
+.image {
+  margin-top: -15.44rem;
+  width: 90.6667vw;
+  height: 185.8667vw;
+}
+.text-wrapper {
+  padding: 1.33rem 0 1.33rem;
+  background-color: #4e74f9;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0rem 0.13rem 0.063rem #0000003d, 0rem 0rem 0.063rem #0000001f);
+  overflow: hidden;
+}
+.pos {
+  position: absolute;
+  left: 1.31rem;
+  right: 1.19rem;
+  top: 45.06rem;
+}
+.text_4 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 0.71rem;
+}

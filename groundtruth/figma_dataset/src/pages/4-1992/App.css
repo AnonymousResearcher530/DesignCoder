@@ -1,0 +1,72 @@
+.mt-21 {
+  margin-top: 1.31rem;
+}
+.page {
+  padding: 0.81rem 1.13rem 7.44rem;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.text {
+  margin-top: 1.31rem;
+  color: #676b7f;
+  font-size: 1.56rem;
+  font-family: Circular Std;
+  font-weight: 900;
+  line-height: 1.16rem;
+}
+.group {
+  margin-top: 5.57rem;
+}
+.font {
+  font-size: 1.25rem;
+  font-family: Circular Std;
+  line-height: 1.15rem;
+  color: #676b7f;
+}
+.font_2 {
+  font-size: 0.88rem;
+  font-family: Rubik;
+  line-height: 0.79rem;
+  color: #676b7f;
+}
+.text-wrapper {
+  margin-right: 0.31rem;
+  margin-top: 1.71rem;
+  padding: 1.4rem 0 1.18rem;
+  background-color: #8b8fa4;
+  border-radius: 3.25rem;
+}
+.text_2 {
+  color: #ffffff;
+  line-height: 1.17rem;
+}
+.divider {
+  margin: 1.88rem 0.31rem 0 0.063rem;
+  background-color: #c5c8d8;
+  height: 0.063rem;
+}
+.group_2 {
+  margin-top: 1.29rem;
+  padding: 1.56rem 0 1.56rem;
+}
+.text_3 {
+  line-height: 0.82rem;
+}
+.text-wrapper_2 {
+  margin-right: 0.31rem;
+  padding: 1.23rem 0 1.35rem;
+  border-radius: 3.25rem;
+  height: 3.75rem;
+  border: solid 0.13rem #8b8fa4;
+}
+.text_4 {
+  color: #8b8fa4;
+  line-height: 0.92rem;
+}

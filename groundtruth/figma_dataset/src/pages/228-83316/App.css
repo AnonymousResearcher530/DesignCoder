@@ -1,0 +1,307 @@
+.mt-15 {
+  margin-top: 0.94rem;
+}
+.ml-7 {
+  margin-left: 0.44rem;
+}
+.ml-51 {
+  margin-left: 3.19rem;
+}
+.ml-53 {
+  margin-left: 3.31rem;
+}
+.mt-9 {
+  margin-top: 0.56rem;
+}
+.mt-13 {
+  margin-top: 0.81rem;
+}
+.mt-77 {
+  margin-top: 4.81rem;
+}
+.page {
+  padding: 2.4rem 0 0.17rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=f03de1718f1a0fcb75030dd1fc7c1de9.png');
+  border-image-slice: 1;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.section_8 {
+  margin-right: 0.17rem;
+  margin-top: 55.63rem;
+  padding: 1.13rem 2.41rem 0 2.48rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=0ed5977fdb47f19a26c84ff64ceb21d0.png');
+  border-image-slice: 1;
+  background-size: 100% 100%;
+}
+.section_9 {
+  background-color: #17181c;
+  border-radius: 1.25rem;
+  box-shadow: 0rem 0.063rem 0.25rem #00000040 inset;
+  width: 3.75rem;
+  height: 0.25rem;
+}
+.group_7 {
+  padding: 0.75rem 0 1.69rem;
+}
+.group_8 {
+  width: 13.03rem;
+}
+.font_2 {
+  font-size: 1.5rem;
+  font-family: Lato;
+  line-height: 1.13rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.text_14 {
+  line-height: 1.19rem;
+}
+.font_3 {
+  font-size: 1.13rem;
+  font-family: Lato;
+  line-height: 1rem;
+  color: #7e8389;
+}
+.text_15 {
+  line-height: 1.38rem;
+  word-break: break-all;
+}
+.image-wrapper {
+  padding: 1.75rem 0 2rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=8388a36d99258dfaa340f8432daaedb8.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 5rem;
+  height: 5rem;
+}
+.image_11 {
+  filter: drop-shadow(0rem 0rem 0.78rem #26abf733, 0rem 0rem 0.31rem #62ceff80);
+  width: 1.1rem;
+  height: 1.25rem;
+}
+.group_12 {
+  margin-top: -11.93rem;
+  width: 25.79rem;
+}
+.text_12 {
+  line-height: 1.39rem;
+}
+.text_13 {
+  color: #ffffff;
+  line-height: 1.01rem;
+}
+.group_1 {
+  width: 26.52rem;
+}
+.view_1 {
+  margin-top: -54.19rem;
+}
+.image {
+  width: 3.94rem;
+  height: 3.94rem;
+}
+.font {
+  font-size: 1.13rem;
+  font-family: Lato;
+  line-height: 0.85rem;
+  color: #7e8389;
+}
+.text {
+  line-height: 0.84rem;
+}
+.text_2 {
+  color: #fcfcfc;
+  font-size: 1.13rem;
+  font-family: Lato;
+  font-weight: 900;
+  line-height: 1.03rem;
+  text-shadow: 0rem 0rem 0.25rem #ffffff40;
+}
+.image_2 {
+  margin-right: 0.64rem;
+}
+.group {
+  margin-top: 3.62rem;
+  padding: 5.47rem 0.37rem 0;
+}
+.image_4 {
+  margin-right: 2.92rem;
+  filter: drop-shadow(0rem 0rem 0.47rem #41bbff) blur(1.25rem);
+  width: 13.69rem;
+  height: 0.63rem;
+}
+.image_5 {
+  margin-right: 0.66rem;
+  margin-top: 4.8rem;
+  filter: blur(1.56rem);
+  width: 25.13rem;
+  height: 3.75rem;
+}
+.image_6 {
+  opacity: 0.8;
+  filter: blur(0.31rem);
+  width: 21.44rem;
+  height: 3.25rem;
+}
+.pos_3 {
+  position: absolute;
+  left: 2.33rem;
+  bottom: 0.42rem;
+}
+.section_2 {
+  padding: 5.47rem 0 7.71rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=6d4d0ffc480c4dc5aabc6e2c5abca7f9.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 22.56rem;
+}
+.pos_2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.section_3 {
+  filter: drop-shadow(0rem 0rem 0.47rem #41bbff) blur(1.25rem);
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=5fe5e3e5a9e5cc98d9148dfd9bee32e8.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13.69rem;
+}
+.view {
+  margin-left: 7.61rem;
+  margin-right: 1.26rem;
+}
+.image_3 {
+  opacity: 0.8;
+  width: 13.69rem;
+  height: 0.63rem;
+}
+.view_3 {
+  margin-top: 3.38rem;
+}
+.text_3 {
+  margin-left: 0.22rem;
+  line-height: 1.11rem;
+}
+.group_2 {
+  padding-left: 0.16rem;
+  padding-right: 0.16rem;
+}
+.image_7 {
+  width: 0.5rem;
+  height: 0.88rem;
+}
+.image_8 {
+  border-radius: 0.063rem;
+  width: 0.94rem;
+  height: 0.94rem;
+}
+.text_4 {
+  line-height: 1.01rem;
+}
+.image_9 {
+  width: 0.44rem;
+  height: 0.88rem;
+}
+.group_3 {
+  padding: 0 1.07rem;
+}
+.font_4 {
+  font-size: 1.13rem;
+  font-family: Lato;
+  line-height: 0.85rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.text_5 {
+  line-height: 0.83rem;
+}
+.pos_4 {
+  position: absolute;
+  left: 1.07rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text_6 {
+  line-height: 0.84rem;
+}
+.group_4 {
+  margin-right: 0.79rem;
+  border-radius: 50%;
+  width: 0.19rem;
+  height: 0.19rem;
+  border: solid 0.13rem #ffffff;
+}
+.text_7 {
+  line-height: 0.83rem;
+}
+.group_11 {
+  margin-top: 4.24rem;
+}
+.text_1 {
+  margin-left: 0.43rem;
+}
+.group_5 {
+  padding-left: 0.31rem;
+}
+.section_7 {
+  margin-top: 0.13rem;
+  padding-bottom: 0.13rem;
+  background-image: linear-gradient(136.8deg, #1e2328 0%, #191c1e 100%);
+  border-radius: 0.5rem;
+  box-shadow: -0.44rem -0.44rem 1.88rem #262e32, 0.88rem 0.88rem 2.5rem #101012bf;
+  width: 9.38rem;
+  height: 10rem;
+}
+.section_4 {
+  margin-right: 0.13rem;
+  padding: 6.29rem 0.78rem 1.04rem 1.04rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=f8302003436887ff90c3459fff23a97d.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.text_8 {
+  line-height: 1.04rem;
+}
+.text_10 {
+  line-height: 1.03rem;
+}
+.section_5 {
+  margin-left: 1.88rem;
+  margin-bottom: 0.13rem;
+  background-image: linear-gradient(136.8deg, #1e2328 0%, #191c1e 100%);
+  border-radius: 0.5rem;
+  box-shadow: -0.44rem -0.44rem 1.88rem #262e32, 0.88rem 0.88rem 2.5rem #101012bf;
+  width: 9.38rem;
+  height: 10rem;
+}
+.section_6 {
+  padding: 1rem 1rem 1.2rem;
+  background-image: url('https://ide.code.fun/api/image?token=6837d51d4ae84d0012310ff0&name=1f167e2bfd1c7e9459d65e2b72809d44.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 9.38rem;
+}
+.image_10 {
+  box-shadow: 0rem 0rem 0.25rem #00000080 inset;
+  border-radius: 6.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_11 {
+  line-height: 0.88rem;
+}
+.group_6 {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.text_9 {
+  color: transparent;
+  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff00 106.1%);
+  -webkit-background-clip: text;
+}

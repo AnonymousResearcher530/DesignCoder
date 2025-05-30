@@ -1,0 +1,209 @@
+.page {
+  background-color: #0267fd;
+  background-image: radial-gradient(66.7% 66.7% at 50% 35.4%, #3a89ff 0%, #0058e1 100%);
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section_2 {
+  background-image: radial-gradient(66.7% 66.7% at 50% 35.4%, #3a89ff 0%, #0058e1 100%);
+  width: 46.88rem;
+  height: 83.38rem;
+}
+.image_2 {
+  width: 100vw;
+  height: 113.6vw;
+}
+.pos_3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.image_7 {
+  width: 7.56rem;
+  height: 6.44rem;
+}
+.pos_8 {
+  position: absolute;
+  right: 17.19rem;
+  top: 15.38rem;
+}
+.image_5 {
+  width: 93.2vw;
+  height: 95.3333vw;
+}
+.pos_6 {
+  position: absolute;
+  left: 2.06rem;
+  right: 1.13rem;
+  top: 10.63rem;
+}
+.image_3 {
+  opacity: 0.35;
+  filter: blur(3.39rem);
+  width: 92.2667vw;
+  height: 177.8667vw;
+}
+.pos_4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.image_4 {
+  width: 93.4667vw;
+  height: 177.8667vw;
+}
+.pos_5 {
+  position: absolute;
+  left: 0;
+  right: 3.06rem;
+  bottom: 0;
+}
+.section {
+  opacity: 0.233;
+  background-image: linear-gradient(107.3deg, #2551c8 29.5%, #ffffff 64.4%);
+  mix-blend-mode: MULTIPLY;
+  width: 53.75rem;
+  height: 76.38rem;
+}
+.pos {
+  position: absolute;
+  left: -4.94rem;
+  right: -1.94rem;
+  top: -2.81rem;
+}
+.image_6 {
+  opacity: 0.958;
+  width: 10.31rem;
+  height: 10.31rem;
+}
+.pos_7 {
+  position: absolute;
+  left: -4.5rem;
+  top: 14.13rem;
+}
+.image {
+  opacity: 0.958;
+  width: 7.38rem;
+  height: 7.38rem;
+}
+.pos_2 {
+  position: absolute;
+  right: 8.5rem;
+  top: -1.88rem;
+}
+.section_3 {
+  padding: 2.13rem 1.75rem 7.06rem 3.44rem;
+  background-image: linear-gradient(180deg, #005cea00 6.3%, #005de9 46%);
+}
+.pos_9 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 38.44rem;
+}
+.image_8 {
+  margin-left: 1.13rem;
+  mix-blend-mode: COLOR;
+  filter: blur(1.32rem);
+  width: 5.88rem;
+  height: 4rem;
+}
+.group {
+  margin-top: 5.5rem;
+  padding-left: 5.06rem;
+}
+.image_16 {
+  margin-top: 11rem;
+  width: 4.69rem;
+  height: 5.56rem;
+}
+.image_15 {
+  margin-top: 10.25rem;
+  width: 4.69rem;
+  height: 5.5rem;
+}
+.image_9 {
+  width: 24.13rem;
+  height: 8.25rem;
+}
+.group_2 {
+  margin-top: -1.5rem;
+}
+.image_14 {
+  margin-top: 2.88rem;
+  width: 4.63rem;
+  height: 5.5rem;
+}
+.group_3 {
+  margin-right: 0.88rem;
+  padding-top: 1.38rem;
+  height: 9.16rem;
+}
+.group_4 {
+  margin-right: 0.38rem;
+  padding-top: 6rem;
+}
+.image_18 {
+  width: 18.5rem;
+  height: 1.75rem;
+}
+.image_17 {
+  width: 3.75rem;
+  height: 3.38rem;
+}
+.pos_14 {
+  position: absolute;
+  left: 0;
+  bottom: 1.41rem;
+}
+.image_13 {
+  width: 4.13rem;
+  height: 2.38rem;
+}
+.pos_13 {
+  position: absolute;
+  left: 0;
+  top: 0.95rem;
+}
+.image_12 {
+  width: 5.75rem;
+  height: 6.63rem;
+}
+.pos_12 {
+  position: absolute;
+  left: 4.29rem;
+  top: 0;
+}
+.image_11 {
+  width: 5.44rem;
+  height: 6.56rem;
+}
+.pos_11 {
+  position: absolute;
+  right: 5.7rem;
+  top: 0.65rem;
+}
+.image_10 {
+  width: 5.5rem;
+  height: 6.5rem;
+}
+.pos_10 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.section_4 {
+  margin-right: 1.75rem;
+  margin-top: 4.06rem;
+  filter: drop-shadow(0rem 0.5rem 0.5rem #0344bb);
+  opacity: 0.95;
+  background-image: linear-gradient(172.3deg, #ff7814 4.2%, #ff2447 50%);
+  border-radius: 2.81rem;
+}
+.section_5 {
+  background-color: #00000000;
+  height: 5.63rem;
+}

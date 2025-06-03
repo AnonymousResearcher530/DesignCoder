@@ -1,0 +1,26 @@
+[
+    {
+        "element_id": "I1_77_41_532",
+        "semantic": "An icon representing a user profile. It is likely used to navigate to or represent user account-related features."
+    },
+    {
+        "element_id": "I1_75_41_524",
+        "semantic": "An icon representing a chat or messaging feature. It is likely used to access conversations or notifications related to messages."
+    },
+    {
+        "element_id": "I1_73_41_832",
+        "semantic": "An icon representing a shopping bag. It is likely used to access a shopping cart or purchase-related features."
+    },
+    {
+        "element_id": "I1_70_41_558",
+        "semantic": "An icon representing a home. It is likely used to navigate to the main or home screen of the application."
+    },
+    {
+        "element_id": "_1_102",
+        "semantic": "A horizontal indicator bar, likely used to highlight the currently active or selected tab in the navigation menu."
+    },
+    {
+        "element_id": "_1_71",
+        "semantic": "A text label displaying the word 'Home', which serves as a visual indicator for the currently selected tab or section."
+    }
+]

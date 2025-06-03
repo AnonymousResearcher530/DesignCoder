@@ -1,0 +1,82 @@
+[
+    {
+        "element_id": "I0_1141_41_52",
+        "semantic": "A location pin icon associated with the '190m' text, indicating the distance of the item from the user."
+    },
+    {
+        "element_id": "I0_1125_41_52",
+        "semantic": "A location pin icon associated with the '190m' text, indicating the distance of the item from the user."
+    },
+    {
+        "element_id": "_1_108",
+        "semantic": "A star icon representing the rating of the 'Ordinary Burgers' item, visually paired with the '4.9' text."
+    },
+    {
+        "element_id": "I0_1138_433_7887",
+        "semantic": "A star icon representing the rating of the 'Burger With Meat' item, visually paired with the '4.9' text."
+    },
+    {
+        "element_id": "_0_1123",
+        "semantic": "The text '4.9', representing the rating of the 'Ordinary Burgers' item, displayed next to the star icon."
+    },
+    {
+        "element_id": "_0_1139",
+        "semantic": "The text '4.9', representing the rating of the 'Burger With Meat' item, displayed next to the star icon."
+    },
+    {
+        "element_id": "_0_1126",
+        "semantic": "The text '190m', indicating the distance of the 'Ordinary Burgers' item from the user, displayed next to the location pin icon."
+    },
+    {
+        "element_id": "_0_1142",
+        "semantic": "The text '190m', indicating the distance of the 'Burger With Meat' item from the user, displayed next to the location pin icon."
+    },
+    {
+        "element_id": "_0_1127",
+        "semantic": "The price text '$ 17,230', representing the cost of the 'Ordinary Burgers' item."
+    },
+    {
+        "element_id": "_0_1143",
+        "semantic": "The price text '$ 17,230', representing the cost of the 'Burger With Meat' item."
+    },
+    {
+        "element_id": "_0_1119",
+        "semantic": "The title text 'Ordinary Burgers', representing the name of the first burger item."
+    },
+    {
+        "element_id": "_0_1135",
+        "semantic": "The title text 'Burger With Meat', representing the name of the second burger item."
+    },
+    {
+        "element_id": "_0_1131",
+        "semantic": "A container frame holding the image and favorite icon for the 'Burger With Meat' item."
+    },
+    {
+        "element_id": "_0_1116",
+        "semantic": "A container frame holding the image and favorite icon for the 'Ordinary Burgers' item."
+    },
+    {
+        "element_id": "_0_1066",
+        "semantic": "A container frame holding the image and favorite icon for the third burger item in the bottom-left corner."
+    },
+    {
+        "element_id": "_0_1050",
+        "semantic": "A container frame holding the image and favorite icon for the fourth burger item in the bottom-right corner."
+    },
+    {
+        "element_id": "_0_1128",
+        "semantic": "A favorite icon container for the 'Ordinary Burgers' item, allowing users to mark the item as a favorite."
+    },
+    {
+        "element_id": "_0_1144",
+        "semantic": "A favorite icon container for the 'Burger With Meat' item, allowing users to mark the item as a favorite."
+    },
+    {
+        "element_id": "_0_1079",
+        "semantic": "A favorite icon container for the third burger item in the bottom-left corner, allowing users to mark the item as a favorite."
+    },
+    {
+        "element_id": "_0_1063",
+        "semantic": "A favorite icon container for the fourth burger item in the bottom-right corner, allowing users to mark the item as a favorite."
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "id": "bottom_navigation_bar",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "home_tab",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "I1_70_41_558",
+                    "interactionType": "Click",
+                    "children": []
+                },
+                {
+                    "id": "_1_71",
+                    "interactionType": "None",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "shopping_tab",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "I1_73_41_832",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "chat_tab",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "I1_75_41_524",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "profile_tab",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "I1_77_41_532",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "_1_102",
+            "interactionType": "None",
+            "children": []
+        }
+    ]
+}

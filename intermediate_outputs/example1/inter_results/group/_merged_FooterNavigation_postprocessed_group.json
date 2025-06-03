@@ -1,0 +1,99 @@
+{
+    "id": "bottom_navigation_bar",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "home_tab",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "I1_70_41_558",
+                    "interactionType": "Click",
+                    "children": [],
+                    "class": "Element",
+                    "absoluteBoundingBox": {
+                        "x": 39.399993896484375,
+                        "y": 742.3999938964844,
+                        "width": 19.200000762939453,
+                        "height": 19.200000762939453
+                    }
+                },
+                {
+                    "id": "_1_71",
+                    "interactionType": "None",
+                    "children": [],
+                    "class": "Text",
+                    "text_content": "Home",
+                    "absoluteBoundingBox": {
+                        "x": 32.0,
+                        "y": 768.0,
+                        "width": 34.0,
+                        "height": 16.0
+                    }
+                }
+            ],
+            "class": "Group",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 742.3999938964844,
+                "width": 34.0,
+                "height": 41.600006103515625
+            }
+        },
+        {
+            "id": "I1_73_41_832",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 119.76667022705078,
+                "y": 752.3999938964844,
+                "width": 16.800010681152344,
+                "height": 19.200000762939453
+            }
+        },
+        {
+            "id": "I1_75_41_524",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 210.90001106262207,
+                "y": 753.6000061035156,
+                "width": 19.200000762939453,
+                "height": 16.799999237060547
+            }
+        },
+        {
+            "id": "I1_77_41_532",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 304.43335723876953,
+                "y": 753.6000061035156,
+                "width": 16.799999237060547,
+                "height": 18.0
+            }
+        },
+        {
+            "id": "_1_102",
+            "interactionType": "None",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 120.0,
+                "y": 803.3333435058594,
+                "width": 134.0,
+                "height": 3.3333332538604736
+            }
+        }
+    ],
+    "class": "Group",
+    "absoluteBoundingBox": {
+        "x": 32.0,
+        "y": 742.3999938964844,
+        "width": 289.2333564758301,
+        "height": 64.26668286323547
+    }
+}

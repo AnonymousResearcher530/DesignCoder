@@ -1,0 +1,156 @@
+{
+    "id": "_0_1083",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_0_1091",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "Your Location",
+            "absoluteBoundingBox": {
+                "x": 24.0,
+                "y": 52.0,
+                "width": 91.0,
+                "height": 20.0
+            }
+        },
+        {
+            "id": "I0_1094_41_52",
+            "interactionType": "None",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 28.0,
+                "y": 84.0,
+                "width": 15.999999046325684,
+                "height": 19.31370735168457
+            }
+        },
+        {
+            "id": "_0_1095",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "New York City",
+            "absoluteBoundingBox": {
+                "x": 56.0,
+                "y": 83.0,
+                "width": 96.0,
+                "height": 20.0
+            }
+        },
+        {
+            "id": "_0_1092",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 123.0,
+                "y": 54.0,
+                "width": 16.0,
+                "height": 16.0
+            },
+            "image_path": "/img/_0_1092.svg"
+        },
+        {
+            "id": "_0_1096",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 255.0,
+                "y": 58.5,
+                "width": 40.0,
+                "height": 40.0
+            },
+            "image_path": "/img/_0_1096.svg"
+        },
+        {
+            "id": "_0_1146",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 311.0,
+                "y": 59.0,
+                "width": 40.0,
+                "height": 40.0
+            },
+            "image_path": "/img/_0_1146.svg"
+        },
+        {
+            "id": "_0_1088",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "Provide the best food for you",
+            "absoluteBoundingBox": {
+                "x": 24.0,
+                "y": 129.0,
+                "width": 272.0,
+                "height": 80.0
+            }
+        },
+        {
+            "id": "_1_99",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "9:41",
+            "absoluteBoundingBox": {
+                "x": 20.0,
+                "y": 14.0,
+                "width": 54.0,
+                "height": 20.0
+            }
+        },
+        {
+            "id": "_1_89",
+            "interactionType": "None",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 315.69384765625,
+                "y": 17.3306884765625,
+                "width": 15.27237606048584,
+                "height": 10.965571403503418
+            },
+            "image_path": "/img/_1_89.svg"
+        },
+        {
+            "id": "_1_93",
+            "interactionType": "None",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 293.6666564941406,
+                "y": 17.666656494140625,
+                "width": 17.0,
+                "height": 10.666666984558105
+            },
+            "image_path": "/img/_1_93.svg"
+        },
+        {
+            "id": "_1_85",
+            "interactionType": "None",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 336.0,
+                "y": 17.333343505859375,
+                "width": 24.32803726196289,
+                "height": 11.333333015441895
+            },
+            "image_path": "/img/_1_85.svg"
+        }
+    ],
+    "class": "Image",
+    "absoluteBoundingBox": {
+        "x": -4.003961299758885e-05,
+        "y": 0.0,
+        "width": 375.0000095220349,
+        "height": 228.99995875555365
+    },
+    "image_path": "/img/_0_1083.svg"
+}

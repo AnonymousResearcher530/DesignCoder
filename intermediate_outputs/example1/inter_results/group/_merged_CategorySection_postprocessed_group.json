@@ -1,0 +1,208 @@
+{
+    "id": "find_by_category_section",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_0_1099",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "Find by Category",
+            "absoluteBoundingBox": {
+                "x": 24.0,
+                "y": 253.0,
+                "width": 133.0,
+                "height": 24.0
+            }
+        },
+        {
+            "id": "_0_1100",
+            "interactionType": "Click",
+            "children": [],
+            "class": "Text",
+            "text_content": "See All",
+            "absoluteBoundingBox": {
+                "x": 305.0,
+                "y": 255.0,
+                "width": 46.0,
+                "height": 20.0
+            }
+        },
+        {
+            "id": "categories_container",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_5_318",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1103",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Image",
+                            "absoluteBoundingBox": {
+                                "x": 40.0,
+                                "y": 301.0,
+                                "width": 24.0,
+                                "height": 24.0
+                            },
+                            "image_path": "/img/_0_1103.svg"
+                        },
+                        {
+                            "id": "_0_1104",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Text",
+                            "text_content": "Burger",
+                            "absoluteBoundingBox": {
+                                "x": 33.0,
+                                "y": 329.0,
+                                "width": 38.0,
+                                "height": 21.0
+                            }
+                        }
+                    ],
+                    "class": "Element",
+                    "absoluteBoundingBox": {
+                        "x": 25.0,
+                        "y": 293.0,
+                        "width": 54.0,
+                        "height": 65.0
+                    }
+                },
+                {
+                    "id": "taco_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1106",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Image",
+                            "absoluteBoundingBox": {
+                                "x": 126.5,
+                                "y": 301.0,
+                                "width": 24.0,
+                                "height": 24.0
+                            },
+                            "image_path": "/img/_0_1106.svg"
+                        },
+                        {
+                            "id": "_0_1107",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Text",
+                            "text_content": "Taco",
+                            "absoluteBoundingBox": {
+                                "x": 117.0,
+                                "y": 329.0,
+                                "width": 43.0,
+                                "height": 21.0
+                            }
+                        }
+                    ],
+                    "class": "Group",
+                    "absoluteBoundingBox": {
+                        "x": 117.0,
+                        "y": 301.0,
+                        "width": 43.0,
+                        "height": 49.0
+                    }
+                },
+                {
+                    "id": "drink_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1109",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Image",
+                            "absoluteBoundingBox": {
+                                "x": 215.5,
+                                "y": 301.0,
+                                "width": 24.0,
+                                "height": 24.0
+                            },
+                            "image_path": "/img/_0_1109.svg"
+                        },
+                        {
+                            "id": "_0_1110",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Text",
+                            "text_content": "Drink",
+                            "absoluteBoundingBox": {
+                                "x": 206.0,
+                                "y": 329.0,
+                                "width": 43.0,
+                                "height": 21.0
+                            }
+                        }
+                    ],
+                    "class": "Group",
+                    "absoluteBoundingBox": {
+                        "x": 206.0,
+                        "y": 301.0,
+                        "width": 43.0,
+                        "height": 49.0
+                    }
+                },
+                {
+                    "id": "pizza_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1112",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Image",
+                            "absoluteBoundingBox": {
+                                "x": 304.5,
+                                "y": 301.0,
+                                "width": 24.0,
+                                "height": 24.0
+                            },
+                            "image_path": "/img/_0_1112.svg"
+                        },
+                        {
+                            "id": "_0_1113",
+                            "interactionType": "None",
+                            "children": [],
+                            "class": "Text",
+                            "text_content": "Pizza",
+                            "absoluteBoundingBox": {
+                                "x": 295.0,
+                                "y": 329.0,
+                                "width": 43.0,
+                                "height": 21.0
+                            }
+                        }
+                    ],
+                    "class": "Group",
+                    "absoluteBoundingBox": {
+                        "x": 295.0,
+                        "y": 301.0,
+                        "width": 43.0,
+                        "height": 49.0
+                    }
+                }
+            ],
+            "class": "Group",
+            "absoluteBoundingBox": {
+                "x": 25.0,
+                "y": 293.0,
+                "width": 313.0,
+                "height": 65.0
+            }
+        }
+    ],
+    "class": "Group",
+    "absoluteBoundingBox": {
+        "x": 24.0,
+        "y": 253.0,
+        "width": 327.0,
+        "height": 105.0
+    }
+}

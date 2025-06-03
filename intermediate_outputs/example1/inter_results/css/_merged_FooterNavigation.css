@@ -1,0 +1,93 @@
+#bottom_navigation_bar {
+position: absolute;
+  top: 91.4286%;
+  left: 8.5333%;
+  width: 77.1289%;
+  height: 7.9146%;
+  z-index: 0;
+}
+
+#home_tab {
+position: absolute;
+  top: 0.00%;
+  left: 0.00%;
+  width: 11.76%;
+  height: 64.73%;
+  z-index: 1;
+}
+
+#I1_70_41_558 {
+border: none;
+  background-color: rgba(254, 140, 0, 1.0);
+  position: absolute;
+  top: 0.00%;
+  left: 21.76%;
+  width: 56.47%;
+  height: 46.15%;
+  z-index: 2;
+}
+
+#_1_71 {
+color: rgba(254,140,0,1.0);
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 0.6250rem;
+  line-height: 0.7500rem;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 61.54%;
+  left: 0.00%;
+  width: 100.00%;
+  height: 38.46%;
+  z-index: 2;
+}
+
+#I1_73_41_832 {
+border: none;
+  background-color: rgba(194, 194, 194, 1.0);
+  position: absolute;
+  top: 15.56%;
+  left: 30.34%;
+  width: 5.81%;
+  height: 29.88%;
+  z-index: 1;
+}
+
+#I1_75_41_524 {
+border: none;
+  background-color: rgba(194, 194, 194, 1.0);
+  position: absolute;
+  top: 17.43%;
+  left: 61.85%;
+  width: 6.64%;
+  height: 26.14%;
+  z-index: 1;
+}
+
+#I1_77_41_532 {
+border: none;
+  background-color: rgba(194, 194, 194, 1.0);
+  position: absolute;
+  top: 17.43%;
+  left: 94.19%;
+  width: 5.81%;
+  height: 28.01%;
+  z-index: 1;
+}
+
+#_1_102 {
+border: none;
+  border-radius: 6.2500rem;
+  background-color: rgba(16, 16, 16, 1.0);
+  position: absolute;
+  top: 94.81%;
+  left: 30.43%;
+  width: 46.33%;
+  height: 5.19%;
+  z-index: 1;
+}
+

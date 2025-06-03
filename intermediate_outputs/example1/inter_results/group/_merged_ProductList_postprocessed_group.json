@@ -1,0 +1,274 @@
+{
+    "id": "burger_menu_ui",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_0_1116",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1128",
+                    "interactionType": "Click",
+                    "children": [],
+                    "class": "Image",
+                    "absoluteBoundingBox": {
+                        "x": 131.0,
+                        "y": 390.0,
+                        "width": 30.0,
+                        "height": 30.0
+                    },
+                    "image_path": "/img/_0_1128.svg"
+                },
+                {
+                    "id": "_0_1126",
+                    "interactionType": "None",
+                    "children": [],
+                    "class": "Text",
+                    "text_content": "190m",
+                    "absoluteBoundingBox": {
+                        "x": 129.0,
+                        "y": 524.0,
+                        "width": 32.0,
+                        "height": 16.0
+                    }
+                },
+                {
+                    "id": "_0_1123",
+                    "interactionType": "None",
+                    "children": [],
+                    "class": "Text",
+                    "text_content": "4.9",
+                    "absoluteBoundingBox": {
+                        "x": 52.0,
+                        "y": 524.0,
+                        "width": 19.0,
+                        "height": 16.0
+                    }
+                }
+            ],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 382.0,
+                "width": 137.0,
+                "height": 106.0
+            },
+            "image_path": "/img/_0_1116.svg"
+        },
+        {
+            "id": "_0_1131",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1144",
+                    "interactionType": "Click",
+                    "children": [],
+                    "class": "Image",
+                    "absoluteBoundingBox": {
+                        "x": 306.0,
+                        "y": 390.0,
+                        "width": 30.0,
+                        "height": 30.0
+                    },
+                    "image_path": "/img/_0_1144.svg"
+                },
+                {
+                    "id": "_0_1139",
+                    "interactionType": "None",
+                    "children": [],
+                    "class": "Text",
+                    "text_content": "4.9",
+                    "absoluteBoundingBox": {
+                        "x": 227.0,
+                        "y": 524.0,
+                        "width": 19.0,
+                        "height": 16.0
+                    }
+                },
+                {
+                    "id": "_0_1142",
+                    "interactionType": "None",
+                    "children": [],
+                    "class": "Text",
+                    "text_content": "190m",
+                    "absoluteBoundingBox": {
+                        "x": 304.0,
+                        "y": 524.0,
+                        "width": 32.0,
+                        "height": 16.0
+                    }
+                }
+            ],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 207.0,
+                "y": 382.0,
+                "width": 137.0,
+                "height": 106.0
+            },
+            "image_path": "/img/_0_1131.svg"
+        },
+        {
+            "id": "_0_1066",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1079",
+                    "interactionType": "Click",
+                    "children": [],
+                    "class": "Image",
+                    "absoluteBoundingBox": {
+                        "x": 131.0,
+                        "y": 610.0,
+                        "width": 30.0,
+                        "height": 30.0
+                    },
+                    "image_path": "/img/_0_1079.svg"
+                }
+            ],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 602.0,
+                "width": 137.0,
+                "height": 106.0
+            },
+            "image_path": "/img/_0_1066.svg"
+        },
+        {
+            "id": "_0_1050",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1063",
+                    "interactionType": "Click",
+                    "children": [],
+                    "class": "Image",
+                    "absoluteBoundingBox": {
+                        "x": 306.0,
+                        "y": 610.0,
+                        "width": 30.0,
+                        "height": 30.0
+                    },
+                    "image_path": "/img/_0_1063.svg"
+                }
+            ],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 207.0,
+                "y": 602.0,
+                "width": 137.0,
+                "height": 106.0
+            },
+            "image_path": "/img/_0_1050.svg"
+        },
+        {
+            "id": "_0_1135",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "Burger With Meat",
+            "absoluteBoundingBox": {
+                "x": 207.0,
+                "y": 496.0,
+                "width": 134.0,
+                "height": 24.0
+            }
+        },
+        {
+            "id": "_0_1127",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "$ 17,230",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 546.0,
+                "width": 67.0,
+                "height": 24.0
+            }
+        },
+        {
+            "id": "_1_108",
+            "interactionType": "None",
+            "children": [],
+            "class": "Image",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 524.0,
+                "width": 16.0,
+                "height": 16.0
+            },
+            "image_path": "/img/_1_108.svg"
+        },
+        {
+            "id": "_0_1143",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "$ 17,230",
+            "absoluteBoundingBox": {
+                "x": 207.0,
+                "y": 546.0,
+                "width": 67.0,
+                "height": 24.0
+            }
+        },
+        {
+            "id": "I0_1141_41_52",
+            "interactionType": "None",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 288.33333587646484,
+                "y": 526.75,
+                "width": 9.333333015441895,
+                "height": 11.266328811645508
+            }
+        },
+        {
+            "id": "I0_1138_433_7887",
+            "interactionType": "None",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 207.0,
+                "y": 524.0,
+                "width": 16.0,
+                "height": 16.0
+            }
+        },
+        {
+            "id": "I0_1125_41_52",
+            "interactionType": "None",
+            "children": [],
+            "class": "Element",
+            "absoluteBoundingBox": {
+                "x": 113.33333587646484,
+                "y": 526.75,
+                "width": 9.333333015441895,
+                "height": 11.266328811645508
+            }
+        },
+        {
+            "id": "_0_1119",
+            "interactionType": "None",
+            "children": [],
+            "class": "Text",
+            "text_content": "Ordinary Burgers",
+            "absoluteBoundingBox": {
+                "x": 32.0,
+                "y": 496.0,
+                "width": 131.0,
+                "height": 24.0
+            }
+        }
+    ],
+    "class": "Group",
+    "absoluteBoundingBox": {
+        "x": 32.0,
+        "y": 382.0,
+        "width": 312.0,
+        "height": 326.0
+    }
+}

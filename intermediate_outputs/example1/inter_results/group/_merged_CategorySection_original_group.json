@@ -1,0 +1,86 @@
+{
+    "id": "find_by_category_section",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_0_1099",
+            "interactionType": "None",
+            "children": []
+        },
+        {
+            "id": "_0_1100",
+            "interactionType": "Click",
+            "children": []
+        },
+        {
+            "id": "categories_container",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_5_318",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1103",
+                            "interactionType": "None",
+                            "children": []
+                        },
+                        {
+                            "id": "_0_1104",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "taco_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1106",
+                            "interactionType": "None",
+                            "children": []
+                        },
+                        {
+                            "id": "_0_1107",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "drink_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1109",
+                            "interactionType": "None",
+                            "children": []
+                        },
+                        {
+                            "id": "_0_1110",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "pizza_category",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1112",
+                            "interactionType": "None",
+                            "children": []
+                        },
+                        {
+                            "id": "_0_1113",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

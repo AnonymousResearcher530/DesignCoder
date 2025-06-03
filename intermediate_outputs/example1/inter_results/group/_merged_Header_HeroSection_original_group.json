@@ -1,0 +1,73 @@
+{
+    "id": "ui_subsection",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_1_84",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_1_99",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_1_89",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_1_93",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_1_85",
+                    "interactionType": "None",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "_0_1083",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1091",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "I0_1094_41_52",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_0_1095",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_0_1092",
+                    "interactionType": "Click",
+                    "children": []
+                },
+                {
+                    "id": "_0_1096",
+                    "interactionType": "Click",
+                    "children": []
+                },
+                {
+                    "id": "_0_1146",
+                    "interactionType": "Click",
+                    "children": []
+                },
+                {
+                    "id": "_0_1088",
+                    "interactionType": "None",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

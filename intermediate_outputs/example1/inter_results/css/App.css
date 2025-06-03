@@ -1,0 +1,16 @@
+#pageContainer {
+    position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+button{
+    border: none;
+     background-color: transparent;
+}
+html{
+    font-size: 3.73vw;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

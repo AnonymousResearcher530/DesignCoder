@@ -1,0 +1,114 @@
+{
+    "id": "burger_menu_ui",
+    "interactionType": "None",
+    "children": [
+        {
+            "id": "_0_1116",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1119",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_1_108",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1123",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "I0_1141_41_52",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1126",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "_0_1127",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_0_1128",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "_0_1131",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1135",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "I0_1138_433_7887",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1139",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "I0_1125_41_52",
+                    "interactionType": "None",
+                    "children": [
+                        {
+                            "id": "_0_1142",
+                            "interactionType": "None",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "_0_1143",
+                    "interactionType": "None",
+                    "children": []
+                },
+                {
+                    "id": "_0_1144",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "_0_1066",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1079",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "_0_1050",
+            "interactionType": "None",
+            "children": [
+                {
+                    "id": "_0_1063",
+                    "interactionType": "Click",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "element_id": "_0_1112",
+        "semantic": "An icon representing a pizza, used to visually indicate the 'Pizza' category."
+    },
+    {
+        "element_id": "_0_1106",
+        "semantic": "An icon representing a taco, used to visually indicate the 'Taco' category."
+    },
+    {
+        "element_id": "_0_1109",
+        "semantic": "An icon representing a drink, used to visually indicate the 'Drink' category."
+    },
+    {
+        "element_id": "_0_1113",
+        "semantic": "A text label reading 'Pizza', which serves as the title for the pizza category."
+    },
+    {
+        "element_id": "_0_1107",
+        "semantic": "A text label reading 'Taco', which serves as the title for the taco category."
+    },
+    {
+        "element_id": "_0_1110",
+        "semantic": "A text label reading 'Drink', which serves as the title for the drink category."
+    },
+    {
+        "element_id": "_0_1100",
+        "semantic": "A text link labeled 'See All', which likely allows users to view all available categories or items."
+    },
+    {
+        "element_id": "_0_1099",
+        "semantic": "A heading text reading 'Find by Category', which introduces the section where users can browse items by category."
+    },
+    {
+        "element_id": "_5_318",
+        "semantic": "A container that groups the 'Burger' category elements, including the burger icon and its corresponding label."
+    },
+    {
+        "element_id": "_0_1103",
+        "semantic": "An icon representing a burger, used to visually indicate the 'Burger' category."
+    },
+    {
+        "element_id": "_0_1104",
+        "semantic": "A text label reading 'Burger', which serves as the title for the burger category."
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "element_id": "_1_84",
+        "semantic": "A container for the status bar at the top of the screen. It holds elements like the time, battery indicator, and other system-level information."
+    },
+    {
+        "element_id": "_1_89",
+        "semantic": "A battery icon in the status bar, indicating the current battery level of the device."
+    },
+    {
+        "element_id": "_1_93",
+        "semantic": "A signal strength icon in the status bar, representing the current network connectivity status."
+    },
+    {
+        "element_id": "_1_85",
+        "semantic": "A Wi-Fi icon in the status bar, showing the current Wi-Fi connection status."
+    },
+    {
+        "element_id": "_1_99",
+        "semantic": "A text element in the status bar displaying the current time, '9:41'."
+    },
+    {
+        "element_id": "_0_1083",
+        "semantic": "A container for the main header section of the UI, which includes location information, a search icon, a notification icon, and a headline text."
+    },
+    {
+        "element_id": "_0_1092",
+        "semantic": "A search icon, allowing users to initiate a search action. It is visually placed in the header section."
+    },
+    {
+        "element_id": "I0_1094_41_52",
+        "semantic": "A location pin icon, visually representing the user's current location."
+    },
+    {
+        "element_id": "_0_1096",
+        "semantic": "A notification icon, allowing users to access notifications or alerts. It is located in the header section."
+    },
+    {
+        "element_id": "_0_1146",
+        "semantic": "A circular button or icon, possibly representing a user profile or additional settings. It is located in the header section."
+    },
+    {
+        "element_id": "_0_1091",
+        "semantic": "A text element displaying the label 'Your Location', indicating the section where the user's current location is shown."
+    },
+    {
+        "element_id": "_0_1095",
+        "semantic": "A text element displaying the user's current location, 'New York City'. It is associated with the location pin icon."
+    },
+    {
+        "element_id": "_0_1088",
+        "semantic": "A headline text element displaying the message 'Provide the best food for you', serving as a welcoming or promotional message for the user."
+    }
+]

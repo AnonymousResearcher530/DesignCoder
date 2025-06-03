@@ -1,0 +1,207 @@
+#find_by_category_section {
+position: absolute;
+  top: 31.1576%;
+  left: 6.4000%;
+  width: 87.2000%;
+  height: 12.9310%;
+  z-index: 0;
+}
+
+#_0_1099 {
+color: rgba(15,15,15,1.0);
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8750rem;
+  line-height: 1.0500rem;
+  font-weight: 600;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 0.00%;
+  left: 0.00%;
+  width: 40.67%;
+  height: 22.86%;
+  z-index: 1;
+}
+
+#_0_1100 {
+color: rgba(254,140,0,1.0);
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7500rem;
+  line-height: 0.9000rem;
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 1.90%;
+  left: 85.93%;
+  width: 14.07%;
+  height: 19.05%;
+  z-index: 1;
+}
+
+#categories_container {
+position: absolute;
+  top: 38.10%;
+  left: 0.31%;
+  width: 95.72%;
+  height: 61.90%;
+  z-index: 1;
+}
+
+#_5_318 {
+border: none;
+  border-radius: 0.6250rem;
+  background-color: rgba(254, 140, 0, 1.0);
+  position: absolute;
+  top: 0.00%;
+  left: 0.00%;
+  width: 17.25%;
+  height: 100.00%;
+  z-index: 2;
+}
+
+#_0_1103 {
+position: absolute;
+  top: 12.31%;
+  left: 27.78%;
+  width: 44.44%;
+  height: 36.92%;
+  z-index: 3;
+}
+
+#_0_1104 {
+color: rgba(255,255,255,1.0);
+  background-color: transparent;
+  font-family: "Arial", sans-serif;
+  font-size: 0.7500rem;
+  line-height: 0.9000rem;
+  font-weight: 700;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 55.38%;
+  left: 14.81%;
+  width: 70.37%;
+  height: 32.31%;
+  z-index: 3;
+}
+
+#taco_category {
+position: absolute;
+  top: 12.31%;
+  left: 29.39%;
+  width: 13.74%;
+  height: 75.38%;
+  z-index: 2;
+}
+
+#_0_1106 {
+position: absolute;
+  top: 0.00%;
+  left: 22.09%;
+  width: 55.81%;
+  height: 48.98%;
+  z-index: 3;
+}
+
+#_0_1107 {
+color: rgba(135,135,135,1.0);
+  background-color: transparent;
+  font-family: "Arial", sans-serif;
+  font-size: 0.7500rem;
+  line-height: 0.9000rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 57.14%;
+  left: 0.00%;
+  width: 100.00%;
+  height: 42.86%;
+  z-index: 3;
+}
+
+#drink_category {
+position: absolute;
+  top: 12.31%;
+  left: 57.83%;
+  width: 13.74%;
+  height: 75.38%;
+  z-index: 2;
+}
+
+#_0_1109 {
+position: absolute;
+  top: 0.00%;
+  left: 22.09%;
+  width: 55.81%;
+  height: 48.98%;
+  z-index: 3;
+}
+
+#_0_1110 {
+color: rgba(135,135,135,1.0);
+  background-color: transparent;
+  font-family: "Arial", sans-serif;
+  font-size: 0.7500rem;
+  line-height: 0.9000rem;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 57.14%;
+  left: 0.00%;
+  width: 100.00%;
+  height: 42.86%;
+  z-index: 3;
+}
+
+#pizza_category {
+position: absolute;
+  top: 12.31%;
+  left: 86.26%;
+  width: 13.74%;
+  height: 75.38%;
+  z-index: 2;
+}
+
+#_0_1112 {
+position: absolute;
+  top: 0.00%;
+  left: 22.09%;
+  width: 55.81%;
+  height: 48.98%;
+  z-index: 3;
+}
+
+#_0_1113 {
+color: rgba(135,135,135,1.0);
+  background-color: transparent;
+  font-family: "Arial", sans-serif;
+  font-size: 0.7500rem;
+  line-height: 0.9000rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.0000rem;
+  border: none;
+  position: absolute;
+  top: 57.14%;
+  left: 0.00%;
+  width: 100.00%;
+  height: 42.86%;
+  z-index: 3;
+}
+

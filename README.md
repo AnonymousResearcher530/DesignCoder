@@ -41,10 +41,12 @@ This repository provides the dataset, baseline implementations, and supplementar
 **Figure 1** compares UI segmentation results between DCGen \[1] (left) and DesignCoder (right). The colored outlines represent different segmentation regions identified by each method. DCGen’s pixel-based approach often fragments functionally related elements, while DesignCoder’s semantic segmentation preserves component integrity and hierarchical structure.
 ![Figure 1: Segmentation comparison](assets/segmentation.png)
 
-**Figure 2** ([assets/figure3.pdf](assets/)) shows element grouping comparisons between GUI-Perceptual-Grouping \[2] and DesignCoder. Elements with the same color blocks belong to the same group. While GUI-Perceptual-Grouping relies on visual proximity and similarity principles, DesignCoder identifies functional relationships to create semantically meaningful groups that better align with component boundaries.
+**Figure 2**  shows element grouping comparisons between GUI-Perceptual-Grouping \[2] and DesignCoder. Elements with the same color blocks belong to the same group. While GUI-Perceptual-Grouping relies on visual proximity and similarity principles, DesignCoder identifies functional relationships to create semantically meaningful groups that better align with component boundaries.
 
 ![Figure 2: Grouping comparison](assets/grouping.png)
 ---
 
-\[1] DCGen: \<reference to FSE’25 paper>
-\[2] GUI-Perceptual-Grouping: \<reference to FSE’22 paper>
+[1] Wan, Y., Wang, C., Dong, Y., Wang, W., Li, S., Huo, Y., & Lyu, M. R. (2024). *Automatically generating UI code from screenshot: A divide-and-conquer-based approach*. arXiv preprint arXiv:2406.16386. (Accepted by FSE'25)
+
+[2] Xie, M., Xing, Z., Feng, S., Xu, X., Zhu, L., & Chen, C. (2022). *Psychologically-inspired, unsupervised inference of perceptual groups of GUI widgets from GUI images*. In *Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering* (pp. 332–343).
+
